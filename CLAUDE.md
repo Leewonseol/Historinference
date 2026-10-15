@@ -1,3 +1,14 @@
+# MANDATORY OFFLINE-ONLY RULE (user requirement, 2026-10-16)
+
+**Claude Code has no access to public historical websites or their URLs. Do NOT attempt internet fetch, curl, requests, browser searches, remote cloning, or delegated online research.** Work entirely from files present in this repository. External URLs in the source register are **provenance pointers**, NOT available documents and NOT proof of facts. Historical original text not actually stored locally is `UNAVAILABLE_SOURCE_TEXT`. Do not silently promote a summary or a link into a verified original.
+
+**Use only official/academic-institutional primary-source domains approved by the researcher**: `sillok.history.go.kr`, `db.history.go.kr`, `sjw.history.go.kr`, and original institutional holdings where verified. User expressly disallows unverified redistributions such as Chinese Wikisource and shidianguji. `research/source_register.csv` has been filtered. Any links to unverified redistributions still inside legacy imported reports are **legacy bibliography only and MUST NOT be ingested**; replace them with verified official originals when delivered by the researcher.
+
+The assistant has supplied `research/imported/gusun/*` (legacy CSV data) and `research/imported/chamang/pyeongsan_case_report.md` (secondary synthesis). They are NOT automatically verbatim transcriptions of all official originals. Use `research/offline_evidence_pack.md` for precise provenance and an explicit distinction between official primary sources, prior data, and researcher summaries. **Do not claim complete primary source collection.**
+
+No unverified URL access task may block local implementation. When evidence is missing, create a `REQUEST_FOR_RESEARCHER.md` recording exact case, person, issue, source record ID, requested original passage/date, and why it blocks coding. Continue coding the supported parts with `NA`/uncertain status.
+
+---
 # Claude Code 실행 명령 — Historinference
 
 대상 저장소: https://github.com/Leewonseol/Historinference
@@ -23,7 +34,7 @@
 ## 단계별 시행 — 순서 강제
 
 ### 0. 데이터·사료 인벤토리
-각 원문 URL의 접근 가능성, 음력 원날짜, 출처 유형, 보고 주체, 문장 원문, 번역, 사료 제목·권·편, 독립성, 사료 중복 그룹, 확실성, 저작권/인용 제한을 수집한다. 국내 공식 기관 `sillok.history.go.kr`, `db.history.go.kr`, `sjw.history.go.kr`, `contents.history.go.kr`, 장서각/한국학중앙연구원 등을 우선한다. `일성록`, `승정원일기`, `비변사등록`, `심리록`, `추관지`, `홍재전서`, `흠흠신서`에서 네 사건과 관련 인명/이표기를 날짜별로 확장 검색한다. 접근 실패·미발견은 없는 자료라고 주장하지 말고 `NOT_RETRIEVED`로 표시한다. 원전/번역판의 동일 판부는 중복 증인으로 계수하지 않는다. 사이트 약관·저작권·속도 제한 준수: 무분별한 스크래핑 금지. 공개 원문 전체 재배포가 허용되지 않으면 메타데이터/짧은 인용과 링크·검증 기록만 저장한다.
+각 오프라인 파일의 이용 가능성, 음력 원날짜, 출처 유형, 보고 주체, 문장 원문, 번역, 사료 제목·권·편, 독립성, 사료 중복 그룹, 확실성, 저작권/인용 제한을 수집한다. 원문은 연구자가 로컬로 제공한 공식 사료에 한해 읽는다. `일성록`, `승정원일기`, `비변사등록`, `심리록`, `추관지`, `홍재전서`, `흠흠신서`의 외부 검색은 실행하지 않으며 필요한 원문을 REQUEST_FOR_RESEARCHER.md에 기록한다. 접근 실패·미발견은 없는 자료라고 주장하지 말고 `NOT_RETRIEVED`로 표시한다. 원전/번역판의 동일 판부는 중복 증인으로 계수하지 않는다. 외부 스크래핑은 실행 금지. 공개 원문 전체 재배포가 허용되지 않으면 메타데이터/짧은 인용과 링크·검증 기록만 저장한다.
 
 ### 1. 기록 원자화와 provenance
 사건 `cases`, 인물 `persons`, 이름 표기 `person_aliases`, 관직 재임 `appointments`, 사건/행위 `events`, 진술 `attestations`, 주장 `claims`, 물증 `evidence_items`, 기관 `institutions`, 관계 `relations`, 행정처분 `decisions`, 출처 `sources`, 문장 단위 증거 `source_spans` 테이블을 마련한다. 출처 문장이 없는데 추정한 이름·연령·신분을 사실로 쓰지 않는다. 하나의 문장에 복수 주장이 있으면 출처를 보존하며 분리; 원문 의미가 바뀌지 않도록 원문 재검증. 원문 진술은 그 **진술이 기록됐다**는 관측이고 진술 내용의 참 여부는 미확정. 실제 사건 ID는 변경 불가. 날짜 범위와 음/양력, 날짜 미상 구분.
@@ -52,4 +63,4 @@
 `index.html` 시각화는 가능하면 구현하되 코어 데이터를 바꾸지 않는 읽기 전용 화면이어야 한다. 보고서에 확인 건수/미확인 건수/코딩 적용률/테스트 통과·실패를 나타낼 것.
 
 ## 진행 규칙
-이미 현재 GitHub main에 있는 연구 레지스터와 자료를 먼저 읽어라. 새 브랜치에서 구현하고 PR로 제출하라. 원본 GuSoon-Inference 및 Chamang-Inference는 수정하지 말라. 사료 미수집 또는 접근 실패로 불가한 단계는 정직하게 차단하되, 수집된 근거까지의 구조화·테스트·보고는 완수하라. 질문으로 멈추지 말고 근거 표시와 보수적 기본값으로 계속하라.
+이미 현재 GitHub main에 있는 연구 레지스터와 자료를 먼저 읽어라. 로컬에서 가능한 부분을 구현하고 PR로 제출하라. 원본 GuSoon-Inference 및 Chamang-Inference는 수정하지 말라. 사료 미수집 또는 접근 실패로 불가한 단계는 정직하게 차단하되, 수집된 근거까지의 구조화·테스트·보고는 완수하라. 질문으로 멈추지 말고 근거 표시와 보수적 기본값으로 계속하라.
