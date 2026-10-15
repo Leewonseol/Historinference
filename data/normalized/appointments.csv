@@ -1,0 +1,19 @@
+appt_id,person_id,case_id,office,time_scope,claim_status,tenure_start,tenure_end,span_ids,note
+AP-019,CHOI-P12,CHOI,양서 암행어사(1787 복명); 평산 안핵 담당,1787,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,CH-S01|CH-S03|CH-S37,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-020,CHOI-P13,CHOI,황해도 전 관찰사(전 도신),1787-04-16 이전,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,CH-S04|CH-S29,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-021,CHOI-P14,CHOI,황해도 전전 관찰사(전 도신),1787-04-16 이전,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,CH-S04|CH-S29,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-022,CHOI-P15,CHOI,검험관(초검 또는 복검),1785,RECORDED_TESTIMONY,NOT_RETRIEVED,NOT_RETRIEVED,CH-S30,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-023,CHOI-P16,CHOI,검험관(초검 또는 복검),1785,RECORDED_TESTIMONY,NOT_RETRIEVED,NOT_RETRIEVED,CH-S30,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-030,CHO-P04,CHO,도백(배천 관할 도의 관찰사),1783,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,JH-S07|JH-S09,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-032,YE-P01,YE,단천 부사(1789-07-14 기사 시점),1789-07-14,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,YE-S13,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-033,YE-P01,YE,창원 부사(1793-06-13 평가 시점 및 조사 대상 시점),1793-1795,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,YE-S14|YE-S04,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-034,YE-P02,YE,관찰사(창원 관할 도; 1795 시점 전 관찰사),1794-1795,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,YE-S05|YE-S15,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-035,YE-P03,YE,특별 조사(안핵) 담당,1795,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,YE-S08|YE-S10,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-036,GUSUN-P01,GUSUN,전 부사,1793,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,GS-P-V3P0001,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-043,GUSUN-P07,GUSUN,병영 비장,1793,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,GS-F-CF048|GS-P-V3P0112,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-048,GUSUN-P16,GUSUN,충청도 병마절도사,1793,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,GS-F-CF025,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-049,GUSUN-P17,GUSUN,청주 영장,1793,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,GS-P-V3P0012,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-050,GUSUN-P18,GUSUN,충청도 관찰사(1793-06-13 파직 명령; 1793-06-16 유임),1793,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,GS-F-CF049|GS-F-CF050,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-051,GUSUN-P19,GUSUN,호서 암행어사,1793,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,GS-F-CF032|GS-F-CF033,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-052,GUSUN-P20,GUSUN,호서 암행어사,1793,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,GS-F-CF029|GS-P-V3P0155,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관
+AP-053,GUSUN-P21,GUSUN,공주 안핵어사(1793-05-28 차하),1793-05-28,DOCUMENTED_ACT,NOT_RETRIEVED,NOT_RETRIEVED,GS-F-CF035,재임 시점 확인값(time_scope)이며 임명·체직 일자는 원문 미보관

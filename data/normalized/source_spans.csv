@@ -1,0 +1,307 @@
+span_id,case_id,source_id,carrier_id,carrier_locator,span_kind,text_ko,original_fragment,original_fragment_status,evidence_grade,offline_primary_verbatim,imported_from
+CH-S01,CHOI,CH-003,LOC-ANNALS-DIGEST,## 1787-04-16 bullet1,PARAPHRASE,1787-04-16 기사의 주된 내용은 양서 암행어사 이곤수의 복명(행정 폐단·부세·매관·군역 등)이며 평산 사건과 무관한 제도 폐단을 최아지 사건의 뇌물 증거로 쓰면 안 된다,,NONE,B,NO,data/curated/source_spans.csv
+CH-S02,CHOI,CH-003,LOC-ANNALS-DIGEST,## 1787-04-16 bullet2,PARAPHRASE,기사 말미에 사망한 박씨의 평산 옥사가 미결이었음을 별도로 기록,,NONE,B,NO,data/curated/source_spans.csv
+CH-S03,CHOI,CH-003,LOC-ANNALS-DIGEST,## 1787-04-16 bullet2,PARAPHRASE,이곤수가 특별 조사(안핵)를 맡아 시어머니 최씨와 조광진이 간통 관계였고 함께 박씨를 죽였다는 가설을 보고,,NONE,B,NO,data/curated/source_spans.csv
+CH-S04,CHOI,CH-003,LOC-ANNALS-DIGEST,## 1787-04-16 bullet2,PARAPHRASE,보고에 따라 정조가 조사를 성실히 하지 않은 책임으로 전 도신 홍병찬 삭직·엄사만 파직을 명함,,NONE,B,NO,data/curated/source_spans.csv
+CH-S05,CHOI,CH-003,LOC-ANNALS-DIGEST,## 1787-04-16 bullet3,RESEARCHER_CAUTION,이 기사는 1787년 공식 결론일 뿐 1789 재검토에서 도전받으며; 1789 판단·피고 신분·5냥 뇌물 주장은 이 기사만으로 기록되지 않음,,NONE,B,NO,data/curated/source_spans.csv
+CH-S06,CHOI,CH-001,LOC-EVIDENCE-PACK,## CHOI digest1,RESEARCH_SUMMARY,박씨로 식별되는 여성이 평산에서 사망; 자해 대 타살 및 최아지·이차망·조광진의 역할에 관해 진술이 상충,,NONE,C,NO,data/curated/source_spans.csv
+CH-S07,CHOI,CH-001,LOC-EVIDENCE-PACK,## CHOI digest2,RESEARCH_SUMMARY,초기 조사와 재평가로 이차망이 피의·구금되고 처 민씨가 호소; 이곤수가 상충 진술을 검토했고 1787년 왕명으로 석방,,NONE,C,NO,data/curated/source_spans.csv
+CH-S08,CHOI,CH-001,LOC-EVIDENCE-PACK,## CHOI digest3,RESEARCH_SUMMARY,1789 재검토에서 간통과 살인에 관해 30개 질문을 제기하고 신문·진술의 신빙성을 검토; 1787 판단을 최종 물리적 진실로 취급 금지,,NONE,C,NO,data/curated/source_spans.csv
+CH-S09,CHOI,CH-001,LOC-EVIDENCE-PACK,## CHOI digest4,RESEARCH_SUMMARY,이차망이 순평군 후손이라는 주장은 처 민씨 청원 속 주장일 뿐 독립 계보 증명이 아니며 승정원일기 원문은 저장되지 않음,,NONE,C,NO,data/curated/source_spans.csv
+CH-S10,CHOI,CH-001,LOC-EVIDENCE-PACK,## CHOI digest5,RESEARCH_SUMMARY,최아지·조씨 가문과 관원의 친족관계·군교 조봉원 관련 뇌물·5냥·은폐·공모 보고는 주장 또는 관의 우려로 논의되었을 뿐 입증된 공모가 아님,,NONE,C,NO,data/curated/source_spans.csv
+CH-S11,CHOI,CH-001,LOC-EVIDENCE-PACK,## CHOI digest6,RESEARCHER_CAUTION,원문 없이 이차망의 연령·법적 신분·재산·족보 등재·최아지와의 혈연을 추정 금지,,NONE,C,NO,data/curated/source_spans.csv
+CH-S12,CHOI,CH-003,LOC-CLAIM-SEEDS,CH-C01,CLAIM_SEED,이곤수가 1787년 평산 살인사건 재조사 결과를 복명,,NONE,C,NO,data/curated/source_spans.csv
+CH-S13,CHOI,CH-001,LOC-CLAIM-SEEDS,CH-C02,CLAIM_SEED,정조가 1787년 이차망 석방을 명령(1789 재평가와 구분),,NONE,C,NO,data/curated/source_spans.csv
+CH-S14,CHOI,CH-001,LOC-CLAIM-SEEDS,CH-C03,CLAIM_SEED,정조가 1789년 간통·살인에 각각 15문을 제기해 종전 판단을 재검토; 30문은 질문이지 입증사실 아님,,NONE,C,NO,data/curated/source_spans.csv
+CH-S20,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 박씨,SECONDARY_NARRATIVE,박씨(朴女·朴召史·박소사)는 사망한 조광선의 아내로 사건의 피해자,,NONE,D,NO,data/curated/source_spans.csv
+CH-S21,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 최아지,SECONDARY_NARRATIVE,최아지(崔阿只·崔女·崔召史·최 조이)는 조광선의 계모이자 박씨의 시어머니로 살해 혐의 당사자,,NONE,D,NO,data/curated/source_spans.csv
+CH-S22,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 이차망,SECONDARY_NARRATIVE,이차망(李次望)은 최아지와 통정·박씨 살해 공모 혐의를 받았고 구금 후 1787년 석방,,NONE,D,NO,data/curated/source_spans.csv
+CH-S23,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 민씨,SECONDARY_NARRATIVE,민씨(閔女)는 이차망의 아내로 1786년 두 차례 격쟁,,NONE,D,NO,data/curated/source_spans.csv
+CH-S24,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 조광선·조광진,SECONDARY_NARRATIVE,조광선(趙匡善)과 조광진(趙匡辰)은 다른 사람; 조광진은 조광선의 친족이며 일부 국역 표기는 조광신,,NONE,D,NO,data/curated/source_spans.csv
+CH-S25,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 사단,SECONDARY_NARRATIVE,사단(四丹)은 관련 집안의 비(婢)로 핵심 진술자,,NONE,D,NO,data/curated/source_spans.csv
+CH-S26,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 조봉원,SECONDARY_NARRATIVE,조봉원(趙鳳元)은 군교이며 사단의 이차망 지목에 개입했다는 주장이 있음(확정 범행 아님),,NONE,D,NO,data/curated/source_spans.csv
+CH-S27,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 박장혁,SECONDARY_NARRATIVE,박장혁(朴長赫)은 박씨의 부친으로 최아지를 고발,,NONE,D,NO,data/curated/source_spans.csv
+CH-S28,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 박용해,SECONDARY_NARRATIVE,박용해(朴龍海)는 박씨의 오빠로 격쟁을 제기,,NONE,D,NO,data/curated/source_spans.csv
+CH-S29,CHOI,CH-001|CH-002|CH-003,LOC-CHAMANG,§3 인물 식별표 엄사만·홍병찬,SECONDARY_NARRATIVE,엄사만(嚴思晩)은 황해도 전 관찰사; 홍병찬(洪秉纘)은 전전 관찰사,,NONE,D,NO,data/curated/source_spans.csv
+CH-S30,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 정경증·이단회,SECONDARY_NARRATIVE,정경증(鄭景曾)·이단회(李端會)는 초검관·복검관으로 기존 검험 오류 관련 처분 명령 대상(누가 초검·복검인지 배정 미확정),,NONE,D,NO,data/curated/source_spans.csv
+CH-S31,CHOI,CH-001,LOC-CHAMANG,§4 1785년 11월 행,SECONDARY_NARRATIVE,심리록에 1785년 11월(을사)을 옥사 성립 시점으로 기록; 사망일과 동일하다고 단정 불가,,NONE,D,NO,data/curated/source_spans.csv
+CH-S32,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 초기 조사 행,SECONDARY_NARRATIVE,초검과 복검에서 스스로 찔렀다(自刺)는 사인 판단,自刺,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED,D,NO,data/curated/source_spans.csv
+CH-S33,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 초기·상향 호소 행,SECONDARY_NARRATIVE,박장혁이 최아지에 의한 타살을 주장했고 박용해의 격쟁을 계기로 재검토,,NONE,D,NO,data/curated/source_spans.csv
+CH-S34,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 초기 도신 조사 행,SECONDARY_NARRATIVE,도신 조사가 사단의 진술과 조광진의 혈의 관련 설명을 근거로 최아지와 이차망에게 칼을 씌워 구금(간통·살해 공모 의심),,NONE,D,NO,data/curated/source_spans.csv
+CH-S35,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 1786년 1월 행,SECONDARY_NARRATIVE,1786년 1월 민씨 격쟁; 정조는 호소를 허용하지 않고 지방으로 압송하도록 명함(호송 이행 미확인),,NONE,D,NO,data/curated/source_spans.csv
+CH-S36,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 1786년 11월 행,SECONDARY_NARRATIVE,1786년 11월 민씨 재격쟁; 정조가 도신에게 엄형으로 징계하도록 명함(형 집행 미확인),,NONE,D,NO,data/curated/source_spans.csv
+CH-S37,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 1787년 2월 행,SECONDARY_NARRATIVE,1787년 2월 형조와 대신들의 상반된 의견 뒤 이곤수를 평산 안핵어사로 임명,,NONE,D,NO,data/curated/source_spans.csv
+CH-S38,CHOI,CH-002,LOC-CHAMANG,§4 1787년 안핵 조사 행·§5.2,SECONDARY_NARRATIVE,1787 안핵에서 사단은 밤중 인물의 얼굴을 확실히 보지 못했다고 하고 조광진의 종용으로 이차망을 지목했다고 진술,,NONE,D,NO,data/curated/source_spans.csv
+CH-S39,CHOI,CH-002,LOC-CHAMANG,§4 1787년 안핵 조사 행·§5.3,SECONDARY_NARRATIVE,조광진은 형이 7도에 이른 뒤 자백(자백 내용의 진실성은 별개),,NONE,D,NO,data/curated/source_spans.csv
+CH-S40,CHOI,CH-001|CH-002|CH-003,LOC-CHAMANG,§4 1787년 4월 행,SECONDARY_NARRATIVE,1787년 4월 정조가 이차망 석방을 명하고 사단·조봉원·전직 관찰사·검험관의 책임을 따짐,,NONE,D,NO,data/curated/source_spans.csv
+CH-S41,CHOI,CH-002,LOC-CHAMANG,§4 1788년 행,SECONDARY_NARRATIVE,조광진은 1788년 사망; 1789 정조 판부는 옥중 병사(瘐死)로 기술하고 형조 회계는 작년에 이미 죽었다고 함,瘐死,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED,D,NO,data/curated/source_spans.csv
+CH-S42,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 1789년 6월 행·§6,SECONDARY_NARRATIVE,1789년 6월 정조가 간통 15·살인 15 총 30개 의문을 제기하며 유죄 결론에 반론(왕이 제기한 가설이지 관측 사실 아님),,NONE,D,NO,data/curated/source_spans.csv
+CH-S43,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 1789년 6월 행·§1,SECONDARY_NARRATIVE,1789년 6월 사형 전제 최아지 옥안이 성립하지 않는다고 판단; 형조가 장 100·유 2천 리 준용을 제안하고 정조가 승인(실제 집행 미확인),,NONE,D,NO,data/curated/source_spans.csv
+CH-S44,CHOI,CH-002,LOC-CHAMANG,§5.2,SECONDARY_NARRATIVE,1787년 정조는 조광진이 자신의 혐의를 이차망에게 떠넘겼다고 평가,,NONE,D,NO,data/curated/source_spans.csv
+CH-S45,CHOI,CH-002,LOC-CHAMANG,§5.2,SECONDARY_NARRATIVE,1789년 정조는 사단이 조사자에 따라 대답을 바꾸었을 위험을 지적,,NONE,D,NO,data/curated/source_spans.csv
+CH-S46,CHOI,CH-002,LOC-CHAMANG,§5.1,SECONDARY_NARRATIVE,1789 재의문: 결박흔·방어흔 유무·네 상처 순서·목 조르기와 칼 찌르기 선후 미확정; 혈의는 구호 과정에서도 생길 수 있음,,NONE,D,NO,data/curated/source_spans.csv
+CH-S47,CHOI,CH-002,LOC-CHAMANG,§6 살인 15,SECONDARY_NARRATIVE,1789 살옥 의문 15번은 원한 있는 제3자가 뒷문으로 드나들어 범행했을 가능성을 묻는 반사실 질문(제3 가해자 확정 아님),,NONE,D,NO,data/curated/source_spans.csv
+CH-S48,CHOI,CH-002,LOC-CHAMANG,§5.3,SECONDARY_NARRATIVE,최아지도 뒤늦게 자백한 것으로 나타나며 1789년 정조는 조광진의 빠른 자백과 최아지의 모호한 자백을 모두 의심,,NONE,D,NO,data/curated/source_spans.csv
+CH-S49,CHOI,CH-002,LOC-CHAMANG,§5.2,SECONDARY_NARRATIVE,1787 안핵에서 상립(상중 갓) 착용 단서와 조광진의 드나듦이 나옴,,NONE,D,NO,data/curated/source_spans.csv
+CH-S50,CHOI,CH-002,LOC-CHAMANG,§6 간통 14,SECONDARY_NARRATIVE,1789 의문은 이차망이 풀려난 뒤 조광진과 주고받은 편지의 내용을 문제 삼음(편지 존재는 의문 속 전제),,NONE,D,NO,data/curated/source_spans.csv
+CH-S51,CHOI,CH-002,LOC-CHAMANG,§6 살인 14,SECONDARY_NARRATIVE,1789 의문은 사단·조봉원에 대한 위협·매수와 이차망 지목 사이의 증거가 충분한지 물음(질문이며 판정 아님),,NONE,D,NO,data/curated/source_spans.csv
+CH-S52,CHOI,CH-002,LOC-CHAMANG,§5.2,SECONDARY_NARRATIVE,사단 모녀는 야간에 어떤 사람이 드나드는 것을 보았다고 증언했고 이차망과의 왕래·통정 소문이 누적됨,,NONE,D,NO,data/curated/source_spans.csv
+CH-S53,CHOI,CH-007,LOC-REGISTER,CH-007,REGISTER_TITLE,순평군파 선원속보는 이차망 계보 후보일 뿐 등재 여부 미확인; 왕족 지위 확정 금지,,NONE,C,NO,data/curated/source_spans.csv
+JH-S01,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet1,PARAPHRASE,기사는 배천군·피고인 남편 조재항·사망한 아내 윤씨·먼 친척이자 고발자 이가원(李可遠)을 식별,李可遠,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED,B,NO,data/curated/source_spans.csv
+JH-S02,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet1,PARAPHRASE,기사 서술은 고발의 기원을 1781년(辛丑)에 두고 3년에 걸친 반복 조사를 기록,辛丑,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED,B,NO,data/curated/source_spans.csv
+JH-S03,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet2,PARAPHRASE,왕의 최종 평가는 이가원이 죽은 여인과의 관계를 이용해 이득을 꾀하려 했다고 공격,,NONE,B,NO,data/curated/source_spans.csv
+JH-S04,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet2,PARAPHRASE,왕은 이가원이 마을 노래를 지어 여론을 조성했다고 판단,,NONE,B,NO,data/curated/source_spans.csv
+JH-S05,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet2,PARAPHRASE,왕은 이가원이 뒤에 증인을 추가로 끌어들이고 서로 모순되는 방식으로 진술을 지시했다고 판단,,NONE,B,NO,data/curated/source_spans.csv
+JH-S06,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet2,PARAPHRASE,왕은 진술들이 서로 양립하지 않으며 주장된 피 묻은 옷이 흔적이 없다고 지적,,NONE,B,NO,data/curated/source_spans.csv
+JH-S07,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet3,PARAPHRASE,왕은 도백 조상진이 반복 재조사를 위임하고 새 확인 없이 기존 문서에 기초한 듯한 피상적 보고를 보냈다고 비판,,NONE,B,NO,data/curated/source_spans.csv
+JH-S08,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet3,PARAPHRASE,명령: 조재항 석방; 이가원은 형장 후 유배; 조상진 파직; 하위 가담자는 과실 정도에 따라 처벌,,NONE,B,NO,data/curated/source_spans.csv
+JH-S09,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet5,PARAPHRASE,기사 인명: 조재항 趙載恒·아내 윤씨 尹氏·이가원 李可遠·조재풍 趙載豊·증인으로 언급된 배조이 裵召史·나막동 羅莫同·점렬 點烈·막덕 莫德·도백 조상진 趙尙鎭(인물 구별 필요),趙載恒|尹氏|李可遠|趙載豊|裵召史|羅莫同|點烈|莫德|趙尙鎭,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED,B,NO,data/curated/source_spans.csv
+JH-S10,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet4,RESEARCHER_CAUTION,왕의 윤씨 사망 서술을 해결된 검안으로 보지 말 것; 잘못된 고발자를 증명된 살인자로 보지 말 것; 관원의 태만을 증명된 공모로 보지 말 것,,NONE,B,NO,data/curated/source_spans.csv
+JH-S11,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C01,CLAIM_SEED,조재항이 아내 윤씨의 사망과 살인 혐의로 조사됨; 1783 기사에서 사건 발생을 신축년(1781)이라고 명시,,NONE,C,NO,data/curated/source_spans.csv
+JH-S12,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C02,CLAIM_SEED,정조는 3년 사이 네 차례 조사했다고 판단,三載之間 四行按査,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED,C,NO,data/curated/source_spans.csv
+JH-S13,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C03,CLAIM_SEED,이가원이 농요를 만들어 마을에 유포하여 여론에 영향을 주었다고 판부에 적힘(농요 원문 확보 여부와 별개),,NONE,C,NO,data/curated/source_spans.csv
+JH-S14,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C04,CLAIM_SEED,가공된 증인과 사주된 진술 사이 모순이 지적됨(진술의 객관적 진실과 정조 판단은 분리),,NONE,C,NO,data/curated/source_spans.csv
+JH-S15,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C05,CLAIM_SEED,피 묻은 옷이 실재하지 않았다고 판부에 적힘(실제 물증 회수 목록은 별도 점검),,NONE,C,NO,data/curated/source_spans.csv
+JH-S16,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C06,CLAIM_SEED,조상진은 국왕의 재조사 명령 뒤 직접 확인 없이 앞선 문서와 비슷하게 보고했다고 비판받음(의도적 은폐 사전 합의는 확인 안 됨),,NONE,C,NO,data/curated/source_spans.csv
+JH-S17,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C07,CLAIM_SEED,조재항 석방 명령(실제 집행은 별도 사료로 검증),,NONE,C,NO,data/curated/source_spans.csv
+JH-S18,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C08,CLAIM_SEED,이가원 유배와 조상진 파직 명령(명령과 실제 집행 구분),,NONE,C,NO,data/curated/source_spans.csv
+JH-S19,CHO,JH-001|JH-002|JH-003,LOC-EVIDENCE-PACK,## CHO digest3,RESEARCHER_CAUTION,윤씨의 별도 진범은 확정되지 않음; 악의적 고발자를 사망자의 증명된 살해자로 재구성하거나 근거 없이 관찰사와 고발자의 공조를 주장하지 말 것,,NONE,C,NO,data/curated/source_spans.csv
+JH-S20,CHO,JH-001,LOC-REGISTER,JH-001,REGISTER_TITLE,레지스터는 심리록 사건을 1780-1783 범위와 庚子 성옥 1780으로 기술; 초기 유죄 주장과 최종 석방 판단 구별,庚子,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED,C,NO,data/curated/source_spans.csv
+JH-S21,CHO,JH-002|JH-003,LOC-REGISTER,JH-002|JH-003,REGISTER_TITLE,레지스터는 실록 기사 제목의 이간원을 이가원의 표기 변이로 기록(원문 대조 필요),,NONE,C,NO,data/curated/source_spans.csv
+JH-S22,CHO,JH-001|JH-002|JH-003,LOC-EVIDENCE-PACK,## CHO digest1,RESEARCH_SUMMARY,조재항은 아내 윤씨의 사망을 초래했다는 혐의를 받았고 고발자 이가원은 노래 유포를 포함해 보고·증언·마을 여론을 조작한 책임을 왕의 판단에서 지게 됨(독립 사실 판정 아님),,NONE,C,NO,data/curated/source_spans.csv
+YE-S01,YE,YE-005,LOC-ANNALS-DIGEST,## 1795-06-11 bullet1,PARAPHRASE,1795-06-11 기사는 이여절 혐의에 대한 감영 조사 처리에 대한 왕의 비판과 조사관·관찰사 조진택의 처리에 대한 불만을 기록,,NONE,B,NO,data/curated/source_spans.csv
+YE-S02,YE,YE-005,LOC-ANNALS-DIGEST,## 1795-06-11 bullet2,RESEARCHER_CAUTION,코딩 가능 범위: 행정 감독 실패와 기존 조사가 대상자를 비호했다는 관의 주장은 지지됨; 두 관원 사이 사적 합의는 자동 입증되지 않음; 관원 비판과 실제 조사 명령은 분리 기록,,NONE,B,NO,data/curated/source_spans.csv
+YE-S03,YE,YE-004|YE-006|YE-007,LOC-ANNALS-DIGEST,## 1795-06-11 bullet3,RESEARCHER_CAUTION,세부 피해자 수·신문 구절·최종 처분은 YE-004·YE-006·YE-007 전문을 따로 제공받아야 함,,NONE,B,NO,data/curated/source_spans.csv
+YE-S04,YE,YE-003|YE-004|YE-005,LOC-EVIDENCE-PACK,## YE digest1,RESEARCH_SUMMARY,창원부사 이여절은 사망을 초래한 남형(abusive punishment)으로 조사받음,,NONE,C,NO,data/curated/source_spans.csv
+YE-S05,YE,YE-003|YE-004|YE-005,LOC-EVIDENCE-PACK,## YE digest1,RESEARCH_SUMMARY,전 관찰사 조진택의 감독 조사·보고가 강하게 문제시되었고 정조는 그것이 이여절의 변호에 봉사했다고 성격 지음(행정 실패와 사전 공모 구별),,NONE,C,NO,data/curated/source_spans.csv
+YE-S06,YE,YE-004,LOC-EVIDENCE-PACK,## YE digest2,RESEARCH_SUMMARY,1795년 6월 조사는 31명 사망을 보고(범위가 다른 귀속 수치 주장),,NONE,C,NO,data/curated/source_spans.csv
+YE-S07,YE,YE-006,LOC-EVIDENCE-PACK,## YE digest2,RESEARCH_SUMMARY,1795년 8월 심리는 장살 25명을 논의(31명과 합치거나 평균하지 말 것),,NONE,C,NO,data/curated/source_spans.csv
+YE-S08,YE,YE-005|YE-007,LOC-EVIDENCE-PACK,## YE digest3,RESEARCH_SUMMARY,유경이 특별 조사에 배정되었고 최종 처분에는 이여절 유배와 조진택 파직이 포함(각 집행은 사료로 검증 필요),,NONE,C,NO,data/curated/source_spans.csv
+YE-S09,YE,YE-004|YE-005|YE-006|YE-007,LOC-EVIDENCE-PACK,## YE digest4,RESEARCHER_CAUTION,이 사건에서 무고하게 처벌된 대체 범인은 확인되지 않음; 1801 황기운 오인 사건은 1795 사건에 융합 금지,黃基運,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED,C,NO,data/curated/source_spans.csv
+YE-S10,YE,YE-004,LOC-CLAIM-SEEDS,YE-C01,CLAIM_SEED,유경 안핵: 1795년 6월 심리 중 31명 사망 보고(1795년 8월 25명과 범위 불일치),,NONE,C,NO,data/curated/source_spans.csv
+YE-S11,YE,YE-006,LOC-CLAIM-SEEDS,YE-C02,CLAIM_SEED,정조 심리: 1795년 8월 심리에서 25명 장살 주장(31명과 합치거나 평균 내지 말 것),,NONE,C,NO,data/curated/source_spans.csv
+YE-S12,YE,YE-005,LOC-CLAIM-SEEDS,YE-C03,CLAIM_SEED,정조가 조진택의 조사·보고가 이여절을 두둔했다고 질책(의도적 사전 공모 입증은 별개),,NONE,C,NO,data/curated/source_spans.csv
+YE-S13,YE,YE-001,LOC-REGISTER,YE-001,REGISTER_TITLE,레지스터 제목: 1789-07-14 단천 부사 이여절 관직 관련 기사(최아지 사건과 동일 현장 관여 증거 아님),,NONE,C,NO,data/curated/source_spans.csv
+YE-S14,YE,YE-002,LOC-REGISTER,YE-002,REGISTER_TITLE,레지스터 제목·초점: 1793-06-13 정대용의 창원 부사 이여절 평가(우수 치적 평가·승진); 같은 날 구순 심리와 별개 사건,,NONE,C,NO,data/curated/source_spans.csv
+YE-S15,YE,YE-003,LOC-REGISTER,YE-003,REGISTER_TITLE,레지스터 제목·초점: 1794-09-08 이여절 불법 형벌 혐의에 대한 조진택 조사보고(전염병 사망 등 면책 주장; 지방 조사 측 주장),,NONE,C,NO,data/curated/source_spans.csv
+YE-S16,YE,YE-004,LOC-REGISTER,YE-004,REGISTER_TITLE,레지스터 제목·초점: 1795-06-04 유경이 이여절 남살 31명 보고(이름 일부 확인),,NONE,C,NO,data/curated/source_spans.csv
+YE-S17,YE,YE-005,LOC-REGISTER,YE-005,REGISTER_TITLE,레지스터 제목: 1795-06-11 조진택의 이여절 두둔성 조사 질책·별도 안핵,,NONE,C,NO,data/curated/source_spans.csv
+YE-S18,YE,YE-006,LOC-REGISTER,YE-006,REGISTER_TITLE,레지스터 제목·초점: 1795-08-24 이여절 사건 중앙 심리·장살 25명 언급(안핵 재평가),,NONE,C,NO,data/curated/source_spans.csv
+YE-S19,YE,YE-007,LOC-REGISTER,YE-007,REGISTER_TITLE,레지스터 제목: 1795-09-21 조진택 삭직·이여절 위원 유배(비호 책임과 범행의 법적 처분 분리),,NONE,C,NO,data/curated/source_spans.csv
+GS-S01,GUSUN,GS-006,LOC-ANNALS-DIGEST,## 1793-06-13 bullet1,PARAPHRASE,1793-06-13 기사는 홍대협의 별도 안핵 뒤 구순의 고발과 김명신의 구금·사망에 이른 사건에 대한 최종 단계 왕의 논의를 기록; 단일 진술에서 물리적 사실을 추론하지 말 것,,NONE,B,NO,data/curated/source_spans.csv
+GS-S02,GUSUN,GS-006,LOC-ANNALS-DIGEST,## 1793-06-13 bullet2,RESEARCHER_CAUTION,구금 중 사망을 근거 없이 특정 관원의 직접 살해로 바꾸지 말 것,,NONE,B,NO,data/curated/source_spans.csv
+GS-S03,GUSUN,GS-001|GS-002|GS-003|GS-004|GS-005|GS-006,LOC-EVIDENCE-PACK,## GUSUN digest1,RESEARCH_SUMMARY,구순의 도난 고발이 군·도 조사에서 김명신 구금으로 이어졌고 김명신 사망; 이형원·이조원·윤노동·홍대협 보고는 실질 세부에서 충돌,,NONE,C,NO,data/curated/source_spans.csv
+GS-S04,GUSUN,GS-006,LOC-EVIDENCE-PACK,## GUSUN digest2,RESEARCHER_CAUTION,김명신 사망의 직접 인과 기제는 이 요약으로 확정되지 않음,,NONE,C,NO,data/curated/source_spans.csv
+GS-S05,GUSUN,GS-006,LOC-CLAIM-SEEDS,GS-C02,CLAIM_SEED,김명신은 구금 중 사망했으나 직접 사망 인과는 확정하지 않음(고문 치사 확정으로 바꾸지 말 것),,NONE,C,NO,data/curated/source_spans.csv
+NORM-S01,ALL,LOC-EVIDENCE-PACK,LOC-EVIDENCE-PACK,## GUSUN date-context rules,RESEARCHER_CAUTION,1792 개정 검험 지침을 1780년대 사건에 소급하지 말 것; 1786 대전통편 시행을 1785 사건에 소급하지 말 것,,NONE,C,NO,data/curated/source_spans.csv
+NORM-S02,ALL,LOC-CHAMANG,LOC-CHAMANG,§8 제도 단절,SECONDARY_NARRATIVE,대전통편은 1785년 편찬·간행되었지만 1786년 1월 1일 시행; 1792 증수무원록 개정본을 당시 검험지침으로 소급 금지,,NONE,D,NO,data/curated/source_spans.csv
+CH-S54,CHOI,CH-001|CH-002,LOC-CHAMANG,§5.2,SECONDARY_NARRATIVE,이차망의 이름은 초기 검험의 진술에서 언급되다가 엄사만의 관찰사 조사에서 주요 혐의로 굳어짐,,NONE,D,NO,data/curated/source_spans.csv
+CH-S55,CHOI,CH-001|CH-002,LOC-CHAMANG,§1 요약,SECONDARY_NARRATIVE,황해도 관찰사의 재조사에서 최아지와 이차망의 간통·살해 공모를 의심하여 두 사람을 구금; 민씨는 두 차례 격쟁했으나 오히려 처벌·압송의 대상이 됨,,NONE,D,NO,data/curated/source_spans.csv
+CH-S56,CHOI,CH-001|CH-002,LOC-CHAMANG,§5.1,SECONDARY_NARRATIVE,현장 신체상으로 목 주변 상흔과 여러 칼 상처라는 관찰이 보고됨(원본 검안서·법의학 판정 미확보),,NONE,D,NO,data/curated/source_spans.csv
+CH-S57,CHOI,CH-002,LOC-CHAMANG,§6 간통 9,SECONDARY_NARRATIVE,1789 의문은 집안 수기(手記)의 모호한 표현을 두 편에서 다르게 해석하지 않았는지 물음,,NONE,D,NO,data/curated/source_spans.csv
+GS-P-V3P0001,GUSUN,GS-001,LOC-GUSUN-05,V3P0001,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 구순 — 거주 [청주 덕평],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0002,GUSUN,GS-001,LOC-GUSUN-05,V3P0002,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 구순 — 도난 피해를 입었다고 보고됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0003,GUSUN,GS-001,LOC-GUSUN-05,V3P0003,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 구순 — 김명신을 도적 괴수라고 말했다고 보고됨 [김명신],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0004,GUSUN,GS-001,LOC-GUSUN-05,V3P0004,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 충청병영 — 김명신을 잡아 달포 이상 구금·조사했다고 보고됨 [김명신],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0005,GUSUN,GS-001,LOC-GUSUN-05,V3P0005,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 수사 — 확실한 장물을 찾지 못했다고 보고됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0006,GUSUN,GS-001,LOC-GUSUN-05,V3P0006,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 김명신 — 구금·조사 뒤 사망했다고 보고됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0007,GUSUN,GS-001,LOC-GUSUN-05,V3P0007,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 무고한 평민들 — 모진 형벌을 받았다고 보고됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0008,GUSUN,GS-001,LOC-GUSUN-05,V3P0008,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 회동 조사 응답자들 — 구순과 김명신 사이에 원한이 있었다고 진술했다고 보고됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0009,GUSUN,GS-001,LOC-GUSUN-05,V3P0009,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 회동 조사 응답자들 — 구순이 도난 상황을 꾸몄다고 진술했다고 보고됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0010,GUSUN,GS-001,LOC-GUSUN-05,V3P0010,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 회동 조사 응답자들 — 구순이 행랑 하인과 교졸을 통해 김명신에게 도적 괴수 누명을 씌웠다고 진술했다고 보고됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0011,GUSUN,GS-001,LOC-GUSUN-05,V3P0011,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 전후 체포자들 — 구순 집에서 미워하던 사람들이었다고 진술됐다고 보고됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0012,GUSUN,GS-001,LOC-GUSUN-05,V3P0012,CODED_PROPOSITION,이형원(OFFICIAL_EVALUATION): 이문협 — 수사를 병영 비장에게 전적으로 맡기고 방관했다고 평가됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0013,GUSUN,GS-001,LOC-GUSUN-05,V3P0013,CODED_PROPOSITION,이형원(OFFICIAL_EVALUATION): 이광섭 — 허황한 말을 믿고 무고한 사람을 잘못 잡았다고 평가됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0014,GUSUN,GS-001,LOC-GUSUN-05,V3P0014,CODED_PROPOSITION,비변사(MINISTERIAL_PROPOSAL): 비변사 — 이광섭 파직·나문·엄한 감죄를 청함 [이광섭],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0015,GUSUN,GS-001,LOC-GUSUN-05,V3P0015,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 이광섭 처분 요청을 윤허함 [이광섭],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0016,GUSUN,GS-001,LOC-GUSUN-05,V3P0016,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 당시 장계·조사에 따라 도난 자체가 없었다는 방향을 받아들임,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0017,GUSUN,GS-001,LOC-GUSUN-05,V3P0017,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 구순을 의금부에 잡아 가두고 엄히 조사하도록 명함 [구순],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0018,GUSUN,GS-002,LOC-GUSUN-05,V3P0018,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 이조원 — 구순 집에 화적이 들었다는 설명이 이치에 맞지 않는다고 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0019,GUSUN,GS-002,LOC-GUSUN-05,V3P0019,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 구순 — 김명신의 비판 때문에 앙심을 품고 모함하려 했다고 주장 [김명신],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0020,GUSUN,GS-002,LOC-GUSUN-05,V3P0020,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 구순 — 도난 상황을 꾸몄다고 주장,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0021,GUSUN,GS-002,LOC-GUSUN-05,V3P0021,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 구순 — 지세랑이라는 말을 만들어 퍼뜨렸다고 주장,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0022,GUSUN,GS-002,LOC-GUSUN-05,V3P0022,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 구순 — 작은 궤짝의 돈을 도둑맞았다고 꾸몄다고 주장,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0023,GUSUN,GS-002,LOC-GUSUN-05,V3P0023,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 구순 — 하인의 부스럼 흔적을 창상으로 꾸몄다고 주장,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0024,GUSUN,GS-002,LOC-GUSUN-05,V3P0024,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 김명신 — 구순이 구성한 죄안으로 병영 옥에서 원통하게 죽었다고 주장,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0025,GUSUN,GS-002,LOC-GUSUN-05,V3P0025,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 김명신의 아내 — 김명신이 죽은 뒤 따라 죽었다고 보고,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0026,GUSUN,GS-002,LOC-GUSUN-05,V3P0026,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 병사 — 사건을 자세히 조사하지 않고 하급 보조자에게 맡겼다고 주장,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0027,GUSUN,GS-002,LOC-GUSUN-05,V3P0027,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 병영의 하급 보조자 — 구순의 가객이었다고 주장,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0028,GUSUN,GS-002,LOC-GUSUN-05,V3P0028,CODED_PROPOSITION,정조/비변사 당상(COURT_DISCUSSION): 이조원 — 도난 진위와 중대 사실을 현장에서 직접 안핵하지 않은 점을 비판받음,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0029,GUSUN,GS-002,LOC-GUSUN-05,V3P0029,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 이조원을 파직하도록 명함 [이조원],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0030,GUSUN,GS-002,LOC-GUSUN-05,V3P0030,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 구순을 의금부에 엄히 가두고 반복 신문하도록 명함 [구순],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0031,GUSUN,GS-003,LOC-GUSUN-05,V3P0031,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 이조원 — 구순 사건에 대해 도난이 없었다는 방향의 판단을 보고,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0032,GUSUN,GS-003,LOC-GUSUN-05,V3P0032,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 이조원이 직접 안핵하지 않고 전해 들은 말을 서계에 붙인 점을 문제 삼음,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0033,GUSUN,GS-004,LOC-GUSUN-05,V3P0033,CODED_PROPOSITION,정조(ROYAL_DISCUSSION): 정조 — 구순 사건과 지세랑 호칭을 홍대협에게 물음,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0034,GUSUN,GS-004,LOC-GUSUN-05,V3P0034,CODED_PROPOSITION,홍대협(DIRECT_STATEMENT): 홍대협 — 귀로에 사건 개요를 조금 들었다고 말함,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0035,GUSUN,GS-004,LOC-GUSUN-05,V3P0035,CODED_PROPOSITION,홍대협(DIRECT_STATEMENT): 홍대협 — 지세랑 호칭은 예전 호중 화적도 사용한 적이 있어 이번에 처음 생긴 말이 아닌 듯하다고 말함,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0036,GUSUN,GS-004,LOC-GUSUN-05,V3P0036,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 홍대협에게 내려가 자세히 조사해 오라고 명함 [홍대협],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0037,GUSUN,GS-004,LOC-GUSUN-05,V3P0037,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 홍대협을 충청도 공주 안핵어사로 차하함 [홍대협],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0038,GUSUN,GS-005,LOC-GUSUN-05,V3P0038,CODED_PROPOSITION,윤노동(INSPECTOR_REPORT): 구순 — 도적을 만났다고 말하고 영교를 불러 김명신 등의 이름을 써 주었다고 주장,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0039,GUSUN,GS-005,LOC-GUSUN-05,V3P0039,CODED_PROPOSITION,윤노동(INSPECTOR_REPORT): 김명신 — 보수·구금 중 병들어 죽었다고 보고,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0040,GUSUN,GS-005,LOC-GUSUN-05,V3P0040,CODED_PROPOSITION,윤노동(INSPECTOR_REPORT): 여러 죄수 — 참혹한 형벌을 받았다고 보고,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0041,GUSUN,GS-005,LOC-GUSUN-05,V3P0041,CODED_PROPOSITION,윤노동(INSPECTOR_REPORT): 수사 — 진정한 장물을 얻지 못했다고 보고,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0042,GUSUN,GS-005,LOC-GUSUN-05,V3P0042,CODED_PROPOSITION,윤노동(INSPECTOR_REPORT): 한재욱 — 변가의 처를 꾀어 김명신이 도적 괴수라는 취지의 공초를 내게 했다고 주장,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0043,GUSUN,GS-005,LOC-GUSUN-05,V3P0043,CODED_PROPOSITION,비변사(MINISTERIAL_PROPOSAL): 비변사 — 홍대협의 안핵 복명 전이므로 윤노동 별단의 구순 사건 처리를 보류할 것을 청함,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0044,GUSUN,GS-005,LOC-GUSUN-05,V3P0044,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 비변사의 보류 요청을 윤허함,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0045,GUSUN,GS-006,LOC-GUSUN-05,V3P0045,CODED_PROPOSITION,홍대협(OFFICIAL_REPORT): 홍대협 — 공주목에 도착해 관련자들을 차례로 신문함,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0046,GUSUN,GS-006,LOC-GUSUN-05,V3P0046,CODED_PROPOSITION,명업(TESTIMONY): 명업 — 구순 집 계집종의 남편이며 바깥사랑에 거주했다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0047,GUSUN,GS-006,LOC-GUSUN-05,V3P0047,CODED_PROPOSITION,명업(TESTIMONY): 나복 — 2월 22일 밤 명업에게 도적이 들었다고 알렸다고 진술됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0048,GUSUN,GS-006,LOC-GUSUN-05,V3P0048,CODED_PROPOSITION,명업(TESTIMONY): 나복 — 도적 30여 명이 횃불을 들고 들어와 지세대감이라 자칭하고 돈과 물품을 훔쳤다고 말했다고 진술됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0049,GUSUN,GS-006,LOC-GUSUN-05,V3P0049,CODED_PROPOSITION,명업(TESTIMONY): 김명신 — 본래 구순과 친숙하여 날마다 왕래했다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0050,GUSUN,GS-006,LOC-GUSUN-05,V3P0050,CODED_PROPOSITION,명업(TESTIMONY): 김명신 — 2월 초 박거사 일로 구순에게 편지를 보내 힐책했다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0051,GUSUN,GS-006,LOC-GUSUN-05,V3P0051,CODED_PROPOSITION,명업(TESTIMONY): 구순·김명신 — 그 뒤 왕래가 끊겼다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0052,GUSUN,GS-006,LOC-GUSUN-05,V3P0052,CODED_PROPOSITION,명업(TESTIMONY): 구순 — 소장을 올려 체포령이 내려졌다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0053,GUSUN,GS-006,LOC-GUSUN-05,V3P0053,CODED_PROPOSITION,명업(TESTIMONY): 구순 — 찾아온 장교 한 명을 안행랑으로 불러 조용히 대화했다고 진술 [장교 1명],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0054,GUSUN,GS-006,LOC-GUSUN-05,V3P0054,CODED_PROPOSITION,명업(TESTIMONY): 명업 — 병영 뜰 공초에서 처음에는 사실대로 말했으나 위협이 두려워 도적이 없었다는 취지로 바꾸었다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0055,GUSUN,GS-006,LOC-GUSUN-05,V3P0055,CODED_PROPOSITION,이진욱(TESTIMONY): 병영 — 2월 28일 밤 이진욱을 비장청으로 부름 [이진욱],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0056,GUSUN,GS-006,LOC-GUSUN-05,V3P0056,CODED_PROPOSITION,이진욱(TESTIMONY): 한재욱 — 이진욱·조계완 등에게 덕평으로 가도록 지시했다고 진술 [이진욱·조계완 등],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0057,GUSUN,GS-006,LOC-GUSUN-05,V3P0057,CODED_PROPOSITION,이진욱(TESTIMONY): 한재욱 — 변지돌과 정원돌을 잡아오라고 지시했다고 진술 [변지돌·정원돌],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0058,GUSUN,GS-006,LOC-GUSUN-05,V3P0058,CODED_PROPOSITION,이진욱(TESTIMONY): 한재욱 — 철편 네 개를 만들어 주었다고 진술 [철편 4개],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0059,GUSUN,GS-006,LOC-GUSUN-05,V3P0059,CODED_PROPOSITION,이진욱(TESTIMONY): 한재욱 — 변지돌과 정원돌이 처남매부 사이이며 변지돌이 힘이 세니 조심하라고 말했다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0060,GUSUN,GS-006,LOC-GUSUN-05,V3P0060,CODED_PROPOSITION,이진욱(TESTIMONY): 변지돌 — 이미 공주진에서 잡혀간 상태였다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0061,GUSUN,GS-006,LOC-GUSUN-05,V3P0061,CODED_PROPOSITION,이진욱(TESTIMONY): 이진욱 등 장교 — 변지돌의 아우 재돌의 처 자미덕만 잡았다고 진술 [자미덕],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0062,GUSUN,GS-006,LOC-GUSUN-05,V3P0062,CODED_PROPOSITION,이진욱(TESTIMONY): 장교 일행 — 자미덕을 데리고 구순 집으로 가 도난 상황을 물었다고 진술 [구순],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0063,GUSUN,GS-006,LOC-GUSUN-05,V3P0063,CODED_PROPOSITION,이진욱(TESTIMONY): 구순 — 잃은 물건들을 열거했다고 진술됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0064,GUSUN,GS-006,LOC-GUSUN-05,V3P0064,CODED_PROPOSITION,이진욱(TESTIMONY): 구순 — 도적이 스스로 지세대사라고 자칭했다고 말했다고 진술됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0065,GUSUN,GS-006,LOC-GUSUN-05,V3P0065,CODED_PROPOSITION,이진욱(TESTIMONY): 병사 — 3월 4일 풍각 김생원과 흥덕 김생원을 잡아오라고 지시했다고 진술 [풍각 김생원(김명신)·흥덕 김생원(김갑득)],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0066,GUSUN,GS-006,LOC-GUSUN-05,V3P0066,CODED_PROPOSITION,이진욱(TESTIMONY): 풍각 김생원 — 김명신으로 식별됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0067,GUSUN,GS-006,LOC-GUSUN-05,V3P0067,CODED_PROPOSITION,이진욱(TESTIMONY): 흥덕 김생원 — 김갑득으로 식별됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0068,GUSUN,GS-006,LOC-GUSUN-05,V3P0068,CODED_PROPOSITION,이진욱(TESTIMONY): 장교 일행 — 병사 분부에 따라 김명신과 김갑득을 잡아왔다고 진술 [김명신·김갑득],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0069,GUSUN,GS-006,LOC-GUSUN-05,V3P0069,CODED_PROPOSITION,조계완(TESTIMONY): 조계완 — 풍각 김생원을 잡으러 가는 길에 구순 집에 들렀다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0070,GUSUN,GS-006,LOC-GUSUN-05,V3P0070,CODED_PROPOSITION,조계완(TESTIMONY): 구순 — 왜 다시 왔는지 물었다고 진술됨 [조계완],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0071,GUSUN,GS-006,LOC-GUSUN-05,V3P0071,CODED_PROPOSITION,조계완(TESTIMONY): 조계완 — 풍각의 상주를 잡으러 왔다고 답했다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0072,GUSUN,GS-006,LOC-GUSUN-05,V3P0072,CODED_PROPOSITION,조계완(TESTIMONY): 구순 — 이제야 도적 다스리는 일이 바른 길을 얻었다는 취지로 말했다고 진술됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0073,GUSUN,GS-006,LOC-GUSUN-05,V3P0073,CODED_PROPOSITION,조계완(TESTIMONY): 구순 — 서찰 한 장을 건네며 병사에게 전해달라고 요구했다고 진술됨 [조계완],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0074,GUSUN,GS-006,LOC-GUSUN-05,V3P0074,CODED_PROPOSITION,자미덕(TESTIMONY): 재돌 — 아산에 나가 있었다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0075,GUSUN,GS-006,LOC-GUSUN-05,V3P0075,CODED_PROPOSITION,자미덕(TESTIMONY): 병영 장교 — 자미덕을 병영으로 붙잡아 갔다고 진술 [자미덕],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0076,GUSUN,GS-006,LOC-GUSUN-05,V3P0076,CODED_PROPOSITION,자미덕(TESTIMONY): 병영 — 자미덕을 도적이라고 하며 한 차례 신문했다고 진술 [자미덕],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0077,GUSUN,GS-006,LOC-GUSUN-05,V3P0077,CODED_PROPOSITION,자미덕(TESTIMONY): 자미덕 — 신문 뒤 비장청 다모방에 구류되었다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0078,GUSUN,GS-006,LOC-GUSUN-05,V3P0078,CODED_PROPOSITION,자미덕(TESTIMONY): 한 비장 — 그 후 매일 자미덕을 방안으로 불러들였다고 진술 [자미덕],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0079,GUSUN,GS-006,LOC-GUSUN-05,V3P0079,CODED_PROPOSITION,자미덕(TESTIMONY): 한 비장 — 자미덕의 남편 재돌이 이미 체포되었다고 말했다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0080,GUSUN,GS-006,LOC-GUSUN-05,V3P0080,CODED_PROPOSITION,자미덕(TESTIMONY): 한 비장 — 정원돌·이집거·김갑득·김성손·김흥득 등을 큰 도적들이라고 말하면 자미덕과 남편을 다음 날 석방하겠다고 말했다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0081,GUSUN,GS-006,LOC-GUSUN-05,V3P0081,CODED_PROPOSITION,자미덕(TESTIMONY): 한 비장 — 자미덕에게 떡과 밥을 주었다고 진술 [자미덕],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0082,GUSUN,GS-006,LOC-GUSUN-05,V3P0082,CODED_PROPOSITION,자미덕(TESTIMONY): 자미덕·이집거 — 서로 대질했다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0083,GUSUN,GS-006,LOC-GUSUN-05,V3P0083,CODED_PROPOSITION,자미덕(TESTIMONY): 자미덕 — 이집거와 대질할 때 한 비장의 지휘에 따라 거짓으로 꾸며 말했다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0084,GUSUN,GS-006,LOC-GUSUN-05,V3P0084,CODED_PROPOSITION,한재욱(TESTIMONY): 구순 — 구순 집 도난이 진영에 정소된 뒤였다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0085,GUSUN,GS-006,LOC-GUSUN-05,V3P0085,CODED_PROPOSITION,한재욱(TESTIMONY): 한재욱 — 도적 진상을 탐지하려고 병영 아전 유제희를 내보냈다고 진술 [유제희],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0086,GUSUN,GS-006,LOC-GUSUN-05,V3P0086,CODED_PROPOSITION,한재욱(TESTIMONY): 유제희 — 변지돌·변재돌·정원돌·김명신·김성손·김흥득·김흥길 등의 성명을 적어왔다고 진술됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0087,GUSUN,GS-006,LOC-GUSUN-05,V3P0087,CODED_PROPOSITION,한재욱(TESTIMONY): 유제희 — 그 이름들을 자신이 직접 염탐해 알아냈다고 말했다고 진술됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0088,GUSUN,GS-006,LOC-GUSUN-05,V3P0088,CODED_PROPOSITION,한재욱(TESTIMONY): 한재욱 — 자미덕을 방안으로 불러 남은 밥을 주었다고 인정 [자미덕],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0089,GUSUN,GS-006,LOC-GUSUN-05,V3P0089,CODED_PROPOSITION,한재욱(TESTIMONY): 유제희 — 석단 공초에서 김명신이 도적 괴수라고 했으니 자미덕에게 다시 물어보라고 말했다고 진술됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0090,GUSUN,GS-006,LOC-GUSUN-05,V3P0090,CODED_PROPOSITION,한재욱(TESTIMONY): 한재욱 — 유제희 말에 따라 자미덕에게 다시 물었다고 진술 [자미덕],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0091,GUSUN,GS-006,LOC-GUSUN-05,V3P0091,CODED_PROPOSITION,한재욱(TESTIMONY): 자미덕 — 재질문에 모른다고 답했다고 진술됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0092,GUSUN,GS-006,LOC-GUSUN-05,V3P0092,CODED_PROPOSITION,한재욱(TESTIMONY): 한재욱 — 자미덕을 은밀히 사주한 일이 없다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0093,GUSUN,GS-006,LOC-GUSUN-05,V3P0093,CODED_PROPOSITION,한재욱(TESTIMONY): 한재욱 — 구순과 평생 모르는 사이라고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0094,GUSUN,GS-006,LOC-GUSUN-05,V3P0094,CODED_PROPOSITION,유제희(TESTIMONY): 유제희 — 당초 현지에 가서 탐문했다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0095,GUSUN,GS-006,LOC-GUSUN-05,V3P0095,CODED_PROPOSITION,유제희(TESTIMONY): 구순 — 풍각 김상제도 극히 수상하다고 말했다고 진술됨 [김명신],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0096,GUSUN,GS-006,LOC-GUSUN-05,V3P0096,CODED_PROPOSITION,유제희(TESTIMONY): 유제희 — 그 말을 원돌 등의 이름과 함께 기록해 올렸다고 진술,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0097,GUSUN,GS-006,LOC-GUSUN-05,V3P0097,CODED_PROPOSITION,홍대협(OFFICIAL_FINDING): 홍대협 — 약간의 도난은 실제였다고 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0098,GUSUN,GS-006,LOC-GUSUN-05,V3P0098,CODED_PROPOSITION,홍대협(OFFICIAL_FINDING): 홍대협 — 도난은 큰 화적 사건이 아니라 보통 좀도둑 수준이었다고 평가,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0099,GUSUN,GS-006,LOC-GUSUN-05,V3P0099,CODED_PROPOSITION,홍대협(OFFICIAL_FINDING): 지세 호칭 조사 — 여러 차례 조사와 별도 탐문에도 기원을 확정하지 못함,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0100,GUSUN,GS-006,LOC-GUSUN-05,V3P0100,CODED_PROPOSITION,홍대협(OFFICIAL_EVALUATION): 이광섭 — 구순의 과장과 아전의 거짓 보고를 믿고 장물 없이 큰 도적으로 판단했다고 평가,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0101,GUSUN,GS-006,LOC-GUSUN-05,V3P0101,CODED_PROPOSITION,홍대협(OFFICIAL_EVALUATION): 김명신 — 죽음은 질병 때문이었다고 평가,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0102,GUSUN,GS-006,LOC-GUSUN-05,V3P0102,CODED_PROPOSITION,홍대협(OFFICIAL_EVALUATION): 이문협 — 장물부터 확보하지 않고 장교·나졸을 풀어 평민을 잡고 병영 비장 지휘대로 죄를 얽었다고 평가,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0103,GUSUN,GS-006,LOC-GUSUN-05,V3P0103,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 공주목 안핵의 핵심을 도난 여부·김명신 사망 원인·지세 호칭 날조 여부의 세 의안으로 분리,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0104,GUSUN,GS-006,LOC-GUSUN-05,V3P0104,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 도난은 실제로 있었다고 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0105,GUSUN,GS-006,LOC-GUSUN-05,V3P0105,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 김명신 부처가 전염병에 걸려 죽은 것으로 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0106,GUSUN,GS-006,LOC-GUSUN-05,V3P0106,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 김명신이 곤장을 맞지 않았고 평범한 신문도 받지 않았다고 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0107,GUSUN,GS-006,LOC-GUSUN-05,V3P0107,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 지세대감·지세대사·지세랑 호칭은 예전 무식한 좀도둑들도 쓰던 말이라고 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0108,GUSUN,GS-006,LOC-GUSUN-05,V3P0108,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 구순이 지세 호칭을 스스로 만들어냈다는 죄는 면하게 됐다고 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0109,GUSUN,GS-006,LOC-GUSUN-05,V3P0109,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 구순을 사형에서 감해 외딴 섬으로 정배하도록 명함 [구순],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0110,GUSUN,GS-006,LOC-GUSUN-05,V3P0110,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 구순을 신지도에 정배함 [구순],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0111,GUSUN,GS-006,LOC-GUSUN-05,V3P0111,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 이광섭을 영동현에 유배함 [이광섭],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0112,GUSUN,GS-006,LOC-GUSUN-05,V3P0112,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 병영 비장 한가를 도백이 엄히 세 차례 형장 친 뒤 먼 섬의 종으로 보내도록 명함 [한가],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0113,GUSUN,GS-006,LOC-GUSUN-05,V3P0113,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 충청도 관찰사 이형원을 파직하도록 명함 [이형원],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0114,GUSUN,GS-008,LOC-GUSUN-05,V3P0114,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 전 충청도 관찰사 이형원을 유임함 [이형원],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0115,GUSUN,GS-001,LOC-GUSUN-05,V3P0115,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 회동 조사 응답자들 — 구순이 김명신에게 원한이 있어 해치려는 마음을 품었다고 진술했다고 보고됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0116,GUSUN,GS-001,LOC-GUSUN-05,V3P0116,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 회동 조사 응답자들 — 구순이 행랑 하인들에게 당부해 밖으로 소문을 퍼뜨렸다고 진술했다고 보고됨,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0117,GUSUN,GS-001,LOC-GUSUN-05,V3P0117,CODED_PROPOSITION,이형원(OFFICIAL_REPORT): 회동 조사 응답자들 — 구순이 교졸들과 결탁해 성명을 써 주고 김명신에게 도적 괴수 누명을 씌웠다고 진술했다고 보고됨 [김명신],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0118,GUSUN,GS-001,LOC-GUSUN-05,V3P0118,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 김명신이 병으로 죽었는지와 별개로 원통함을 품고 죽었다는 점과 구순에게서 비롯되었다는 점을 당시 사실로 받아들임,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0119,GUSUN,GS-002,LOC-GUSUN-05,V3P0119,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 구순의 집 — 앞이 큰길에 접하고 마을이 조밀하여 화적이 들어오기 어려운 곳이라고 이조원이 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0120,GUSUN,GS-002,LOC-GUSUN-05,V3P0120,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 이조원 — 화적이 들었다면 사방 이웃과 노복이 알아야 하는데 한 마을에서 목격자가 없다는 점을 불합리하다고 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0121,GUSUN,GS-002,LOC-GUSUN-05,V3P0121,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 김명신 — 구순이 거상 중 조석의 상식에 참여하지 않은 일을 비판했다고 보고 [구순],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0122,GUSUN,GS-002,LOC-GUSUN-05,V3P0122,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 김명신 — 피우와 관련해 구순의 형이 용접하는 것을 허락하지 않은 일 등을 비판했다고 보고 [구순],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0123,GUSUN,GS-002,LOC-GUSUN-05,V3P0123,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 이조원 — 김명신 사후 그 아내도 따라 죽었고 사건 뒤 도 전체의 공분이 컸다고 보고,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0124,GUSUN,GS-002,LOC-GUSUN-05,V3P0124,CODED_PROPOSITION,이조원(INSPECTOR_REPORT): 병영의 하급 보조자 — 구순의 가객이어서 구순의 부탁을 따라 옥안을 단련했다고 이조원이 주장,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0125,GUSUN,GS-003,LOC-GUSUN-05,V3P0125,CODED_PROPOSITION,이조원(OFFICIAL_REPORT): 김명신 — 구순과 이웃해 살며 구순의 불효한 행실을 늘 비판했다고 실록에 보고됨 [구순],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0126,GUSUN,GS-003,LOC-GUSUN-05,V3P0126,CODED_PROPOSITION,이조원(OFFICIAL_REPORT): 이조원 — 구순 집의 입지·마을 상황과 목격 부재를 들어 화적 설명이 이치에 맞지 않는다고 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0127,GUSUN,GS-005,LOC-GUSUN-05,V3P0127,CODED_PROPOSITION,윤노동(INSPECTOR_REPORT): 윤노동 — 구순이 도난을 칭탁하고 양민을 얽어 무고해 목숨을 상하게 한 일이 있다고 평가,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0128,GUSUN,GS-005,LOC-GUSUN-05,V3P0128,CODED_PROPOSITION,윤노동(INSPECTOR_REPORT): 한재욱 — 변가의 처를 여러 방식으로 꾀어 김명신이 확실한 도적 괴수라는 내용의 공초를 내게 했다고 주장 [변가의 처],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0129,GUSUN,GS-005,LOC-GUSUN-05,V3P0129,CODED_PROPOSITION,윤노동(INSPECTOR_REPORT): 윤노동 — 구순 사건 관계자를 법에 따라 처단해 도 전체의 분함을 풀어야 한다고 건의,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0130,GUSUN,GS-006,LOC-GUSUN-05,V3P0130,CODED_PROPOSITION,실록 편찬 기록(CHRONICLE): 홍대협 — 호서 안핵어사로 복명하고 편전에서 정조에게 보고함,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0131,GUSUN,GS-006,LOC-GUSUN-05,V3P0131,CODED_PROPOSITION,홍대협(OFFICIAL_REPORT): 홍대협 — 내려가는 길에 널리 탐문했을 때에는 사람들이 애당초 도난이 없었다고 말했다고 보고,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0132,GUSUN,GS-006,LOC-GUSUN-05,V3P0132,CODED_PROPOSITION,홍대협(OFFICIAL_FINDING): 홍대협 — 정식 조사에서는 명업 등 세 사람의 공초가 분명해 약간의 실제 도난이 있었다고 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0133,GUSUN,GS-006,LOC-GUSUN-05,V3P0133,CODED_PROPOSITION,홍대협(OFFICIAL_FINDING): 홍대협 — 실제 도난은 보통 좀도둑의 소행에 불과하다고 평가,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0134,GUSUN,GS-006,LOC-GUSUN-05,V3P0134,CODED_PROPOSITION,홍대협(OFFICIAL_EVALUATION): 구순 — 사실대로 고발할 수 있었는데도 과장하고 의혹을 키우다가 미운 사람에게 악감을 행사해 날조된 옥사를 사주해 이루기에 이르렀다고 평가,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0135,GUSUN,GS-006,LOC-GUSUN-05,V3P0135,CODED_PROPOSITION,홍대협(OFFICIAL_REPORT): 사람들 — 구순 사건의 전개에 놀라고 분개했다고 홍대협이 보고,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0136,GUSUN,GS-006,LOC-GUSUN-05,V3P0136,CODED_PROPOSITION,홍대협(OFFICIAL_FINDING): 지세 호칭의 기원 — 여러 차례 신문과 별도 탐문에도 단서를 얻지 못했고 서로 다른 말이 나와 확정되지 않음,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0137,GUSUN,GS-006,LOC-GUSUN-05,V3P0137,CODED_PROPOSITION,홍대협(OFFICIAL_RECOMMENDATION): 홍대협 — 지세 호칭의 실정을 밝히려면 구순을 의금부에서 엄히 국문할 필요가 있다고 건의 [구순],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0138,GUSUN,GS-006,LOC-GUSUN-05,V3P0138,CODED_PROPOSITION,홍대협(OFFICIAL_EVALUATION): 이광섭 — 평민을 일부러 해치려는 의도에서 나온 것은 아니라고 보면서도 결과적으로 옥안을 강제로 만든 책임은 피하기 어렵다고 평가,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0139,GUSUN,GS-006,LOC-GUSUN-05,V3P0139,CODED_PROPOSITION,홍대협(OFFICIAL_EVALUATION): 김명신 — 질병으로 죽었더라도 사람들이 원통하게 죽었다고 말하는 것은 정황상 그럴 만하다고 평가,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0140,GUSUN,GS-006,LOC-GUSUN-05,V3P0140,CODED_PROPOSITION,홍대협(OFFICIAL_EVALUATION): 이광섭 — 한쪽 말만 듣고 잘못 판결한 죄는 중하게 다스려야 한다고 평가,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0141,GUSUN,GS-006,LOC-GUSUN-05,V3P0141,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 김명신이 구순 때문에 죽었다고 하는 직접 인과는 십분 확실하다고 할 수 없다고 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0142,GUSUN,GS-006,LOC-GUSUN-05,V3P0142,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 구순 — 김명신에게 사적인 감정을 품고 갈등을 일으켰다고 판단 [김명신],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0143,GUSUN,GS-006,LOC-GUSUN-05,V3P0143,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 구순 — 병영의 염탐 담당자에게 김명신의 성명을 적어 주었다고 판단 [김명신],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0144,GUSUN,GS-006,LOC-GUSUN-05,V3P0144,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 구순의 사적 감정·갈등과 성명 제공을 거쳐 김명신이 횡액을 입고 원통하게 죽는 결과에 이르렀다고 책임을 연결해 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0145,GUSUN,GS-006,LOC-GUSUN-05,V3P0145,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 구순 — 사건이 이렇게 된 원인을 구순의 무상함과 불량함에 돌려 책임을 물음,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0146,GUSUN,GS-006,LOC-GUSUN-05,V3P0146,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 지세 대감·대사 등의 말을 구순이 스스로 만들어냈다는 죄는 인정하지 않음,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0147,GUSUN,GS-006,LOC-GUSUN-05,V3P0147,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 구순을 감형해 외딴 섬에 정배하여 김명신 부처의 원한에 사죄하도록 명함 [구순],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0148,GUSUN,GS-006,LOC-GUSUN-05,V3P0148,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 이광섭 — 구순과의 오래된 혐의를 막 씻은 뒤 곧 구순 편을 들었다고 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0149,GUSUN,GS-006,LOC-GUSUN-05,V3P0149,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 이광섭 — 철퇴 네 개를 밤새 만들게 한 일을 과도한 조치로 비판 [철퇴 4개],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0150,GUSUN,GS-006,LOC-GUSUN-05,V3P0150,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 이광섭 — 아전들의 거짓을 살피지 않고 비장에게 맡겨 구순의 지시만 기다리는 듯 처리했다고 비판,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0151,GUSUN,GS-006,LOC-GUSUN-05,V3P0151,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 김명신 사망의 책임을 따지면 구순과 이광섭의 책임이 서로 크게 다르지 않다고 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0152,GUSUN,GS-006,LOC-GUSUN-05,V3P0152,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 정조 — 도신 장계와 안핵어사 보고가 구순의 도난 여부에서 현격히 달랐다고 지적,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0153,GUSUN,GS-006,LOC-GUSUN-05,V3P0153,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 병영 비장 한가를 도백이 엄히 세 차례 형장 친 뒤 먼 섬의 종으로 보내도록 명함 [한가],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0154,GUSUN,GS-007,LOC-GUSUN-05,V3P0154,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 이조원 — 담당 이외 고을을 두루 살핀 것은 어사 사목에 어긋난다고 앞서 판단했음,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0155,GUSUN,GS-007,LOC-GUSUN-05,V3P0155,CODED_PROPOSITION,정조(ROYAL_JUDGMENT): 윤노동 — 담당 외 지역을 자의로 조사하고 다른 어사 출도 지역까지 거듭 들어간 점 등을 사명 위반으로 판단,,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-P-V3P0156,GUSUN,GS-007,LOC-GUSUN-05,V3P0156,CODED_PROPOSITION,정조(ROYAL_ORDER): 정조 — 윤노동을 파직하고 불서의 법을 시행하도록 명함 [윤노동],,NONE,B,NO,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv
+GS-F-CF001,GUSUN,GS-006,LOC-GUSUN-01,CF001 (V3P0049),CODED_FACT_BUNDLE,명업은 김명신이 본래 구순과 친숙하여 날마다 왕래했다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF002,GUSUN,GS-006,LOC-GUSUN-01,CF002 (V3P0050),CODED_FACT_BUNDLE,명업은 김명신이 박거사 일로 구순에게 편지를 보내 힐책했다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF003,GUSUN,GS-006,LOC-GUSUN-01,CF003 (V3P0051),CODED_FACT_BUNDLE,명업은 그 뒤 구순과 김명신의 왕래가 끊겼다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF004,GUSUN,GS-006,LOC-GUSUN-01,CF004 (V3P0047),CODED_FACT_BUNDLE,명업은 나복이 2월 22일 밤 도적이 들었다고 자신에게 알렸다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF005,GUSUN,GS-006,LOC-GUSUN-01,CF005 (V3P0048),CODED_FACT_BUNDLE,"명업은 나복이 도적 30여 명, 횃불, 지세대감 자칭, 돈과 물품 도난을 말했다고 진술했다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF006,GUSUN,GS-006,LOC-GUSUN-01,CF006 (V3P0052),CODED_FACT_BUNDLE,명업은 구순이 소장을 올린 뒤 체포령이 내려졌다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF007,GUSUN,GS-006,LOC-GUSUN-01,CF007 (V3P0055),CODED_FACT_BUNDLE,이진욱은 2월 28일 밤 병영에서 자신을 비장청으로 불렀다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF008,GUSUN,GS-006,LOC-GUSUN-01,CF008 (V3P0056),CODED_FACT_BUNDLE,이진욱은 한재욱이 자신과 조계완 등에게 덕평으로 가도록 지시했다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF009,GUSUN,GS-006,LOC-GUSUN-01,CF009 (V3P0057),CODED_FACT_BUNDLE,이진욱은 한재욱이 변지돌과 정원돌을 잡아오라고 지시했다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF010,GUSUN,GS-006,LOC-GUSUN-01,CF010 (V3P0058),CODED_FACT_BUNDLE,이진욱은 한재욱이 철편 네 개를 만들어 주었다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF011,GUSUN,GS-006,LOC-GUSUN-01,CF011 (V3P0060),CODED_FACT_BUNDLE,이진욱은 변지돌이 이미 공주진에서 잡혀간 상태였다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF012,GUSUN,GS-006,LOC-GUSUN-01,CF012 (V3P0061),CODED_FACT_BUNDLE,이진욱은 장교 일행이 재돌의 처 자미덕을 붙잡았다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF013,GUSUN,GS-006,LOC-GUSUN-01,CF013 (V3P0075),CODED_FACT_BUNDLE,자미덕은 병영 장교에게 붙잡혀 병영으로 끌려갔다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF014,GUSUN,GS-006,LOC-GUSUN-01,CF014 (V3P0076),CODED_FACT_BUNDLE,자미덕은 병영에서 도적 혐의로 한 차례 신문을 받았다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF015,GUSUN,GS-006,LOC-GUSUN-01,CF015 (V3P0077),CODED_FACT_BUNDLE,자미덕은 신문 뒤 비장청 다모방에 구류되었다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF016,GUSUN,GS-006,LOC-GUSUN-01,CF016 (V3P0080),CODED_FACT_BUNDLE,자미덕은 한 비장이 정원돌·이집거·김갑득·김성손·김흥득 등을 큰 도적이라고 말하면 자신과 남편을 다음 날 석방하겠다고 말했다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF017,GUSUN,GS-006,LOC-GUSUN-01,CF017 (V3P0082|V3P0083),CODED_FACT_BUNDLE,"자미덕은 이집거와 대질했으며, 그때 한 비장의 지휘에 따라 거짓으로 꾸며 말했다고 진술했다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF018,GUSUN,GS-006,LOC-GUSUN-01,CF018 (V3P0088|V3P0092),CODED_FACT_BUNDLE,"한재욱은 자미덕을 방으로 불러 남은 밥을 준 사실은 인정했지만, 자미덕을 은밀히 사주한 일은 없다고 진술했다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF019,GUSUN,GS-006,LOC-GUSUN-01,CF019 (V3P0093),CODED_FACT_BUNDLE,한재욱은 구순과 평생 모르는 사이라고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF020,GUSUN,GS-006,LOC-GUSUN-01,CF020 (V3P0094|V3P0095|V3P0096),CODED_FACT_BUNDLE,"유제희는 현지 탐문 중 구순이 풍각 김상제도 극히 수상하다고 말했고, 자신이 그 말을 원돌 등의 이름과 함께 기록해 올렸다고 진술했다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF021,GUSUN,GS-006,LOC-GUSUN-01,CF021 (V3P0065),CODED_FACT_BUNDLE,이진욱은 3월 4일 병사가 풍각 김생원과 흥덕 김생원을 잡아오라고 지시했다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF022,GUSUN,GS-006,LOC-GUSUN-01,CF022 (V3P0066|V3P0067),CODED_FACT_BUNDLE,"해당 기사에서 풍각 김생원은 김명신, 흥덕 김생원은 김갑득으로 식별된다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF023,GUSUN,GS-006,LOC-GUSUN-01,CF023 (V3P0068),CODED_FACT_BUNDLE,이진욱은 장교 일행이 병사의 분부에 따라 김명신과 김갑득을 잡아왔다고 진술했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF024,GUSUN,GS-006,LOC-GUSUN-01,CF024 (V3P0069|V3P0072|V3P0073),CODED_FACT_BUNDLE,"조계완은 김명신을 잡으러 가는 길에 구순 집에 들렀고, 구순이 이제 도적 다스리는 일이 바른 길을 얻었다는 취지로 말한 뒤 병사에게 전할 서찰 한 장을 건넸다고 진술했다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF025,GUSUN,GS-001,LOC-GUSUN-01,CF025 (V3P0013),CODED_FACT_BUNDLE,"5월 12일 기사에서 이광섭은 사건의 병사 지휘 책임자로 심리되며, 이형원은 이광섭이 허황한 말을 믿고 무고한 사람을 잘못 잡았다고 평가했다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF026,GUSUN,GS-001,LOC-GUSUN-01,CF026 (V3P0012),CODED_FACT_BUNDLE,이형원은 청주 영장 이문협이 수사를 병영 비장에게 전적으로 맡기고 방관했다고 평가했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF027,GUSUN,GS-001,LOC-GUSUN-01,CF027 (V3P0004|V3P0005|V3P0006),CODED_FACT_BUNDLE,"이형원의 5월 12일 장계는 충청병영이 김명신을 달포 이상 구금·조사했으나 확실한 장물을 찾지 못했고, 김명신이 그 뒤 사망했다고 보고했다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF028,GUSUN,GS-001,LOC-GUSUN-01,CF028 (V3P0007),CODED_FACT_BUNDLE,이형원의 장계는 무고한 평민들이 모진 형벌을 받았다고 보고했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF029,GUSUN,GS-005,LOC-GUSUN-01,CF029 (V3P0039|V3P0040|V3P0041),CODED_FACT_BUNDLE,"윤노동의 6월 11일 별단은 김명신이 보수·구금 중 병들어 죽었고, 여러 죄수가 참혹한 형벌을 받았으며, 진정한 장물을 얻지 못했다고 보고했다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF030,GUSUN,GS-001,LOC-GUSUN-01,CF030 (V3P0016),CODED_FACT_BUNDLE,정조는 당시 장계와 조사에 따라 도난 자체가 없었다는 방향을 받아들였다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF031,GUSUN,GS-001,LOC-GUSUN-01,CF031 (V3P0017),CODED_FACT_BUNDLE,정조는 구순을 의금부에 잡아 가두고 엄히 조사하도록 명했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF032,GUSUN,GS-003,LOC-GUSUN-01,CF032 (V3P0031),CODED_FACT_BUNDLE,이조원은 구순 사건을 도난이 없었다는 방향으로 보고했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF033,GUSUN,GS-003,LOC-GUSUN-01,CF033 (V3P0032|V3P0029),CODED_FACT_BUNDLE,"정조는 이조원이 중대 사실을 직접 안핵하지 않고 전해 들은 말을 서계에 붙인 점을 문제 삼았고, 이조원을 파직하도록 명했다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF034,GUSUN,GS-002,LOC-GUSUN-01,CF034 (V3P0030),CODED_FACT_BUNDLE,정조는 구순을 의금부에 엄히 가두고 반복 신문하도록 명했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF035,GUSUN,GS-004,LOC-GUSUN-01,CF035 (V3P0036|V3P0037),CODED_FACT_BUNDLE,정조는 홍대협에게 사건을 자세히 조사해 오라고 명하고 그를 충청도 공주 안핵어사로 차하했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF036,GUSUN,GS-005,LOC-GUSUN-01,CF036 (V3P0043|V3P0044),CODED_FACT_BUNDLE,"비변사는 홍대협의 안핵 복명 전까지 윤노동 별단에 따른 처리를 보류할 것을 청했고, 정조는 이를 윤허했다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF037,GUSUN,GS-006,LOC-GUSUN-01,CF037 (V3P0045|V3P0130),CODED_FACT_BUNDLE,홍대협은 공주목에서 관련자들을 차례로 신문한 뒤 호서 안핵어사로 복명하여 편전에서 정조에게 보고했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF038,GUSUN,GS-006,LOC-GUSUN-01,CF038 (V3P0097|V3P0098),CODED_FACT_BUNDLE,홍대협은 약간의 실제 도난은 있었지만 큰 화적 사건이 아니라 보통 좀도둑 수준이었다고 판단했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF039,GUSUN,GS-006,LOC-GUSUN-01,CF039 (V3P0104),CODED_FACT_BUNDLE,정조는 최종적으로 도난은 실제로 있었다고 판단했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF040,GUSUN,GS-006,LOC-GUSUN-01,CF040 (V3P0101|V3P0105),CODED_FACT_BUNDLE,"홍대협은 김명신의 죽음을 질병 때문이라고 평가했고, 정조는 김명신 부처가 전염병에 걸려 죽은 것으로 판단했다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF041,GUSUN,GS-006,LOC-GUSUN-01,CF041 (V3P0106),CODED_FACT_BUNDLE,정조는 김명신이 곤장을 맞지 않았고 평범한 신문도 받지 않았다고 판단했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF042,GUSUN,GS-006,LOC-GUSUN-01,CF042 (V3P0141),CODED_FACT_BUNDLE,정조는 김명신이 구순 때문에 직접 죽었다는 인과가 십분 확실하다고 할 수 없다고 판단했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF043,GUSUN,GS-006,LOC-GUSUN-01,CF043 (V3P0142|V3P0143|V3P0144),CODED_FACT_BUNDLE,"정조는 구순이 김명신에게 사적인 감정을 품고 갈등을 일으켰고, 병영의 염탐 담당자에게 김명신의 성명을 적어 주었으며, 그 과정이 김명신이 횡액을 입고 원통하게 죽는 결과로 이어졌다고 책임을 연결해 판단했다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF044,GUSUN,GS-006,LOC-GUSUN-01,CF044 (V3P0148|V3P0149|V3P0150|V3P0151),CODED_FACT_BUNDLE,"정조는 이광섭이 구순 편을 들고, 철퇴 네 개를 만들게 했으며, 아전들의 거짓을 제대로 살피지 않은 채 비장에게 일을 맡겼다고 비판하고, 김명신 사망 책임에서 구순과 이광섭의 책임이 크게 다르지 않다고 판단했다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF045,GUSUN,GS-006,LOC-GUSUN-01,CF045 (V3P0136|V3P0146),CODED_FACT_BUNDLE,"홍대협은 여러 차례 신문과 별도 탐문에도 지세 호칭의 기원을 확정하지 못했고, 정조는 구순이 지세 호칭을 스스로 만들어냈다는 죄는 인정하지 않았다.",,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF046,GUSUN,GS-006,LOC-GUSUN-01,CF046 (V3P0110),CODED_FACT_BUNDLE,정조는 구순을 신지도에 정배했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF047,GUSUN,GS-006,LOC-GUSUN-01,CF047 (V3P0111),CODED_FACT_BUNDLE,정조는 이광섭을 영동현에 유배했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF048,GUSUN,GS-006,LOC-GUSUN-01,CF048 (V3P0153),CODED_FACT_BUNDLE,정조는 병영 비장으로 표기된 한가를 도백이 엄히 세 차례 형장 친 뒤 먼 섬의 종으로 보내도록 명했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF049,GUSUN,GS-006,LOC-GUSUN-01,CF049 (V3P0113),CODED_FACT_BUNDLE,정조는 충청도 관찰사 이형원을 파직하도록 명했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv
+GS-F-CF050,GUSUN,GS-008,LOC-GUSUN-01,CF050 (V3P0114),CODED_FACT_BUNDLE,정조는 6월 16일 전 충청도 관찰사 이형원을 유임했다.,,NONE,B,NO,research/imported/gusun/01_confirmed_facts.csv

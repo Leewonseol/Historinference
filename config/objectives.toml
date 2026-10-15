@@ -1,0 +1,89 @@
+# 기획의도 목표함수 설정 — 사람이 수정하는 설계 기준이다.
+# 이 파일의 수준·가중치는 연구 결과가 아니며 통계적 종속변수도 아니다.
+# 4개 사건으로 학습한 확률·빈도 추정은 하지 않는다.
+
+[meta]
+version = "1"
+note = "Y1~Y6 수준 규칙과 hard gate, 가중치 민감도 격자. 가중합은 설정 의존적 보조 화면일 뿐이다."
+
+[levels]
+NONE = 0
+PARTIAL = 1
+FULL = 2
+
+# 초깃값: Y3·Y4·Y5·Y6 hard gate (CLAUDE.md 5단계)
+[hard_gates]
+Y3 = "PARTIAL"
+Y4 = "PARTIAL"
+Y5 = "PARTIAL"
+Y6 = "PARTIAL"
+
+# Y1·Y2는 결말 설계 목표(게이트 아님). 실제 사건에는 유죄 확정 위조 금지(앵커 이식 불가 규칙).
+[design_targets]
+Y1 = "PARTIAL"
+Y2 = "PARTIAL"
+
+[goal_labels]
+Y1 = "진범 규명"
+Y2 = "가해자 책임"
+Y3 = "무고인 보호/회복"
+Y4 = "오류·은폐 검증"
+Y5 = "조사 독립성"
+Y6 = "피해자/유족 이의제기"
+
+# 수준 규칙: 각 수준은 대안(OR) 목록이고 대안 내부는 차원별 허용값(AND)이다.
+[goal_rules.Y1]
+FULL = [ { M11_RESOLUTION = ["U_FICTIONAL_PROVEN_CULPRIT"] } ]
+PARTIAL = [ { M11_RESOLUTION = ["U_CONFESSION_LATER_DOUBTED", "U_OFFICIAL_PERPETRATOR_CONTESTED", "U_CAUSATION_UNRESOLVED"] } ]
+
+[goal_rules.Y2]
+FULL = [ { M10A_PERPETRATOR_ACCOUNTABILITY = ["K_ACCUSER_PUNISHED", "K_PERPETRATOR_EXILED"] } ]
+PARTIAL = [ { M10A_PERPETRATOR_ACCOUNTABILITY = ["K_PENALTY_UNDER_DOUBT"] }, { M10B_OFFICIAL_ACCOUNTABILITY = ["K_OFFICIAL_SANCTIONED"] } ]
+
+[goal_rules.Y3]
+FULL = [ { M6_TARGET_FATE = ["X_DETAINED_RELEASED"] } ]
+PARTIAL = [ { M6_TARGET_FATE = ["X_DIED_IN_CUSTODY"] } ]
+
+[goal_rules.Y4]
+FULL = [ { M2_FIRST_ERROR = ["*"], M10B_OFFICIAL_ACCOUNTABILITY = ["K_OFFICIAL_SANCTIONED"], M9_SECOND_ORDER = ["*"] } ]
+PARTIAL = [ { M2_FIRST_ERROR = ["*"], M10B_OFFICIAL_ACCOUNTABILITY = ["K_OFFICIAL_SANCTIONED", "K_OFFICIAL_SANCTION_REVERSED"] } ]
+
+[goal_rules.Y5]
+FULL = [ { M8_REVERIFICATION = ["V_SPECIAL_INSPECTOR"] } ]
+PARTIAL = [ { M8_REVERIFICATION = ["V_ROYAL_REVIEW"] } ]
+
+[goal_rules.Y6]
+FULL = [ { M7_APPEAL = ["P_VICTIM_FAMILY_PETITION"] } ]
+PARTIAL = [ { M7_APPEAL = ["P_SPOUSE_PETITION_REPRESSED", "P_KIN_ACCUSATION_HEARD"] } ]
+
+# 오컴 면도날 운영화: 가정 심각도(정수)
+[assumption_severity]
+traced_fictionalized = 1      # 출처 메커니즘을 가상 인물로 재구성(B)
+cross_case_link = 1           # 서로 다른 사건에서 온 요소를 인과로 연결한 가설
+fiction_only_element = 2      # 어느 사건에도 근거 없는 창작 요소
+historical_overlay = 3        # 실제 사건(A 앵커)에 다른 사건 메커니즘을 덧씌움
+contradiction = 4             # 기록과 모순(불가: 후보 제외)
+
+# 절차 영역별 제도 단절점 (normative_rules_curated.csv의 HARD_ENACTMENT와 일치해야 함)
+[period_breakpoints]
+INQUEST = 1792
+CODE_PENALTY = 1786
+
+# 가중합 보조 화면(민감도 분석 전용). 각 목표는 0~2, 비용은 후보 집합 내 최대값으로 정규화.
+[weights]
+Y1 = 1.0
+Y2 = 1.0
+Y3 = 1.0
+Y4 = 1.0
+Y5 = 1.0
+Y6 = 1.0
+fidelity = 1.0
+coherence = 1.0
+plausibility = 1.0
+parsimony = 1.0
+
+[sensitivity]
+weight_levels = [0.0, 1.0, 2.0]
+weight_groups = ["goals", "fidelity", "coherence", "plausibility", "parsimony"]
+evidence_grade_cutoffs = ["B", "C", "D"]
+gate_variants = ["default", "Y3_FULL", "Y6_FULL", "no_Y6_gate"]

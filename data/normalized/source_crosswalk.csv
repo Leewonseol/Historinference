@@ -1,0 +1,9 @@
+gusun_record_id,register_source_id,source_url,record_lunar_date,match_basis
+SRC3_001,GS-001,https://sillok.history.go.kr/id/kva_11705012_003,1793-05-12,IDENTICAL_URL
+SRC3_002,GS-002,https://db.history.go.kr/common/compareViewer.do?levelId=bb_181r_001_05_0510&type=joseon,1793-05-27,IDENTICAL_URL
+SRC3_003,GS-003,https://sillok.history.go.kr/id/kva_11705027_002,1793-05-27,IDENTICAL_URL
+SRC3_004,GS-004,https://sjw.history.go.kr/search/inspectionDayList.do?wday=17930528L0,1793-05-28,IDENTICAL_URL
+SRC3_005,GS-005,https://db.history.go.kr/common/compareViewer.do?levelId=bb_181r_001_06_0070&type=joseon,1793-06-11,IDENTICAL_URL
+SRC3_006,GS-006,https://sillok.history.go.kr/id/kva_11706013_003,1793-06-13,IDENTICAL_URL
+SRC3_007,GS-007,https://sillok.history.go.kr/id/kva_11706013_001,1793-06-13,IDENTICAL_URL
+SRC3_008,GS-008,https://sillok.history.go.kr/id/kva_11706016_002,1793-06-16,IDENTICAL_URL

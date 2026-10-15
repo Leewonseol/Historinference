@@ -1,0 +1,23 @@
+source_id,source_type,reporting_actor,volume_section,volume_basis,copyright_note
+CH-001,PRIMARY_COMPILED_JUDICIAL,정조 판부·도신 계문·형조 회계(편찬),권8 황해도 「평산 최아지 옥」,LOC-CHAMANG 표기(원문 미보관),메타데이터·짧은 의역만 저장
+CH-002,PRIMARY_COMPILED_JUDICIAL,공초·검안·정조 판부(편찬),권2 상복부·윤상·살자부 「중보: 최 조이 옥안」,LOC-CHAMANG 표기(원문 미보관),메타데이터·짧은 의역만 저장
+CH-003,PRIMARY_ANNALS,양서 암행어사 이곤수 복명·실록 편찬자,정조실록 23권 정조 11년 4월 16일,LOC-ANNALS-DIGEST,메타데이터·짧은 의역만 저장
+CH-007,GENEALOGY,장서각 소장 왕실 족보,순평군파 선원속보,LOC-REGISTER,등재 여부 미확인
+JH-001,PRIMARY_COMPILED_JUDICIAL,정조 판부(편찬),NA,NA,메타데이터만 저장
+JH-002,PRIMARY_COMPILED_JUDICIAL,공초·정조 판부(편찬),NA,NA,메타데이터만 저장
+JH-003,PRIMARY_ANNALS,정조 판부·실록 편찬자,정조실록 15권 정조 7년 6월 3일,LOC-ANNALS-DIGEST,메타데이터·짧은 의역만 저장
+YE-001,PRIMARY_ANNALS,실록 편찬자(인사 기사),NA,NA,메타데이터만 저장
+YE-002,PRIMARY_ANNALS,도신 정대용 평가(레지스터 제목),NA,NA,메타데이터만 저장
+YE-003,PRIMARY_ANNALS,관찰사 조진택 조사보고(레지스터 제목),NA,NA,메타데이터만 저장
+YE-004,PRIMARY_ANNALS,유경 보고(레지스터 제목),NA,NA,메타데이터만 저장
+YE-005,PRIMARY_ANNALS,정조 질책·실록 편찬자,NA,NA,메타데이터·짧은 의역만 저장
+YE-006,PRIMARY_ANNALS,중앙 심리(레지스터 제목),NA,NA,메타데이터만 저장
+YE-007,PRIMARY_ANNALS,정조 처분(레지스터 제목),NA,NA,메타데이터만 저장
+GS-001,PRIMARY_ANNALS,충청도 관찰사 이형원 장계·정조,NA,NA,GuSoon 선행 코딩 재사용
+GS-002,PRIMARY_DELIBERATION_RECORD,암행어사 이조원·비변사,NA,NA,GuSoon 선행 코딩 재사용
+GS-003,PRIMARY_ANNALS,암행어사 이조원·정조,NA,NA,GuSoon 선행 코딩 재사용
+GS-004,PRIMARY_DIARY,정조·홍대협(승정원일기),NA,NA,GuSoon 선행 코딩 재사용
+GS-005,PRIMARY_DELIBERATION_RECORD,암행어사 윤노동·비변사,NA,NA,GuSoon 선행 코딩 재사용
+GS-006,PRIMARY_ANNALS,안핵어사 홍대협·증인 공초·정조,NA,NA,GuSoon 선행 코딩 재사용
+GS-007,PRIMARY_ANNALS,정조,NA,NA,GuSoon 선행 코딩 재사용
+GS-008,PRIMARY_ANNALS,정조,NA,NA,GuSoon 선행 코딩 재사용

@@ -1,0 +1,22 @@
+request_id,priority,case_id,persons,issue,source_ids,requested_passage,blocks
+RQ-CH-01,HIGH,CHOI,CHOI-P01|CHOI-P02|CHOI-P03|CHOI-P06|CHOI-P07,1785~1789 전 과정의 문장 단위 원문·국역 대조,CH-001|CH-002,심리록 권8 「평산 최아지 옥」 및 추관지 「최 조이 옥안」 전문(원문+국역; 문단·일자 표시),CHOI 코딩 26행 중 다수가 2차 종합(D등급) 근거에 의존(MC-CH-03·12·13·15·19·20·25·26 등); 증거 등급 B 컷오프에서 CHOI 앵커 탈락
+RQ-CH-02,HIGH,CHOI,CHOI-P06|CHOI-P07,조광진의 사단 종용·형 7도 자백·1788 瘐死의 원문 구절,CH-002,1787 이곤수 안핵 공초(사단·조광진)와 1789 형조 회계의 '작년에 이미 죽었다' 구절,R02·R03·F04 코딩(현재 D등급)과 사망 후 행위 검사(조광진 사망 일자)
+RQ-CH-03,HIGH,CHOI,CHOI-P09,군교 조봉원 관련 뇌물·5냥·위협 주장의 원문과 주장자,CH-001|CH-002,조봉원·5냥·매수가 언급된 공초·판부 문장,E04 뇌물 코딩이 NA(UNKNOWN); RL-CH-12 관계 미식별
+RQ-CH-04,MEDIUM,CHOI,CHOI-P13|CHOI-P15|CHOI-P16,엄사만·홍병찬 재임 기간과 검험관 정경증·이단회의 초검/복검 배정,CH-001|CH-002|CH-003,초검·복검 보고 주체와 각 관찰사의 재임 기간 기사,검험관 역할 미확정; appointments tenure NOT_RETRIEVED
+RQ-CH-05,MEDIUM,CHOI,CHOI-P03|CHOI-P04,민씨 격쟁(1786-01·1786-11)의 승정원일기·일성록 일자와 순평군 후손 주장 원문,CH-007,승정원일기·일성록 1786년 해당 일자 기사 및 장서각 선원속보 등재 면,이차망 status_claimed는 CONTESTED·status_verified NA 유지; 격쟁 일자는 2차 종합 근거
+RQ-CH-06,MEDIUM,CHOI,CHOI-P02,1789-06 장 100·유 2천 리 준용 승인 이후 실제 집행 기록,CH-001|CH-002,1789년 이후 최아지 형 집행·배소 기록,DC-CH-08 execution_status NOT_RETRIEVED
+RQ-CHO-01,HIGH,CHO,CHO-P01|CHO-P02|CHO-P03,심리록·추관지 조재항 옥안 전문과 연도 충돌(1780 庚子 vs 1781 辛丑),JH-001|JH-002|JH-003,심리록 「백천 조재항 옥」·추관지 「조재항 옥안」 전문 및 실록 1783-06-03 원문,CL-JH-09/10 날짜 충돌; EV-JH-01·02 범위 날짜
+RQ-CHO-02,HIGH,CHO,CHO-P01,조재항 구금 사실·기간·장소,JH-001|JH-002,구금·옥중 신문을 기술한 원문 구절,F02 코딩이 석방 명령에서 전제 추론된 상태(EV-JH-03)
+RQ-CHO-03,MEDIUM,CHO,CHO-P05|CHO-P06|CHO-P07|CHO-P08|CHO-P09,조재풍·배조이·나막동·점렬·막덕의 역할과 진술 내용,JH-003|JH-002,각 인물 공초·언급 문장,RL-CHO-03 사주 대상 증인 특정 불가; 인물 프로필 NA
+RQ-CHO-04,MEDIUM,CHO,CHO-P01|CHO-P04,조재항·가족의 호소 여부와 조상진의 재임 도(道)명,JH-001|JH-002|JH-003,상언·격쟁 기록 및 조상진 관직 기사,R06 NA; Y6가 친척 고발 경로로만 PARTIAL
+RQ-YE-01,HIGH,YE,YE-P01|YE-P03|YE-P05,31명(1795-06-04)과 25명(1795-08-24) 수치의 집계 범위·피해자 명단,YE-004|YE-006,두 기사 전문(원문+국역)과 사망자 이름 부분,CL-YE-03/04 SOURCE_RECONCILIATION 축 미해결
+RQ-YE-02,HIGH,YE,YE-P02,1794-09-08 조진택 보고의 면책 논리 원문과 1795-06-11 질책 원문,YE-003|YE-005,두 기사 원문,E02(허위 보고) NA; 고의/태만 구분(fault_type UNRESOLVED)
+RQ-YE-03,HIGH,YE,YE-P01|YE-P02,1795-09-21 처분 원문과 집행,YE-007,조진택 삭직·이여절 위원 유배 기사 및 후속 집행 기록,DC-YE-03/04 execution NOT_RETRIEVED; 레지스터 '삭직' vs 근거집 'dismissal' 표기 차이
+RQ-YE-04,MEDIUM,YE,YE-P03,유경의 관직·임명 일자와 1795-06-11 '별도 안핵'의 담당자,YE-004|YE-005,유경 임명 기사·1795-06-11 원문,DC-YE-01 담당자 미특정; 유경 보고(06-04)와 별도 안핵 명령(06-11) 선후 해석
+RQ-YE-05,LOW,YE,YE-P01,1789-07-14 단천부사와 1793 창원부사 이여절의 동일인 검증,YE-001|YE-002,두 기사 원문,ID-08 PRESUMED_SAME_BY_REGISTER_UNVERIFIED
+RQ-YE-06,MEDIUM,YE,YE-P05,유족·피해자 측 호소 기록,YE-004|YE-005|YE-006,피해자 가족 상언·진술 구절,R06 NA; YE 앵커 Y6 NONE
+RQ-GS-01,MEDIUM,GUSUN,GUSUN-P02|GUSUN-P07|GUSUN-P12,GuSoon 선행 코딩과 1793-06-13 원문의 문장 단위 재대조,GS-006,실록 1793-06-13 구순 기사 원문(자미덕·한재욱·이진욱 공초 부분),GuSoon 명제는 B등급(선행 코딩); A등급 승격 불가
+RQ-GS-02,MEDIUM,GUSUN,GUSUN-P01,구순 의금부 구금·신문 명령(5-12·5-27)의 실행 기록,GS-001|GS-002|GS-003,의금부 신문 결과 기사,DC-GS-02/04 execution NOT_RETRIEVED(선행 gap G13)
+RQ-GS-03,LOW,GUSUN,GUSUN-P02|GUSUN-P03,김명신 유족의 이의제기 기록,GS-001|GS-002|GS-005|GS-006,유족 상언·격쟁 구절,R06 NA; GUSUN 앵커 Y6 NONE
+RQ-ALL-01,MEDIUM,ALL,NA,일성록·승정원일기·비변사등록의 네 사건 동일 사안 기사(검색 미실행),NA,각 사건 일자별 기사 목록(연구자 오프라인 제공),모든 사건 NOT_COLLECTED; 독립성 그룹 판단 보류
+RQ-ALL-02,LOW,ALL,NA,음력→양력 환산표,NA,연구자가 승인한 환산표 파일,모든 날짜 solar NOT_COMPUTED

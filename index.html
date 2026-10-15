@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Historinference 대시보드</title>
+<style>
+:root {
+  color-scheme: light;
+  --surface-0: #f5f4f1;
+  --surface-1: #fcfcfb;
+  --surface-2: #f0efec;
+  --hairline: #e2e1dc;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #6f6e69;
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --neutral-mark: #9a9893;
+  --ord-1: #86b6ef;
+  --ord-2: #3987e5;
+  --ord-3: #184f95;
+  --critical: #d03b3b;
+  --good: #0ca30c;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --surface-0: #121211;
+    --surface-1: #1a1a19;
+    --surface-2: #383835;
+    --hairline: #2e2e2c;
+    --text-primary: #f0efec;
+    --text-secondary: #c3c2b7;
+    --text-muted: #9a998f;
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --neutral-mark: #7a7974;
+    --ord-1: #184f95;
+    --ord-2: #2a78d6;
+    --ord-3: #86b6ef;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-0: #121211;
+  --surface-1: #1a1a19;
+  --surface-2: #383835;
+  --hairline: #2e2e2c;
+  --text-primary: #f0efec;
+  --text-secondary: #c3c2b7;
+  --text-muted: #9a998f;
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --neutral-mark: #7a7974;
+  --ord-1: #184f95;
+  --ord-2: #2a78d6;
+  --ord-3: #86b6ef;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface-0); color: var(--text-primary);
+  font: 14px/1.5 system-ui, -apple-system, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+header, main { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+header { padding-top: 24px; }
+h1 { font-size: 22px; margin: 0 0 4px; }
+h2 { font-size: 16px; margin: 0 0 4px; }
+.sub { color: var(--text-secondary); margin: 0 0 16px; }
+.note { color: var(--text-muted); font-size: 12px; margin: 4px 0 12px; }
+.card { min-width: 0; background: var(--surface-1); border: 1px solid var(--hairline); border-radius: 10px; padding: 16px; margin: 0 0 16px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.tile { background: var(--surface-1); border: 1px solid var(--hairline); border-radius: 10px; padding: 12px 14px; }
+.tile .k { color: var(--text-secondary); font-size: 12px; }
+.tile .v { font-size: 24px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.tile .d { color: var(--text-muted); font-size: 12px; overflow-wrap: anywhere; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 16px; }
+.controls label { color: var(--text-secondary); font-size: 13px; }
+select, button { font: inherit; color: var(--text-primary); background: var(--surface-1); border: 1px solid var(--hairline); border-radius: 6px; padding: 4px 8px; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { border-bottom: 1px solid var(--hairline); padding: 5px 8px; text-align: left; vertical-align: top; }
+th { color: var(--text-secondary); font-weight: 600; white-space: nowrap; }
+#matrix td:first-child { min-width: 150px; }
+td.num { font-variant-numeric: tabular-nums; text-align: right; }
+.cell { min-width: 92px; cursor: default; }
+.cell .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+.lv { display: inline-flex; align-items: center; gap: 4px; }
+.lv i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; color: var(--text-secondary); font-size: 12px; margin: 6px 0; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+svg text { fill: var(--text-secondary); font-size: 11px; }
+.tooltip { position: fixed; pointer-events: none; background: var(--surface-1); border: 1px solid var(--hairline);
+  border-radius: 8px; padding: 8px 10px; max-width: 360px; font-size: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.12); display: none; z-index: 10; }
+.tooltip b { display: block; color: var(--text-primary); font-size: 13px; }
+.tooltip span { color: var(--text-secondary); }
+.pass { color: var(--good); } .fail { color: var(--critical); }
+.grid2 { display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (min-width: 900px) { .grid2 { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Historinference — 네 정조대 형사사건의 출처 등급 코딩과 합성 설계 비교</h1>
+  <p class="sub">읽기 전용 화면. <code>outputs/dashboard_data.js</code>(자동 생성)를 읽기만 하며 코어 데이터를 바꾸지 않는다. 원문은 미확보이고 모든 근거는 의역·요약·선행 코딩이다. 확률은 없다.</p>
+</header>
+<main>
+  <section class="tiles" id="tiles" aria-label="상태 요약"></section>
+
+  <div class="controls">
+    <label for="caseSel">사건</label>
+    <select id="caseSel"><option value="ALL">전체</option></select>
+    <button id="themeBtn" type="button">테마 전환</button>
+  </div>
+
+  <section class="card">
+    <h2>증거 행렬 — 사건 × 메커니즘 코드</h2>
+    <p class="note">칸 = 해당 코드의 코딩 단위 수. 1=출처로 지지, 0=부재가 명시적으로 지지, NA=알 수 없음. 값 1도 내용의 역사적 진실을 뜻하지 않는다(상태는 마우스를 올리면 표시).</p>
+    <div class="legend" id="matrixLegend"></div>
+    <div class="scroll"><table id="matrix"></table></div>
+  </section>
+
+  <section class="card">
+    <h2>사건 연표 — 사건별 분리(음력, 사건마다 다른 연도 축)</h2>
+    <p class="note">점 = 일·월 단위 날짜, 막대 = 날짜 범위(정밀도 낮음). 모양과 색이 함께 층위를 나타낸다. 순서가 확정되지 않은 사건쌍은 부분순서 DAG에서 비교 불가로 남는다.</p>
+    <div class="legend" id="tlLegend"></div>
+    <div id="timelines"></div>
+  </section>
+
+  <div class="grid2">
+    <section class="card">
+      <h2>앵커 원형(이식 없음)의 기획의도 수준</h2>
+      <p class="note">N=NONE, P=PARTIAL, F=FULL. hard gate: Y3·Y4·Y5·Y6 ≥ PARTIAL. 수준 규칙은 사람이 정한 설계 기준(config/objectives.toml).</p>
+      <div class="scroll"><table id="anchors"></table></div>
+    </section>
+    <section class="card">
+      <h2>증거 등급 × gate 변형 민감도</h2>
+      <p class="note">등급 B=공식 기사 의역·선행 코딩만, C=연구 요약까지, D=2차 종합까지.</p>
+      <div class="scroll"><table id="sens"></table></div>
+    </section>
+  </div>
+
+  <section class="card">
+    <h2>기본 설정 Pareto 전선 (증거 ≤D, 기본 gate)</h2>
+    <p class="note">목표 수준은 최대화, 비용 8종은 최소화하는 성분별 비교. 가중치 없음. 같은 벡터의 설계는 대표 1개.</p>
+    <div class="controls"><label for="stratSel">전략</label>
+      <select id="stratSel"><option value="ALL">A·B·C 전체</option><option value="A">A 앵커</option><option value="B">B 합성</option><option value="C">C 완전 창작</option></select></div>
+    <div class="scroll"><table id="front"></table></div>
+  </section>
+
+  <div class="grid2">
+    <section class="card">
+      <h2>테스트 결과 (pytest, 로컬 Python 실행)</h2>
+      <p class="note">Oracle 실행 아님.</p>
+      <details><summary id="testSummary">테스트 목록 펼치기</summary><div class="scroll"><table id="tests"></table></div></details>
+    </section>
+    <section class="card">
+      <h2>연구자 원문 요청</h2>
+      <p class="note">REQUEST_FOR_RESEARCHER.md와 같은 목록.</p>
+      <div class="scroll"><table id="reqs"></table></div>
+    </section>
+  </div>
+</main>
+<div class="tooltip" id="tip" role="status"></div>
+<script src="outputs/dashboard_data.js"></script>
+<script>
+(function () {
+  "use strict";
+  var D = window.HI_DATA;
+  var tip = document.getElementById("tip");
+  if (!D) { document.querySelector("main").textContent = "outputs/dashboard_data.js가 없습니다. python -m historinference report 를 먼저 실행하세요."; return; }
+
+  function el(tag, attrs, text) {
+    var n = document.createElement(tag);
+    if (attrs) for (var k in attrs) n.setAttribute(k, attrs[k]);
+    if (text !== undefined) n.textContent = text;
+    return n;
+  }
+  function svgEl(tag, attrs) {
+    var n = document.createElementNS("http://www.w3.org/2000/svg", tag);
+    for (var k in attrs) n.setAttribute(k, attrs[k]);
+    return n;
+  }
+  function showTip(evt, title, lines) {
+    tip.textContent = "";
+    tip.appendChild(el("b", null, title));
+    lines.forEach(function (l) { tip.appendChild(el("span", null, l)); tip.appendChild(el("br")); });
+    tip.style.display = "block";
+    var x = Math.min(evt.clientX + 14, window.innerWidth - 380), y = evt.clientY + 14;
+    tip.style.left = Math.max(8, x) + "px"; tip.style.top = y + "px";
+  }
+  function hideTip() { tip.style.display = "none"; }
+  function bindTip(node, title, lines) {
+    node.setAttribute("tabindex", "0");
+    node.addEventListener("pointermove", function (e) { showTip(e, title, lines); });
+    node.addEventListener("pointerleave", hideTip);
+    node.addEventListener("focus", function () { var r = node.getBoundingClientRect(); showTip({ clientX: r.left, clientY: r.bottom }, title, lines); });
+    node.addEventListener("blur", hideTip);
+  }
+
+  // ---- tiles
+  var s = D.stats, t = s.tests || {};
+  var tiles = [
+    ["공식 출처(원문 위치)", s.sources_official, "원문 로컬 확보 " + s.sources_official_text_available + "건"],
+    ["근거 span", s.spans, "원문 직접 인용 " + s.verbatim_spans + "건"],
+    ["확인 코딩(1/0)", (s.code_values["1"] || 0) + (s.code_values["0"] || 0), "미확인 NA " + (s.code_values["NA"] || 0) + "행 / 전체 " + s.code_rows],
+    ["사건×코드 적용률", Math.round(s.cell_application_rate * 1000) / 10 + "%", s.cells_with_evidence + " / 76 칸"],
+    ["테스트", (t.passed == null ? "-" : t.passed) + " 통과", "실패 " + t.failures + " · 오류 " + t.errors + " · 건너뜀 " + t.skipped],
+    ["검증 감사", "오류 " + s.validation.errors, "경고 " + s.validation.warnings],
+    ["연구자 요청", s.requests, "REQUEST_FOR_RESEARCHER.md"]
+  ];
+  var tileBox = document.getElementById("tiles");
+  tiles.forEach(function (x) {
+    var d = el("div", { class: "tile" });
+    d.appendChild(el("div", { class: "k" }, x[0]));
+    d.appendChild(el("div", { class: "v" }, String(x[1])));
+    d.appendChild(el("div", { class: "d" }, x[2]));
+    tileBox.appendChild(d);
+  });
+
+  var cases = Object.keys(D.cases);
+  var caseSel = document.getElementById("caseSel");
+  cases.forEach(function (c) { caseSel.appendChild(el("option", { value: c }, D.cases[c])); });
+
+  // ---- matrix
+  var ml = document.getElementById("matrixLegend");
+  [["var(--ord-2)", "1 있음"], ["transparent", "0 있음(테두리)"], ["var(--surface-2)", "NA만"]].forEach(function (x, i) {
+    var sp = el("span"); var sw = el("i", { style: "width:10px;height:10px;border-radius:2px;display:inline-block;background:" + x[0] + (i === 1 ? ";border:2px solid var(--ord-2)" : "") });
+    sp.appendChild(sw); sp.appendChild(document.createTextNode(x[1])); ml.appendChild(sp);
+  });
+  function renderMatrix() {
+    var tbl = document.getElementById("matrix"); tbl.textContent = "";
+    var shown = caseSel.value === "ALL" ? cases : [caseSel.value];
+    var hr = el("tr"); hr.appendChild(el("th", null, "코드"));
+    shown.forEach(function (c) { hr.appendChild(el("th", null, c)); });
+    var th = el("thead"); th.appendChild(hr); tbl.appendChild(th);
+    var tb = el("tbody");
+    Object.keys(D.codes).forEach(function (code) {
+      var tr = el("tr"); tr.appendChild(el("td", null, code + " " + D.codes[code]));
+      shown.forEach(function (c) {
+        var items = (D.matrix[c] || {})[code] || [];
+        var td = el("td", { class: "cell" });
+        if (items.length) {
+          var n1 = items.filter(function (x) { return x.v === "1"; }).length;
+          var n0 = items.filter(function (x) { return x.v === "0"; }).length;
+          var nNA = items.length - n1 - n0;
+          var sw = el("span", { class: "sw" });
+          if (n1) sw.style.background = "var(--ord-2)";
+          else if (n0) { sw.style.border = "2px solid var(--ord-2)"; }
+          else sw.style.background = "var(--surface-2)";
+          td.appendChild(sw);
+          var parts = []; if (n1) parts.push("1×" + n1); if (n0) parts.push("0×" + n0); if (nNA) parts.push("NA×" + nNA);
+          td.appendChild(document.createTextNode(parts.join(" · ")));
+          bindTip(td, c + " · " + code, items.map(function (x) { return x.id + ": " + x.v + " (" + x.s + ", 등급 " + x.g + ") — " + x.why; }));
+        }
+        tr.appendChild(td);
+      });
+      tb.appendChild(tr);
+    });
+    tbl.appendChild(tb);
+  }
+
+  // ---- timelines
+  var LAYERS = { OBSERVED_ACT: ["관측된 행위", "var(--series-1)", "circle"], RECORDED_STATEMENT: ["기록된 진술", "var(--series-2)", "diamond"],
+    OFFICIAL_JUDGMENT: ["관료·국왕 판단", "var(--series-3)", "square"], CONTEXT: ["맥락", "var(--neutral-mark)", "ring"] };
+  var tl = document.getElementById("tlLegend");
+  Object.keys(LAYERS).forEach(function (k) {
+    var sp = el("span"); var sv = svgEl("svg", { width: 12, height: 12 }); sv.appendChild(marker(LAYERS[k], 6, 6)); sp.appendChild(sv);
+    sp.appendChild(document.createTextNode(LAYERS[k][0])); tl.appendChild(sp);
+  });
+  function marker(L, x, y) {
+    var c = L[1];
+    if (L[2] === "circle") return svgEl("circle", { cx: x, cy: y, r: 4.5, fill: c, stroke: "var(--surface-1)", "stroke-width": 2 });
+    if (L[2] === "square") return svgEl("rect", { x: x - 4.5, y: y - 4.5, width: 9, height: 9, rx: 1.5, fill: c, stroke: "var(--surface-1)", "stroke-width": 2 });
+    if (L[2] === "diamond") return svgEl("path", { d: "M" + x + " " + (y - 5.5) + "L" + (x + 5.5) + " " + y + "L" + x + " " + (y + 5.5) + "L" + (x - 5.5) + " " + y + "Z", fill: c, stroke: "var(--surface-1)", "stroke-width": 2 });
+    return svgEl("circle", { cx: x, cy: y, r: 4, fill: "none", stroke: c, "stroke-width": 2 });
+  }
+  function frac(v, end) {
+    if (!v) return null;
+    var m = /^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?$/.exec(v); if (!m) return null;
+    var y = +m[1], mo = m[2] ? +m[2] : null, d = m[3] ? +m[3] : null;
+    if (mo === null) return end ? y + 1 : y;
+    if (d === null) return y + (mo - 1 + (end ? 1 : 0)) / 12;
+    return y + (mo - 1) / 12 + (d - 1) / 360;
+  }
+  function renderTimelines() {
+    var box = document.getElementById("timelines"); box.textContent = "";
+    var shown = caseSel.value === "ALL" ? cases : [caseSel.value];
+    shown.forEach(function (c) {
+      var evs = D.events.filter(function (e) { return e.case === c; }).map(function (e) {
+        return { e: e, a: frac(e.start, false), b: frac(e.end || e.start, true) };
+      }).filter(function (x) { return x.a !== null; }).sort(function (p, q) { return p.a - q.a || p.b - q.b; });
+      var lo = Math.floor(Math.min.apply(null, evs.map(function (x) { return x.a; })));
+      var hi = Math.ceil(Math.max.apply(null, evs.map(function (x) { return x.b; })));
+      if (hi <= lo) hi = lo + 1;
+      var W = Math.max(box.clientWidth || 900, 320), left = 76, right = 16, rowH = 18, top = 22;
+      var H = top + evs.length * rowH + 10;
+      var sx = function (v) { return left + (v - lo) / (hi - lo) * (W - left - right); };
+      box.appendChild(el("div", { class: "note" }, D.cases[c] + " — " + evs.length + "개 사건"));
+      var sv = svgEl("svg", { width: "100%", viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": D.cases[c] + " 연표" });
+      for (var yr = lo; yr <= hi; yr++) {
+        sv.appendChild(svgEl("line", { x1: sx(yr), x2: sx(yr), y1: top - 6, y2: H - 6, stroke: "var(--hairline)", "stroke-width": 1 }));
+        var tx = svgEl("text", { x: sx(yr), y: 12, "text-anchor": "middle" }); tx.textContent = String(yr); sv.appendChild(tx);
+      }
+      evs.forEach(function (x, i) {
+        var y = top + i * rowH + rowH / 2, L = LAYERS[x.e.layer] || LAYERS.CONTEXT;
+        var lab = svgEl("text", { x: left - 6, y: y + 4, "text-anchor": "end" }); lab.textContent = x.e.id; sv.appendChild(lab);
+        var g = svgEl("g", {});
+        var precise = x.e.precision === "DAY" || x.e.precision === "MONTH";
+        if (!precise) g.appendChild(svgEl("line", { x1: sx(x.a), x2: Math.max(sx(x.b), sx(x.a) + 2), y1: y, y2: y, stroke: L[1], "stroke-width": 4, "stroke-linecap": "round", opacity: 0.55 }));
+        var mx = precise ? (sx(x.a) + sx(x.b)) / 2 : sx(x.a);
+        g.appendChild(marker(L, mx, y));
+        g.appendChild(svgEl("rect", { x: Math.min(sx(x.a), mx - 12), y: y - 9, width: Math.max(24, sx(x.b) - sx(x.a)), height: 18, fill: "transparent" }));
+        bindTip(g, x.e.desc, [x.e.id + " · " + x.e.start + (x.e.end && x.e.end !== x.e.start ? " ~ " + x.e.end : "") + " (" + x.e.precision + ", 음력)",
+          "층위 " + L[0] + " · 상태 " + x.e.status + " · 근거 등급 " + x.e.grade]);
+        sv.appendChild(g);
+      });
+      box.appendChild(sv);
+    });
+  }
+
+  // ---- goal levels
+  var LV = { "0": ["N", "var(--surface-2)"], "1": ["P", "var(--ord-1)"], "2": ["F", "var(--ord-3)"] };
+  function lvCell(v) {
+    var td = el("td"); var w = el("span", { class: "lv" }); var i = el("i"); i.style.background = LV[v][1];
+    w.appendChild(i); w.appendChild(document.createTextNode(LV[v][0])); td.appendChild(w); return td;
+  }
+  function renderAnchors() {
+    var tbl = document.getElementById("anchors"); tbl.textContent = "";
+    var hr = el("tr"); ["앵커"].concat(D.goals).concat(["2차 종합 전용", "gate"]).forEach(function (h) { hr.appendChild(el("th", null, h)); });
+    tbl.appendChild(hr);
+    D.anchors_base.forEach(function (d) {
+      if (caseSel.value !== "ALL" && d.anchor !== caseSel.value) return;
+      var tr = el("tr"); tr.appendChild(el("td", null, d.anchor));
+      D.goals.forEach(function (g) { tr.appendChild(lvCell(d[g])); });
+      tr.appendChild(el("td", { class: "num" }, d.secondary_only));
+      var pass = ["Y3", "Y4", "Y5", "Y6"].every(function (g) { return +d[g] >= 1; });
+      tr.appendChild(el("td", { class: pass ? "pass" : "fail" }, pass ? "✓ 통과" : "✕ 미달"));
+      tbl.appendChild(tr);
+    });
+  }
+  function renderSens() {
+    var tbl = document.getElementById("sens"); tbl.textContent = "";
+    var cols = [["evidence_grade_cutoff", "등급"], ["gate_variant", "gate"], ["B_designs_minimal", "B 최소"], ["anchors_passing", "통과 앵커"], ["anchors_passing_without_transplant", "이식 없이"], ["pareto_A", "Pareto A"], ["pareto_B", "Pareto B"]];
+    var hr = el("tr"); cols.forEach(function (c) { hr.appendChild(el("th", null, c[1])); }); tbl.appendChild(hr);
+    D.sensitivity.forEach(function (r) { var tr = el("tr"); cols.forEach(function (c) { tr.appendChild(el("td", null, r[c[0]])); }); tbl.appendChild(tr); });
+  }
+  var COST_LABEL = { severity: "심각도", untraced: "창작", cross_links: "교차연결", secondary_only: "2차 종합", contested_as_fact: "논쟁 사실화", period_risk: "시대 위험", overlays: "덧씌우기", real_person_risk: "실존인물 위험" };
+  function renderFront() {
+    var tbl = document.getElementById("front"); tbl.textContent = "";
+    var sel = document.getElementById("stratSel").value;
+    var hr = el("tr"); ["설계", "전략", "앵커"].concat(D.goals).concat(D.cost_keys.map(function (k) { return COST_LABEL[k]; })).concat(["출처 사건", "이식 행"]).forEach(function (h) { hr.appendChild(el("th", null, h)); });
+    tbl.appendChild(hr);
+    D.front_default.forEach(function (d) {
+      if (sel !== "ALL" && d.strategy !== sel) return;
+      var tr = el("tr"); [d.design_id, d.strategy, d.anchor].forEach(function (v) { tr.appendChild(el("td", null, v)); });
+      D.goals.forEach(function (g) { tr.appendChild(lvCell(d[g])); });
+      D.cost_keys.forEach(function (k) { tr.appendChild(el("td", { class: "num" }, d[k])); });
+      tr.appendChild(el("td", null, d.source_cases)); tr.appendChild(el("td", null, d.transplant_rows || ""));
+      tbl.appendChild(tr);
+    });
+  }
+  function renderTests() {
+    var tbl = document.getElementById("tests"); tbl.textContent = "";
+    var np = D.tests.filter(function (c) { return c.status === "passed"; }).length;
+    document.getElementById("testSummary").textContent = "테스트 " + D.tests.length + "개 중 " + np + "개 통과 — 목록 펼치기";
+    var hr = el("tr"); ["테스트", "결과"].forEach(function (h) { hr.appendChild(el("th", null, h)); }); tbl.appendChild(hr);
+    D.tests.forEach(function (c) { var tr = el("tr"); tr.appendChild(el("td", null, c.name));
+      tr.appendChild(el("td", { class: c.status === "passed" ? "pass" : "fail" }, (c.status === "passed" ? "✓ " : "✕ ") + c.status)); tbl.appendChild(tr); });
+  }
+  function renderReqs() {
+    var tbl = document.getElementById("reqs"); tbl.textContent = "";
+    var hr = el("tr"); ["ID", "우선", "사건", "쟁점"].forEach(function (h) { hr.appendChild(el("th", null, h)); }); tbl.appendChild(hr);
+    D.requests.forEach(function (r) {
+      if (caseSel.value !== "ALL" && r.case_id !== caseSel.value && r.case_id !== "ALL") return;
+      var tr = el("tr"); [r.request_id, r.priority, r.case_id, r.issue].forEach(function (v) { tr.appendChild(el("td", null, v)); }); tbl.appendChild(tr);
+    });
+  }
+  function renderAll() { renderMatrix(); renderTimelines(); renderAnchors(); renderSens(); renderFront(); renderTests(); renderReqs(); }
+  caseSel.addEventListener("change", renderAll);
+  document.getElementById("stratSel").addEventListener("change", renderFront);
+  document.getElementById("themeBtn").addEventListener("click", function () {
+    var cur = document.documentElement.getAttribute("data-theme");
+    var dark = cur ? cur === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+    document.documentElement.setAttribute("data-theme", dark ? "light" : "dark");
+  });
+  window.addEventListener("resize", function () { renderTimelines(); });
+  renderAll();
+})();
+</script>
+</body>
+</html>

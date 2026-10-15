@@ -1,0 +1,1083 @@
+{
+ "note": "인물 노드는 사건별로 분리(병합 금지). 메커니즘 노드만 사건 간에 공유된다.",
+ "nodes": [
+  {
+   "id": "CHOI-P01",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "박씨"
+  },
+  {
+   "id": "CHOI-P02",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "최아지"
+  },
+  {
+   "id": "CHOI-P03",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "이차망"
+  },
+  {
+   "id": "CHOI-P04",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "민씨"
+  },
+  {
+   "id": "CHOI-P05",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "조광선"
+  },
+  {
+   "id": "CHOI-P06",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "조광진"
+  },
+  {
+   "id": "CHOI-P07",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "사단"
+  },
+  {
+   "id": "CHOI-P08",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "사단의 어미"
+  },
+  {
+   "id": "CHOI-P09",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "조봉원"
+  },
+  {
+   "id": "CHOI-P10",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "박장혁"
+  },
+  {
+   "id": "CHOI-P11",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "박용해"
+  },
+  {
+   "id": "CHOI-P12",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "이곤수"
+  },
+  {
+   "id": "CHOI-P13",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "엄사만"
+  },
+  {
+   "id": "CHOI-P14",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "홍병찬"
+  },
+  {
+   "id": "CHOI-P15",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "정경증"
+  },
+  {
+   "id": "CHOI-P16",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "이단회"
+  },
+  {
+   "id": "CHOI-K",
+   "kind": "person",
+   "case_id": "CHOI",
+   "label": "정조"
+  },
+  {
+   "id": "CHO-P01",
+   "kind": "person",
+   "case_id": "CHO",
+   "label": "조재항"
+  },
+  {
+   "id": "CHO-P02",
+   "kind": "person",
+   "case_id": "CHO",
+   "label": "윤씨"
+  },
+  {
+   "id": "CHO-P03",
+   "kind": "person",
+   "case_id": "CHO",
+   "label": "이가원"
+  },
+  {
+   "id": "CHO-P04",
+   "kind": "person",
+   "case_id": "CHO",
+   "label": "조상진"
+  },
+  {
+   "id": "CHO-P05",
+   "kind": "person",
+   "case_id": "CHO",
+   "label": "조재풍"
+  },
+  {
+   "id": "CHO-P06",
+   "kind": "person",
+   "case_id": "CHO",
+   "label": "배조이"
+  },
+  {
+   "id": "CHO-P07",
+   "kind": "person",
+   "case_id": "CHO",
+   "label": "나막동"
+  },
+  {
+   "id": "CHO-P08",
+   "kind": "person",
+   "case_id": "CHO",
+   "label": "점렬"
+  },
+  {
+   "id": "CHO-P09",
+   "kind": "person",
+   "case_id": "CHO",
+   "label": "막덕"
+  },
+  {
+   "id": "CHO-P10",
+   "kind": "person",
+   "case_id": "CHO",
+   "label": "하위 가담자들"
+  },
+  {
+   "id": "CHO-K",
+   "kind": "person",
+   "case_id": "CHO",
+   "label": "정조"
+  },
+  {
+   "id": "YE-P01",
+   "kind": "person",
+   "case_id": "YE",
+   "label": "이여절"
+  },
+  {
+   "id": "YE-P02",
+   "kind": "person",
+   "case_id": "YE",
+   "label": "조진택"
+  },
+  {
+   "id": "YE-P03",
+   "kind": "person",
+   "case_id": "YE",
+   "label": "유경"
+  },
+  {
+   "id": "YE-P04",
+   "kind": "person",
+   "case_id": "YE",
+   "label": "정대용"
+  },
+  {
+   "id": "YE-P05",
+   "kind": "person",
+   "case_id": "YE",
+   "label": "사망자들"
+  },
+  {
+   "id": "YE-P06",
+   "kind": "person",
+   "case_id": "YE",
+   "label": "조사관들"
+  },
+  {
+   "id": "YE-K",
+   "kind": "person",
+   "case_id": "YE",
+   "label": "정조"
+  },
+  {
+   "id": "GUSUN-P01",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "구순"
+  },
+  {
+   "id": "GUSUN-P02",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "김명신"
+  },
+  {
+   "id": "GUSUN-P03",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "김명신의 아내"
+  },
+  {
+   "id": "GUSUN-P04",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "명업"
+  },
+  {
+   "id": "GUSUN-P05",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "나복"
+  },
+  {
+   "id": "GUSUN-P06",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "이진욱"
+  },
+  {
+   "id": "GUSUN-P07",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "한재욱"
+  },
+  {
+   "id": "GUSUN-P08",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "조계완"
+  },
+  {
+   "id": "GUSUN-P09",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "변지돌"
+  },
+  {
+   "id": "GUSUN-P10",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "정원돌"
+  },
+  {
+   "id": "GUSUN-P11",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "재돌"
+  },
+  {
+   "id": "GUSUN-P12",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "자미덕"
+  },
+  {
+   "id": "GUSUN-P13",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "이집거"
+  },
+  {
+   "id": "GUSUN-P14",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "김갑득"
+  },
+  {
+   "id": "GUSUN-P15",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "유제희"
+  },
+  {
+   "id": "GUSUN-P16",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "이광섭"
+  },
+  {
+   "id": "GUSUN-P17",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "이문협"
+  },
+  {
+   "id": "GUSUN-P18",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "이형원"
+  },
+  {
+   "id": "GUSUN-P19",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "이조원"
+  },
+  {
+   "id": "GUSUN-P20",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "윤노동"
+  },
+  {
+   "id": "GUSUN-P21",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "홍대협"
+  },
+  {
+   "id": "GUSUN-P22",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "김성손"
+  },
+  {
+   "id": "GUSUN-P23",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "김흥득"
+  },
+  {
+   "id": "GUSUN-P24",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "병영의 하급 보조자"
+  },
+  {
+   "id": "GUSUN-K",
+   "kind": "person",
+   "case_id": "GUSUN",
+   "label": "정조"
+  },
+  {
+   "id": "E01",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "증거 인멸·변조"
+  },
+  {
+   "id": "E02",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "허위(사실과 다른) 검험·보고"
+  },
+  {
+   "id": "E03",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "증언 강요·유도"
+  },
+  {
+   "id": "E04",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "청탁·뇌물"
+  },
+  {
+   "id": "E05",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "내부·상급자의 비호"
+  },
+  {
+   "id": "E06",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "정보 왜곡 보고"
+  },
+  {
+   "id": "E07",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "오류 인지 후 불시정"
+  },
+  {
+   "id": "F01",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "비범인 지목"
+  },
+  {
+   "id": "F02",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "구금"
+  },
+  {
+   "id": "F03",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "유죄 판단·형벌(명령)"
+  },
+  {
+   "id": "F04",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "구금 중 사망"
+  },
+  {
+   "id": "F05",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "혐의 해소"
+  },
+  {
+   "id": "F06",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "석방(명령)"
+  },
+  {
+   "id": "R01",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "독립 재검증"
+  },
+  {
+   "id": "R02",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "범행 자백(진실성 별도)"
+  },
+  {
+   "id": "R03",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "제3자 진술 변경"
+  },
+  {
+   "id": "R04",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "신규 물증"
+  },
+  {
+   "id": "R05",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "모순 발견"
+  },
+  {
+   "id": "R06",
+   "kind": "mechanism",
+   "case_id": "SHARED",
+   "label": "가족·피의자·피해자 측 호소"
+  }
+ ],
+ "edges": [
+  {
+   "source": "CHOI-P15",
+   "target": "E02",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-01",
+   "claim_status": "CONTESTED"
+  },
+  {
+   "source": "CHOI-P16",
+   "target": "E02",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-01",
+   "claim_status": "CONTESTED"
+  },
+  {
+   "source": "CHOI-P01",
+   "target": "E02",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-01",
+   "claim_status": "CONTESTED"
+  },
+  {
+   "source": "CHOI-P13",
+   "target": "E02",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-02",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "CHOI-P02",
+   "target": "E02",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-02",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "CHOI-P03",
+   "target": "E02",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-02",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "CHOI-P06",
+   "target": "E03",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-03",
+   "claim_status": "RECORDED_TESTIMONY"
+  },
+  {
+   "source": "CHOI-P07",
+   "target": "E03",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-03",
+   "claim_status": "RECORDED_TESTIMONY"
+  },
+  {
+   "source": "CHOI-P09",
+   "target": "E03",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-04",
+   "claim_status": "CONTESTED"
+  },
+  {
+   "source": "CHOI-P07",
+   "target": "E03",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-04",
+   "claim_status": "CONTESTED"
+  },
+  {
+   "source": "CHOI-P03",
+   "target": "F01",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-11",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "CHOI-P02",
+   "target": "F02",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-12",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P03",
+   "target": "F02",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-12",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-K",
+   "target": "F03",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-13",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P02",
+   "target": "F03",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-13",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P06",
+   "target": "F04",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-15",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "CHOI-P03",
+   "target": "F05",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-16",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "CHOI-K",
+   "target": "F06",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-17",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P03",
+   "target": "F06",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-17",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P12",
+   "target": "R01",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-18",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-K",
+   "target": "R01",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-18",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P06",
+   "target": "R02",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-19",
+   "claim_status": "CONTESTED"
+  },
+  {
+   "source": "CHOI-P07",
+   "target": "R03",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-20",
+   "claim_status": "RECORDED_TESTIMONY"
+  },
+  {
+   "source": "CHOI-P03",
+   "target": "R03",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-20",
+   "claim_status": "RECORDED_TESTIMONY"
+  },
+  {
+   "source": "CHOI-P06",
+   "target": "R03",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-20",
+   "claim_status": "RECORDED_TESTIMONY"
+  },
+  {
+   "source": "CHOI-K",
+   "target": "R05",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-22",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P02",
+   "target": "R05",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-22",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P06",
+   "target": "R05",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-22",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P07",
+   "target": "R05",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-22",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P12",
+   "target": "R05",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-23",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-K",
+   "target": "R05",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-23",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P04",
+   "target": "R06",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-24",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P03",
+   "target": "R06",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-24",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P11",
+   "target": "R06",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-25",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P10",
+   "target": "R06",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-26",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHOI-P02",
+   "target": "R06",
+   "case_id": "CHOI",
+   "code_row_id": "MC-CH-26",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHO-P01",
+   "target": "F01",
+   "case_id": "CHO",
+   "code_row_id": "MC-JH-08",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "CHO-P01",
+   "target": "F02",
+   "case_id": "CHO",
+   "code_row_id": "MC-JH-09",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHO-P01",
+   "target": "F05",
+   "case_id": "CHO",
+   "code_row_id": "MC-JH-11",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "CHO-K",
+   "target": "F06",
+   "case_id": "CHO",
+   "code_row_id": "MC-JH-12",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHO-P01",
+   "target": "F06",
+   "case_id": "CHO",
+   "code_row_id": "MC-JH-12",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHO-K",
+   "target": "F03",
+   "case_id": "CHO",
+   "code_row_id": "MC-JH-13",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHO-P03",
+   "target": "F03",
+   "case_id": "CHO",
+   "code_row_id": "MC-JH-13",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHO-K",
+   "target": "R05",
+   "case_id": "CHO",
+   "code_row_id": "MC-JH-15",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHO-P03",
+   "target": "R05",
+   "case_id": "CHO",
+   "code_row_id": "MC-JH-15",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "CHO-P04",
+   "target": "R05",
+   "case_id": "CHO",
+   "code_row_id": "MC-JH-15",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "YE-P02",
+   "target": "E06",
+   "case_id": "YE",
+   "code_row_id": "MC-YE-02",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "YE-K",
+   "target": "E06",
+   "case_id": "YE",
+   "code_row_id": "MC-YE-02",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "YE-K",
+   "target": "F03",
+   "case_id": "YE",
+   "code_row_id": "MC-YE-07",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "YE-P01",
+   "target": "F03",
+   "case_id": "YE",
+   "code_row_id": "MC-YE-07",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "YE-K",
+   "target": "F03",
+   "case_id": "YE",
+   "code_row_id": "MC-YE-08",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "YE-P02",
+   "target": "F03",
+   "case_id": "YE",
+   "code_row_id": "MC-YE-08",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "YE-P03",
+   "target": "R01",
+   "case_id": "YE",
+   "code_row_id": "MC-YE-09",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "YE-K",
+   "target": "R01",
+   "case_id": "YE",
+   "code_row_id": "MC-YE-09",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "YE-K",
+   "target": "R05",
+   "case_id": "YE",
+   "code_row_id": "MC-YE-10",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "YE-P02",
+   "target": "R05",
+   "case_id": "YE",
+   "code_row_id": "MC-YE-10",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "YE-P06",
+   "target": "R05",
+   "case_id": "YE",
+   "code_row_id": "MC-YE-10",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "YE-K",
+   "target": "R05",
+   "case_id": "YE",
+   "code_row_id": "MC-YE-11",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "YE-P01",
+   "target": "R05",
+   "case_id": "YE",
+   "code_row_id": "MC-YE-11",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "GUSUN-P07",
+   "target": "E03",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-01",
+   "claim_status": "CONTESTED"
+  },
+  {
+   "source": "GUSUN-P12",
+   "target": "E03",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-01",
+   "claim_status": "CONTESTED"
+  },
+  {
+   "source": "GUSUN-P04",
+   "target": "E03",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-02",
+   "claim_status": "RECORDED_TESTIMONY"
+  },
+  {
+   "source": "GUSUN-P18",
+   "target": "E02",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-04",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "GUSUN-K",
+   "target": "E02",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-04",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "GUSUN-P19",
+   "target": "E02",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-05",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "GUSUN-K",
+   "target": "E02",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-05",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "GUSUN-P01",
+   "target": "E06",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-06",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "GUSUN-P16",
+   "target": "E05",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-09",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "GUSUN-P01",
+   "target": "E05",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-09",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "GUSUN-P02",
+   "target": "F01",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-14",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "GUSUN-P16",
+   "target": "F02",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-15",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "GUSUN-P02",
+   "target": "F02",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-15",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "GUSUN-P02",
+   "target": "F04",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-16",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "GUSUN-P02",
+   "target": "F05",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-17",
+   "claim_status": "OFFICIAL_JUDGMENT"
+  },
+  {
+   "source": "GUSUN-K",
+   "target": "F03",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-19",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "GUSUN-P01",
+   "target": "F03",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-19",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "GUSUN-K",
+   "target": "F03",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-20",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "GUSUN-P16",
+   "target": "F03",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-20",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "GUSUN-P21",
+   "target": "R01",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-21",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "GUSUN-K",
+   "target": "R01",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-21",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "GUSUN-P07",
+   "target": "R03",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-22",
+   "claim_status": "RECORDED_TESTIMONY"
+  },
+  {
+   "source": "GUSUN-P12",
+   "target": "R03",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-22",
+   "claim_status": "RECORDED_TESTIMONY"
+  },
+  {
+   "source": "GUSUN-P04",
+   "target": "R03",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-23",
+   "claim_status": "RECORDED_TESTIMONY"
+  },
+  {
+   "source": "GUSUN-K",
+   "target": "R05",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-24",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "GUSUN-P01",
+   "target": "R05",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-24",
+   "claim_status": "DOCUMENTED_ACT"
+  },
+  {
+   "source": "GUSUN-P16",
+   "target": "R05",
+   "case_id": "GUSUN",
+   "code_row_id": "MC-GS-24",
+   "claim_status": "DOCUMENTED_ACT"
+  }
+ ]
+}
