@@ -32,7 +32,7 @@ Source-anchored digest (not primary text):
 - Kinship of 최아지/조씨 household and officers, bribery involving 군교 조봉원, five nyang, concealment, and collusive reporting were all previously discussed as **claims/official concerns**, not universally proven conspiracies. Exact primary paragraphs must be requested if feature-level coding needs them.
 - Do not infer 이차망's age, legal status, property, formal noble registration, or blood kinship with 최아지 without original span.
 
-## CHO: 白川 趙載恒 (1780–1783)
+## CHO: 白川 趙載恒 (1781–1783)
 - JH-001 `심리록` https://db.history.go.kr/joseon/item/level.do?levelId=jlawb_420_0020_0120_0040
 - JH-002 `추관지` https://db.history.go.kr/joseon/item/level.do?levelId=jlawb_200_0020_0020_0050_0080_0080
 - JH-003 `정조실록` https://sillok.history.go.kr/id/kva_10706003_004
