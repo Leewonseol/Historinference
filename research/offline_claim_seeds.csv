@@ -1,0 +1,17 @@
+claim_id,case_id,source_id,claim_type,actor,action_or_content,official_source_reference,epistemic_status,offline_primary_verbatim,review_note
+JH-C01,CHO,JH-003,PROCEDURAL,조재항,아내 윤씨의 사망과 살인 혐의로 조사됨,정조실록 정조7년 6월3일,RECORDED_IN_OFFICIAL_ANNALS,NO,1783 기사에서 사건 발생을 신축년(1781)이라고 명시함
+JH-C02,CHO,JH-003,PROCEDURAL,정조,3년 사이 네 차례 조사했다고 판단함,정조실록 정조7년 6월3일,OFFICIAL_JUDGMENT,NO,한자로 三載之間 四行按査
+JH-C03,CHO,JH-003,ALLEGED_MANIPULATION,이가원,농요를 만들어 마을에 유포하여 여론에 영향 주었다고 판부에 적힘,정조실록 정조7년 6월3일,OFFICIAL_JUDGMENT,NO,실제로 농요 원문 확보 여부와는 별개
+JH-C04,CHO,JH-003,ALLEGED_MANIPULATION,이가원,가공된 증인과 사주된 진술 사이 모순이 지적됨,정조실록 정조7년 6월3일,OFFICIAL_JUDGMENT,NO,진술의 객관적 진실과 정조 판단은 분리
+JH-C05,CHO,JH-003,EVIDENCE_QUESTION,조재항,피 묻은 옷이 실재하지 않았다고 판부에 적힘,정조실록 정조7년 6월3일,OFFICIAL_JUDGMENT,NO,없었다는 진술과 실제 물증 회수 목록을 별도로 점검
+JH-C06,CHO,JH-003,ADMINISTRATIVE,조상진,국왕의 재조사 명령 뒤 직접 확인 없이 앞선 문서와 비슷하게 보고했다고 비판받음,정조실록 정조7년 6월3일,OFFICIAL_JUDGMENT,NO,의도적 은폐 사전 합의까지는 확인 안 됨
+JH-C07,CHO,JH-003,DISPOSITION,정조,조재항 석방 명령,정조실록 정조7년 6월3일,DOCUMENTED_ORDER,NO,석방 실제 집행은 별도 사료로 검증
+JH-C08,CHO,JH-003,DISPOSITION,정조,이가원 유배와 조상진 파직 명령,정조실록 정조7년 6월3일,DOCUMENTED_ORDER,NO,명령과 실제 집행 구분
+CH-C01,CHOI,CH-003,INQUIRY,이곤수,1787년 평산 살인사건 재조사 결과 복명,정조실록 정조11년 4월16일,RESEARCH_SUMMARY_WITH_OFFICIAL_REFERENCE,NO,일자 기사 원문 단위 검증 필요
+CH-C02,CHOI,CH-001,DISPOSITION,정조,1787년 이차망 석방 명령,심리록 평산 최아지 옥,RESEARCH_SUMMARY_WITH_OFFICIAL_REFERENCE,NO,1789 재평가와 구분
+CH-C03,CHOI,CH-001,REASSESSMENT,정조,1789년 간통·살인에 각각 15문을 제기해 종전 판단 재검토,심리록 평산 최아지 옥,RESEARCH_SUMMARY_WITH_OFFICIAL_REFERENCE,NO,30문은 수사 질문이지 30개 입증사실 아님
+YE-C01,YE,YE-004,DEATH_COUNT,유경 안핵,1795년 6월 심리 중 31명 사망 보고,정조실록 정조19년 6월4일,RESEARCH_SUMMARY_WITH_OFFICIAL_REFERENCE,NO,1795년 8월 25명과 범위 불일치
+YE-C02,YE,YE-006,DEATH_COUNT,정조 심리,1795년 8월 심리에서 25명 장살 주장,정조실록 정조19년 8월24일,RESEARCH_SUMMARY_WITH_OFFICIAL_REFERENCE,NO,31명과 합치거나 평균 내지 말 것
+YE-C03,YE,YE-005,OFFICIAL_CRITICISM,정조,조진택의 조사·보고가 이여절을 두둔했다고 질책,정조실록 정조19년 6월11일,RESEARCH_SUMMARY_WITH_OFFICIAL_REFERENCE,NO,의도적 사전 공모 입증은 별개
+GS-C01,GUSUN,GS-006,INQUIRY,홍대협,1793년 6월13일 구순·김명신 사건 조사 복명,정조실록 정조17년 6월13일,IMPORTED_PREVIOUS_CODED_DATA,NO,더 세부 자료는 imported gusun 05 proposition pack 참조
+GS-C02,GUSUN,GS-006,CAUSALITY,김명신,구금 중 사망했으나 직접 사망 인과는 확정하지 않음,정조실록 정조17년 6월13일,RESEARCH_SUMMARY_WITH_OFFICIAL_REFERENCE,NO,고문 치사 확정으로 바꾸지 말 것
