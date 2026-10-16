@@ -1,11 +1,11 @@
 {
   "exit_code": 0,
   "runner": "pytest (Python 로컬 실행; Oracle 실행 아님)",
-  "tests": 88,
+  "tests": 89,
   "failures": 0,
   "errors": 0,
   "skipped": 0,
-  "passed": 88,
+  "passed": 89,
   "cases": [
     {
       "name": "tests.test_case_invariants::test_invariants_pass",
@@ -237,6 +237,10 @@
     },
     {
       "name": "tests.test_provenance::test_package_has_no_network_code",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_pages_copy_points_to_local_data",
       "status": "passed"
     },
     {

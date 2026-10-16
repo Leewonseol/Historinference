@@ -660,7 +660,24 @@ def write_all(t) -> None:
     (OUTPUTS / "status_report.md").write_text("# 상태 보고\n\n" + BANNER + "\n" + status_block(st) + "\n", encoding="utf-8")
     (ROOT / "REQUEST_FOR_RESEARCHER.md").write_text(requests_md(t), encoding="utf-8")
     data = dashboard_data(t, st)
-    (OUTPUTS / "dashboard_data.js").write_text(
-        "// 자동 생성: python -m historinference report (읽기 전용 대시보드 데이터)\nwindow.HI_DATA = "
-        + json.dumps(data, ensure_ascii=False) + ";\n", encoding="utf-8")
+    js = ("// 자동 생성: python -m historinference report (읽기 전용 대시보드 데이터)\nwindow.HI_DATA = "
+          + json.dumps(data, ensure_ascii=False) + ";\n")
+    (OUTPUTS / "dashboard_data.js").write_text(js, encoding="utf-8")
+    publish_pages(js)
     update_readme_status(st)
+
+
+def pages_index_html(root_html: str) -> str:
+    """Root dashboard rewritten for the self-contained GitHub Pages folder docs/."""
+    src = '<script src="outputs/dashboard_data.js"></script>'
+    if src not in root_html:
+        raise ValueError("index.html no longer loads outputs/dashboard_data.js")
+    return root_html.replace(src, '<script src="dashboard_data.js"></script>')
+
+
+def publish_pages(js: str) -> None:
+    """GitHub Pages may serve either the repo root or docs/; both get a static, Jekyll-free copy."""
+    (DOCS / "index.html").write_text(pages_index_html((ROOT / "index.html").read_text(encoding="utf-8")), encoding="utf-8")
+    (DOCS / "dashboard_data.js").write_text(js, encoding="utf-8")
+    for folder in (ROOT, DOCS):
+        (folder / ".nojekyll").write_text("", encoding="utf-8")

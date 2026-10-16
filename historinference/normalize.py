@@ -261,7 +261,7 @@ def build_gusun_attestations_claims() -> tuple[list[dict], list[dict]]:
     # explicit contradictions inside conflict groups (preserved, not merged)
     pairs = {("CF030", "CF039"), ("CF032", "CF039"), ("CF016", "CF018"), ("CF017", "CF018"), ("CF010", "CF044")}
     by_id = {c["claim_id"]: c for c in claims}
-    for a, b in pairs:
+    for a, b in sorted(pairs):
         ca, cb = by_id[f"GS-CL-{a}"], by_id[f"GS-CL-{b}"]
         ca["contradicts"] = "|".join(filter(None, [ca["contradicts"], cb["claim_id"]]))
         cb["contradicts"] = "|".join(filter(None, [cb["contradicts"], ca["claim_id"]]))

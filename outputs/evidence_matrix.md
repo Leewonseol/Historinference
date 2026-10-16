@@ -15,7 +15,7 @@
 | 사건×코드 적용률 | 39/76 칸 | 51.3% (1/0 근거가 하나 이상 있는 칸) |
 | 확인 코딩의 근거 등급 | B=32, C=12, D=9 | A=원문 직접(0), B=공식 기사 의역·선행 코딩, C=연구 요약, D=2차 종합 |
 | 검증 감사(validate) | 오류 0 · 경고 2 | data/audit/validation_findings.csv |
-| 테스트(pytest, 로컬 Python 실행) | 통과 88 / 실패 0 / 오류 0 / 건너뜀 0 | data/audit/test_results.json (Oracle 실행 아님) |
+| 테스트(pytest, 로컬 Python 실행) | 통과 89 / 실패 0 / 오류 0 / 건너뜀 0 | data/audit/test_results.json (Oracle 실행 아님) |
 | 연구자 요청 | 21건 | REQUEST_FOR_RESEARCHER.md |
 
 | 코드 | CHOI | CHO | YE | GUSUN |

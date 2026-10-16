@@ -88,3 +88,10 @@ def test_package_has_no_network_code():
     pattern = re.compile(r"^\s*(import|from)\s+(requests|urllib\.request|http\.client|socket|httpx|aiohttp)\b", re.M)
     for path in pkg.glob("*.py"):
         assert not pattern.search(path.read_text(encoding="utf-8")), path.name
+
+
+def test_pages_copy_points_to_local_data():
+    from historinference.reports import pages_index_html
+    html = pages_index_html((ROOT / "index.html").read_text(encoding="utf-8"))
+    assert '<script src="dashboard_data.js"></script>' in html
+    assert "outputs/dashboard_data.js\"></script>" not in html

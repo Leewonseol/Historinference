@@ -16,7 +16,7 @@
 | 사건×코드 적용률 | 39/76 칸 | 51.3% (1/0 근거가 하나 이상 있는 칸) |
 | 확인 코딩의 근거 등급 | B=32, C=12, D=9 | A=원문 직접(0), B=공식 기사 의역·선행 코딩, C=연구 요약, D=2차 종합 |
 | 검증 감사(validate) | 오류 0 · 경고 2 | data/audit/validation_findings.csv |
-| 테스트(pytest, 로컬 Python 실행) | 통과 88 / 실패 0 / 오류 0 / 건너뜀 0 | data/audit/test_results.json (Oracle 실행 아님) |
+| 테스트(pytest, 로컬 Python 실행) | 통과 89 / 실패 0 / 오류 0 / 건너뜀 0 | data/audit/test_results.json (Oracle 실행 아님) |
 | 연구자 요청 | 21건 | REQUEST_FOR_RESEARCHER.md |
 <!-- STATUS:END -->
 
@@ -44,6 +44,7 @@ python -m historinference all    # build → validate → worlds → synthesize 
 - [증거 행렬](outputs/evidence_matrix.md) · [인물 프로필](outputs/character_profiles.md) · [공통·차별 메커니즘](outputs/mechanism_comparison.md)
 - [가능세계와 제약](outputs/worlds_report.md) · [A: 앵커 비교](outputs/anchor_comparison.md) · [B: 합성 비교](outputs/synthetic_comparison.md) · [상태 보고](outputs/status_report.md)
 - [읽기 전용 대시보드 `index.html`](index.html) — 로컬에서 파일로 열면 `outputs/dashboard_data.js`를 읽어 표시한다(코어 데이터를 바꾸지 않음).
+- **GitHub Pages**: `report`가 대시보드를 `docs/index.html`+`docs/dashboard_data.js`로도 복사하고 `.nojekyll`을 둔다. Settings → Pages에서 `main` / `/docs`(또는 `/ (root)`)를 고르면 Jekyll 빌드 없이 정적 대시보드가 배포된다.
 
 ## 자료 구성
 
