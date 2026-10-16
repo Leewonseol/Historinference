@@ -1,0 +1,17 @@
+rule_id,name,domain,gusun_feature_id,valid_from,breakpoint_kind,verified_through,span_ids,note,feature_name,feature_source_url,feature_domain_policy,feature_valid_from,feature_valid_to
+N01,대전통편 시행,CODE_PENALTY,F001,1786-01-01,HARD_ENACTMENT,1793,NORM-S01|NORM-S02,1785 편찬·1786-01-01 시행(2차 종합); 1785 사건에 소급 금지,대전통편 현행,https://encykorea.aks.ac.kr/Article/E0014748,NOT_APPROVED_CONTEXT_ONLY,1786,1793
+N02,증수무원록 개정 검험 지침,INQUEST,F016,1792,HARD_ENACTMENT,1793,NORM-S01|NORM-S02,1780년대 사건에 소급 금지; 정확한 반포·시행 월일 미보관,증수무원록 개정 지침,https://encykorea.aks.ac.kr/Article/E0054038,NOT_APPROVED_CONTEXT_ONLY,1792,1793
+N03,흠휼전칙,PUNISHMENT_TOOLS,F002,1778-01,HARD_ENACTMENT,1793,,정조 2년 1월 완성(선행 피처),흠휼전칙 현행,https://sillok.history.go.kr/id/kva_10201012_002,APPROVED_OFFICIAL_PRIMARY,1778,1793
+N04,군문 중곤 사용 제한,PUNISHMENT_TOOLS,F003,1778,SCOPE_START,1793,,,군문 중곤 사용 제한,https://db.history.go.kr/joseon/item/level.do?levelId=jlawb_470_0020,APPROVED_OFFICIAL_PRIMARY,1778,1793
+N05,구금 도구 기준,DETENTION,F004,1778,SCOPE_START,1793,,,구금 도구 기준,https://db.history.go.kr/joseon/item/level.do?levelId=jlawb_470_0100,APPROVED_OFFICIAL_PRIMARY,1778,1793
+N06,관찰사의 수령 감독·직계,INSPECTION,F006,1776,SCOPE_START,1793,,선행 피처의 1776은 코딩 범위 시작(제정일 아님),관찰사의 수령 감독·직계,https://encykorea.aks.ac.kr/Article/E0005013,NOT_APPROVED_CONTEXT_ONLY,1776,1793
+N07,초검-복검-추가검,INQUEST,F015,1776,SCOPE_START,1793,,,초검-복검-추가검,https://encykorea.aks.ac.kr/Article/E0002110,NOT_APPROVED_CONTEXT_ONLY,1776,1793
+N08,암행어사,INSPECTION,F013,1776,SCOPE_START,1793,,,암행어사,https://encykorea.aks.ac.kr/Article/E0035165,NOT_APPROVED_CONTEXT_ONLY,1776,1793
+N09,안핵어사,INSPECTION,F014,1776,SCOPE_START,1793,,,안핵어사,https://sillok.history.go.kr/id/kva_10206108_002,APPROVED_OFFICIAL_PRIMARY,1776,1793
+N10,격쟁·상언,PETITION,F019,1776,SCOPE_START,1793,,선행 피처 출처가 승인 원문 도메인 밖(moleg); 맥락 전용,격쟁·상언 등 상향 호소,https://www.moleg.go.kr/mpbleg/mpblegInfo.mo?mid=a10402020000&mpb_leg_pst_seq=125283,NOT_APPROVED_CONTEXT_ONLY,1776,1793
+N11,비변사 심의,CENTRAL,F017,1776,SCOPE_START,1793,,,비변사 심의,https://encykorea.aks.ac.kr/Article/E0025147,NOT_APPROVED_CONTEXT_ONLY,1776,1793
+N12,형조 심리·회계,CENTRAL,F011,1776,SCOPE_START,1793,,,형조 심리·회계,https://encykorea.aks.ac.kr/Article/E0063559,NOT_APPROVED_CONTEXT_ONLY,1776,1793
+N13,의금부 특별사법,CENTRAL,F012,1776,SCOPE_START,1793,,,의금부 특별사법·재심,https://encykorea.aks.ac.kr/Article/E0043138,NOT_APPROVED_CONTEXT_ONLY,1776,1793
+N14,병마절도사 군사지휘,MILITARY_POLICE,F007,1776,SCOPE_START,1793,,,병마절도사 도 단위 군사지휘,https://encykorea.aks.ac.kr/Article/E0023089,NOT_APPROVED_CONTEXT_ONLY,1776,1793
+N15,비장 막료 체계,MILITARY_POLICE,F009,1776,SCOPE_START,1793,,,비장 막료 체계,https://encykorea.aks.ac.kr/Article/E0025230,NOT_APPROVED_CONTEXT_ONLY,1776,1793
+N16,장계·서계·계문·회계,DOCUMENT_ADMIN,F020,1776,SCOPE_START,1793,,,장계·서계·계문·회계,https://sillok.history.go.kr/id/kva_11603014_004,APPROVED_OFFICIAL_PRIMARY,1776,1793

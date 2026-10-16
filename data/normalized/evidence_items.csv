@@ -1,0 +1,13 @@
+item_id,case_id,item,description,existence_status,span_ids,note
+EI-CH-01,CHOI,혈의,조광진 관련 피 묻은 옷,CLAIMED_ORIGIN_DISPUTED,CH-S34|CH-S46,살인 위장 vs 구호 과정(1789 의문)
+EI-CH-02,CHOI,상흔,목 주변 상흔과 여러 칼 상처,REPORTED_INTERPRETATION_DISPUTED,CH-S56|CH-S46,상처 순서·방어흔 미확정
+EI-CH-03,CHOI,상립 단서,야간 출입자가 상중 갓을 썼다는 단서,RECORDED_TESTIMONY,CH-S49,
+EI-CH-04,CHOI,편지,석방 후 이차망과 조광진이 주고받은 편지,PRESUPPOSED_BY_ROYAL_QUESTION,CH-S50,내용 미보관
+EI-CH-05,CHOI,집안 수기,해석이 갈린 집안 수기,PRESUPPOSED_BY_ROYAL_QUESTION,CH-S57,내용 미보관
+EI-JH-01,CHO,피 묻은 옷,고발 측이 주장한 혈의,DENIED_IN_ROYAL_JUDGMENT,JH-S06|JH-S15,실제 물증 회수 목록 미보관
+EI-JH-02,CHO,마을 노래,이가원이 지었다는 농요,EXISTENCE_PER_ROYAL_JUDGMENT,JH-S04|JH-S13,가사 미보관
+EI-YE-01,YE,사망자 명단,유경 보고의 사망자 이름 일부,REGISTER_NOTE_ONLY,YE-S16,이름 목록 미보관
+EI-GS-01,GUSUN,철편 4개 / 철퇴 4개,이진욱 진술(한재욱 제작)과 정조 판단(이광섭이 만들게 함),IDENTITY_UNRESOLVED,GS-F-CF010|GS-F-CF044,선행 ID07 미해결
+EI-GS-02,GUSUN,장물,도난 물품,NOT_FOUND_PER_REPORTS,GS-F-CF027|GS-F-CF029,부재 보고는 0 코딩 근거가 아님(R04는 NA)
+EI-GS-03,GUSUN,구순의 서찰,병사에게 전하라며 건넨 서찰,RECORDED_TESTIMONY,GS-F-CF024,내용 미상
+EI-GS-04,GUSUN,탐문 성명 기록,유제희가 적어 올린 이름 목록,RECORDED_TESTIMONY,GS-F-CF020,

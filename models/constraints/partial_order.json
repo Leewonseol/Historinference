@@ -1,0 +1,329 @@
+{
+  "note": "부분순서 DAG: 명시 근거 또는 확정 날짜 비교로만 간선 생성. 비교 불가 쌍은 순서를 만들지 않음.",
+  "cases": {
+    "CHO": {
+      "nodes": [
+        "EV-JH-01",
+        "EV-JH-02",
+        "EV-JH-03",
+        "EV-JH-04",
+        "EV-JH-05",
+        "EV-JH-06",
+        "EV-JH-07",
+        "EV-JH-08",
+        "EV-JH-09"
+      ],
+      "hasse_edges": [
+        [
+          "EV-JH-01",
+          "EV-JH-02"
+        ],
+        [
+          "EV-JH-02",
+          "EV-JH-04"
+        ],
+        [
+          "EV-JH-07",
+          "EV-JH-08"
+        ],
+        [
+          "EV-JH-02",
+          "EV-JH-09"
+        ]
+      ],
+      "n_edges_total": 5,
+      "n_explicit": 3,
+      "n_pairs": 36,
+      "n_comparable_pairs": 6,
+      "n_incomparable_pairs": 30
+    },
+    "CHOI": {
+      "nodes": [
+        "EV-CH-01",
+        "EV-CH-02",
+        "EV-CH-03",
+        "EV-CH-04",
+        "EV-CH-05",
+        "EV-CH-06",
+        "EV-CH-07",
+        "EV-CH-08",
+        "EV-CH-09",
+        "EV-CH-10",
+        "EV-CH-11",
+        "EV-CH-12",
+        "EV-CH-13",
+        "EV-CH-14",
+        "EV-CH-15",
+        "EV-CH-16"
+      ],
+      "hasse_edges": [
+        [
+          "EV-CH-01",
+          "EV-CH-02"
+        ],
+        [
+          "EV-CH-04",
+          "EV-CH-05"
+        ],
+        [
+          "EV-CH-05",
+          "EV-CH-06"
+        ],
+        [
+          "EV-CH-06",
+          "EV-CH-07"
+        ],
+        [
+          "EV-CH-09",
+          "EV-CH-12"
+        ],
+        [
+          "EV-CH-10",
+          "EV-CH-12"
+        ],
+        [
+          "EV-CH-01",
+          "EV-CH-07"
+        ],
+        [
+          "EV-CH-02",
+          "EV-CH-09"
+        ],
+        [
+          "EV-CH-02",
+          "EV-CH-10"
+        ],
+        [
+          "EV-CH-02",
+          "EV-CH-11"
+        ],
+        [
+          "EV-CH-02",
+          "EV-CH-14"
+        ],
+        [
+          "EV-CH-03",
+          "EV-CH-09"
+        ],
+        [
+          "EV-CH-03",
+          "EV-CH-10"
+        ],
+        [
+          "EV-CH-03",
+          "EV-CH-11"
+        ],
+        [
+          "EV-CH-03",
+          "EV-CH-14"
+        ],
+        [
+          "EV-CH-07",
+          "EV-CH-08"
+        ],
+        [
+          "EV-CH-08",
+          "EV-CH-09"
+        ],
+        [
+          "EV-CH-08",
+          "EV-CH-10"
+        ],
+        [
+          "EV-CH-08",
+          "EV-CH-11"
+        ],
+        [
+          "EV-CH-08",
+          "EV-CH-14"
+        ],
+        [
+          "EV-CH-12",
+          "EV-CH-13"
+        ],
+        [
+          "EV-CH-13",
+          "EV-CH-15"
+        ],
+        [
+          "EV-CH-13",
+          "EV-CH-16"
+        ],
+        [
+          "EV-CH-14",
+          "EV-CH-15"
+        ],
+        [
+          "EV-CH-14",
+          "EV-CH-16"
+        ]
+      ],
+      "n_edges_total": 81,
+      "n_explicit": 6,
+      "n_pairs": 120,
+      "n_comparable_pairs": 92,
+      "n_incomparable_pairs": 28
+    },
+    "GUSUN": {
+      "nodes": [
+        "EV-GS-01",
+        "EV-GS-02",
+        "EV-GS-03",
+        "EV-GS-04",
+        "EV-GS-05",
+        "EV-GS-06",
+        "EV-GS-07",
+        "EV-GS-08",
+        "EV-GS-09",
+        "EV-GS-10",
+        "EV-GS-11",
+        "EV-GS-12",
+        "EV-GS-13",
+        "EV-GS-14",
+        "EV-GS-15",
+        "EV-GS-16"
+      ],
+      "hasse_edges": [
+        [
+          "EV-GS-01",
+          "EV-GS-02"
+        ],
+        [
+          "EV-GS-02",
+          "EV-GS-03"
+        ],
+        [
+          "EV-GS-06",
+          "EV-GS-08"
+        ],
+        [
+          "EV-GS-08",
+          "EV-GS-09"
+        ],
+        [
+          "EV-GS-02",
+          "EV-GS-04"
+        ],
+        [
+          "EV-GS-02",
+          "EV-GS-05"
+        ],
+        [
+          "EV-GS-03",
+          "EV-GS-06"
+        ],
+        [
+          "EV-GS-03",
+          "EV-GS-07"
+        ],
+        [
+          "EV-GS-04",
+          "EV-GS-06"
+        ],
+        [
+          "EV-GS-04",
+          "EV-GS-07"
+        ],
+        [
+          "EV-GS-05",
+          "EV-GS-12"
+        ],
+        [
+          "EV-GS-06",
+          "EV-GS-10"
+        ],
+        [
+          "EV-GS-06",
+          "EV-GS-11"
+        ],
+        [
+          "EV-GS-07",
+          "EV-GS-10"
+        ],
+        [
+          "EV-GS-07",
+          "EV-GS-11"
+        ],
+        [
+          "EV-GS-09",
+          "EV-GS-12"
+        ],
+        [
+          "EV-GS-10",
+          "EV-GS-12"
+        ],
+        [
+          "EV-GS-11",
+          "EV-GS-12"
+        ],
+        [
+          "EV-GS-12",
+          "EV-GS-13"
+        ],
+        [
+          "EV-GS-13",
+          "EV-GS-14"
+        ],
+        [
+          "EV-GS-14",
+          "EV-GS-15"
+        ],
+        [
+          "EV-GS-14",
+          "EV-GS-16"
+        ]
+      ],
+      "n_edges_total": 101,
+      "n_explicit": 4,
+      "n_pairs": 120,
+      "n_comparable_pairs": 102,
+      "n_incomparable_pairs": 18
+    },
+    "YE": {
+      "nodes": [
+        "EV-YE-01",
+        "EV-YE-02",
+        "EV-YE-03",
+        "EV-YE-04",
+        "EV-YE-05",
+        "EV-YE-06",
+        "EV-YE-07"
+      ],
+      "hasse_edges": [
+        [
+          "EV-YE-03",
+          "EV-YE-04"
+        ],
+        [
+          "EV-YE-01",
+          "EV-YE-02"
+        ],
+        [
+          "EV-YE-01",
+          "EV-YE-03"
+        ],
+        [
+          "EV-YE-02",
+          "EV-YE-04"
+        ],
+        [
+          "EV-YE-04",
+          "EV-YE-05"
+        ],
+        [
+          "EV-YE-05",
+          "EV-YE-06"
+        ],
+        [
+          "EV-YE-06",
+          "EV-YE-07"
+        ]
+      ],
+      "n_edges_total": 19,
+      "n_explicit": 1,
+      "n_pairs": 21,
+      "n_comparable_pairs": 20,
+      "n_incomparable_pairs": 1
+    }
+  }
+}

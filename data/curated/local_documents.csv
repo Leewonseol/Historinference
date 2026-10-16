@@ -1,0 +1,13 @@
+carrier_id,path,doc_kind,evidence_grade,role,may_support_coding,note
+LOC-ANNALS-DIGEST,research/official_annals_article_digests.md,RESEARCH_ASSISTANT_PARAPHRASE_OF_OFFICIAL_ARTICLE,B,조사원이 직접 열람한 공식 실록 기사의 기사별 의역(PARAPHRASE_ONLY),YES,원문 전사 아님; 직접 인용으로 표시 금지
+LOC-EVIDENCE-PACK,research/offline_evidence_pack.md,RESEARCH_SUMMARY_WITH_OFFICIAL_REFERENCE,C,공식 출처 위치를 밝힌 연구 요약,YES,원문 발췌 미포함; 고신뢰 승격 금지
+LOC-CLAIM-SEEDS,research/offline_claim_seeds.csv,RESEARCH_SUMMARY_WITH_OFFICIAL_REFERENCE,C,원문 수집 전 주장 씨앗 16건,YES,offline_primary_verbatim=NO 전 행
+LOC-REGISTER,research/source_register.csv,REGISTER_METADATA,C,22건 공식 출처 위치 레지스터(제목·연구초점·경고),YES,제목·초점 문구는 조사원 작성 메타데이터; 기사 원문 아님
+LOC-BRIEF,research/research_brief.md,RESEARCH_PLANNING_NOTE,C,사건별 공백·해석 경계 브리프,LIMITED,계획 문서; 사실 근거로는 보조적으로만 사용
+LOC-CHAMANG,research/imported/chamang/pyeongsan_case_report.md,IMPORTED_SECONDARY_SYNTHESIS,D,평산 사건 선행 연구 보고서(2차 종합),YES_PROVISIONAL,원문 전사 아님; 비승인 도메인 참고문헌(S1~S3·N1)은 증거로 채택하지 않음
+LOC-GUSUN-00,research/imported/gusun/00_INPUT_MANIFEST.csv,IMPORTED_PREVIOUS_CODED_DATA,B,GuSoon 데이터셋 매니페스트,NO,메타데이터
+LOC-GUSUN-01,research/imported/gusun/01_confirmed_facts.csv,IMPORTED_PREVIOUS_CODED_DATA,B,GuSoon 50개 확인 진술(사건 묶음 단위),YES,공식 원문과 재대조 전 최고 확실성 부여 금지
+LOC-GUSUN-02,research/imported/gusun/02_institutional_normative_features.csv,IMPORTED_PREVIOUS_CODED_DATA,CONTEXT,1793 제도·규범 피처 20건,CONTEXT_ONLY,일부 출처가 승인 원문 도메인 밖(encykorea·moleg); 유효기간 1793까지 검증
+LOC-GUSUN-03,research/imported/gusun/03_environment_1793.csv,IMPORTED_PREVIOUS_CODED_DATA,CONTEXT,1793 호서 전염병·구휼 환경 4건,CONTEXT_ONLY,김명신 개인 감염 증명 아님
+LOC-GUSUN-04,research/imported/gusun/04_source_records.csv,IMPORTED_PREVIOUS_CODED_DATA,B,GuSoon 출처 레코드 8건(SRC3_001~008),NO,출처 색인
+LOC-GUSUN-05,research/imported/gusun/05_source_faithful_propositions_AUDIT_ONLY.csv,IMPORTED_PREVIOUS_CODED_DATA,B,GuSoon 출처충실 명제 156건(AUDIT_ONLY),YES,감사용 명제; 확정 사실 아님

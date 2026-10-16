@@ -1,0 +1,3 @@
+check,severity,table,row,message
+V07,WARN,events,EV-YE-04,규범 검증 범위(1793) 밖 시점에 적용: 관찰사의 수령 감독·직계
+V07,WARN,events,EV-YE-05,규범 검증 범위(1793) 밖 시점에 적용: 안핵어사

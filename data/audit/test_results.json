@@ -1,0 +1,367 @@
+{
+  "exit_code": 0,
+  "runner": "pytest (Python 로컬 실행; Oracle 실행 아님)",
+  "tests": 89,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": 89,
+  "cases": [
+    {
+      "name": "tests.test_case_invariants::test_invariants_pass",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_case_invariants::test_choi_1787_conclusion_is_contested_by_1789",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_case_invariants::test_choi_1787_conclusion_promoted_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_case_invariants::test_cho_accuser_is_not_coded_as_killer",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_case_invariants::test_ye_counts_preserved_separately",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_case_invariants::test_ye_count_merge_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_case_invariants::test_ye_1801_event_is_not_fused",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_case_invariants::test_gusun_death_causation_unresolved",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_case_invariants::test_no_deliberate_collusion_coded",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_case_invariants::test_deliberate_collusion_injection_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_case_invariants::test_same_date_cases_do_not_share_people_or_spans",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_case_invariants::test_hypothesis_in_observed_layer_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_case_invariants::test_hypotheses_only_from_in_source_doubts",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_case_invariants::test_out_of_scope_case_rows_are_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_coding::test_real_codes_pass",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_coding::test_unit_level_coding_not_case_level",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_coding::test_na_is_used_for_unknowns",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_coding::test_zero_codes_cite_explicit_absence",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_coding::test_one_without_evidence_is_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_coding::test_zero_without_absence_rationale_is_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_coding::test_hypothesis_status_cannot_carry_one",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_coding::test_unknown_code_is_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_coding::test_cross_case_evidence_is_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_coding::test_link_only_evidence_cannot_support_coding",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_coding::test_relation_types_have_source_time_status",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_coding::test_relation_missing_time_is_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_coding::test_contemporary_vs_historical_culprit_separated",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_duckdb_invariants::test_no_binary_code_without_span",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_duckdb_invariants::test_every_code_span_exists",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_duckdb_invariants::test_person_ids_unique",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_duckdb_invariants::test_ye_two_count_claims",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_duckdb_invariants::test_no_executed_orders",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_duckdb_invariants::test_no_hypothesis_in_observed_layer",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_persons::test_real_people_pass",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_persons::test_no_birth_year_or_age_without_source",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_persons::test_birth_year_injection_is_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_persons::test_unsourced_status_is_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_persons::test_attribute_without_span_is_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_persons::test_lee_chamang_status_not_verified",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_persons::test_homonyms_kept_distinct",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_persons::test_merging_distinct_people_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_persons::test_alias_collision_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_persons::test_cross_case_person_reference_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_persons::test_king_is_case_scoped",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_persons::test_gender_only_from_kinship_terms",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_register_and_local_documents_are_inventoried",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_no_official_source_is_promoted_to_retrieved_text",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_no_span_claims_verbatim_original",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_source_integrity_passes_on_real_data",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_only_approved_domains",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_forbidden_redistribution_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_dangling_span_reference_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_link_promoted_to_text_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_gusun_crosswalk_matches_register",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_imported_files_unchanged_checksums",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_checksum_change_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_gusun_import_preserves_counts",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_package_has_no_network_code",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_provenance::test_pages_copy_points_to_local_data",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_synthesis::test_box_rows_trace_to_codes_and_spans",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_synthesis::test_box_grade_is_derived_from_spans",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_synthesis::test_goal_rules_on_anchor_cases",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_synthesis::test_anchor_never_receives_fiction_or_overwrites_documented_values",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_synthesis::test_csp_rejects_incompatible_combination",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_synthesis::test_b_designs_are_feasible_minimal_and_traced",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_synthesis::test_fiction_only_resolution_is_the_only_route_to_full_y1",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_synthesis::test_pareto_dominance",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_synthesis::test_weighted_view_is_marked_auxiliary",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_synthesis::test_hard_gates_match_spec",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_temporal_and_norms::test_real_temporal_checks_pass",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_temporal_and_norms::test_partial_order_leaves_unknown_pairs_incomparable",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_temporal_and_norms::test_cycle_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_temporal_and_norms::test_invented_order_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_temporal_and_norms::test_explicit_order_contradicting_dates_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_temporal_and_norms::test_cross_case_order_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_temporal_and_norms::test_action_after_death_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_temporal_and_norms::test_1792_manual_backdated_to_1785_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_temporal_and_norms::test_1786_code_backdated_to_1785_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_temporal_and_norms::test_norm_outside_verified_range_is_warning_not_error",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_temporal_and_norms::test_orders_are_not_executions",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_temporal_and_norms::test_order_execution_confusion_is_detected",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_temporal_and_norms::test_dates_keep_calendar",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_worlds::test_every_world_is_unscored",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_worlds::test_every_world_satisfies_constraints",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_worlds::test_constraints_remove_inconsistent_worlds",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_worlds::test_observed_acts_fixed_across_worlds",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_worlds::test_third_party_never_named",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_worlds::test_choi_keeps_1789_alternatives",
+      "status": "passed"
+    },
+    {
+      "name": "tests.test_worlds::test_unsupported_collusion_is_flagged",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+span_id,case_id,source_id,carrier_id,carrier_locator,span_kind,text_ko,original_fragment,original_fragment_status
+CH-S01,CHOI,CH-003,LOC-ANNALS-DIGEST,## 1787-04-16 bullet1,PARAPHRASE,1787-04-16 기사의 주된 내용은 양서 암행어사 이곤수의 복명(행정 폐단·부세·매관·군역 등)이며 평산 사건과 무관한 제도 폐단을 최아지 사건의 뇌물 증거로 쓰면 안 된다,,NONE
+CH-S02,CHOI,CH-003,LOC-ANNALS-DIGEST,## 1787-04-16 bullet2,PARAPHRASE,기사 말미에 사망한 박씨의 평산 옥사가 미결이었음을 별도로 기록,,NONE
+CH-S03,CHOI,CH-003,LOC-ANNALS-DIGEST,## 1787-04-16 bullet2,PARAPHRASE,이곤수가 특별 조사(안핵)를 맡아 시어머니 최씨와 조광진이 간통 관계였고 함께 박씨를 죽였다는 가설을 보고,,NONE
+CH-S04,CHOI,CH-003,LOC-ANNALS-DIGEST,## 1787-04-16 bullet2,PARAPHRASE,보고에 따라 정조가 조사를 성실히 하지 않은 책임으로 전 도신 홍병찬 삭직·엄사만 파직을 명함,,NONE
+CH-S05,CHOI,CH-003,LOC-ANNALS-DIGEST,## 1787-04-16 bullet3,RESEARCHER_CAUTION,이 기사는 1787년 공식 결론일 뿐 1789 재검토에서 도전받으며; 1789 판단·피고 신분·5냥 뇌물 주장은 이 기사만으로 기록되지 않음,,NONE
+CH-S06,CHOI,CH-001,LOC-EVIDENCE-PACK,## CHOI digest1,RESEARCH_SUMMARY,박씨로 식별되는 여성이 평산에서 사망; 자해 대 타살 및 최아지·이차망·조광진의 역할에 관해 진술이 상충,,NONE
+CH-S07,CHOI,CH-001,LOC-EVIDENCE-PACK,## CHOI digest2,RESEARCH_SUMMARY,초기 조사와 재평가로 이차망이 피의·구금되고 처 민씨가 호소; 이곤수가 상충 진술을 검토했고 1787년 왕명으로 석방,,NONE
+CH-S08,CHOI,CH-001,LOC-EVIDENCE-PACK,## CHOI digest3,RESEARCH_SUMMARY,1789 재검토에서 간통과 살인에 관해 30개 질문을 제기하고 신문·진술의 신빙성을 검토; 1787 판단을 최종 물리적 진실로 취급 금지,,NONE
+CH-S09,CHOI,CH-001,LOC-EVIDENCE-PACK,## CHOI digest4,RESEARCH_SUMMARY,이차망이 순평군 후손이라는 주장은 처 민씨 청원 속 주장일 뿐 독립 계보 증명이 아니며 승정원일기 원문은 저장되지 않음,,NONE
+CH-S10,CHOI,CH-001,LOC-EVIDENCE-PACK,## CHOI digest5,RESEARCH_SUMMARY,최아지·조씨 가문과 관원의 친족관계·군교 조봉원 관련 뇌물·5냥·은폐·공모 보고는 주장 또는 관의 우려로 논의되었을 뿐 입증된 공모가 아님,,NONE
+CH-S11,CHOI,CH-001,LOC-EVIDENCE-PACK,## CHOI digest6,RESEARCHER_CAUTION,원문 없이 이차망의 연령·법적 신분·재산·족보 등재·최아지와의 혈연을 추정 금지,,NONE
+CH-S12,CHOI,CH-003,LOC-CLAIM-SEEDS,CH-C01,CLAIM_SEED,이곤수가 1787년 평산 살인사건 재조사 결과를 복명,,NONE
+CH-S13,CHOI,CH-001,LOC-CLAIM-SEEDS,CH-C02,CLAIM_SEED,정조가 1787년 이차망 석방을 명령(1789 재평가와 구분),,NONE
+CH-S14,CHOI,CH-001,LOC-CLAIM-SEEDS,CH-C03,CLAIM_SEED,정조가 1789년 간통·살인에 각각 15문을 제기해 종전 판단을 재검토; 30문은 질문이지 입증사실 아님,,NONE
+CH-S20,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 박씨,SECONDARY_NARRATIVE,박씨(朴女·朴召史·박소사)는 사망한 조광선의 아내로 사건의 피해자,,NONE
+CH-S21,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 최아지,SECONDARY_NARRATIVE,최아지(崔阿只·崔女·崔召史·최 조이)는 조광선의 계모이자 박씨의 시어머니로 살해 혐의 당사자,,NONE
+CH-S22,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 이차망,SECONDARY_NARRATIVE,이차망(李次望)은 최아지와 통정·박씨 살해 공모 혐의를 받았고 구금 후 1787년 석방,,NONE
+CH-S23,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 민씨,SECONDARY_NARRATIVE,민씨(閔女)는 이차망의 아내로 1786년 두 차례 격쟁,,NONE
+CH-S24,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 조광선·조광진,SECONDARY_NARRATIVE,조광선(趙匡善)과 조광진(趙匡辰)은 다른 사람; 조광진은 조광선의 친족이며 일부 국역 표기는 조광신,,NONE
+CH-S25,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 사단,SECONDARY_NARRATIVE,사단(四丹)은 관련 집안의 비(婢)로 핵심 진술자,,NONE
+CH-S26,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 조봉원,SECONDARY_NARRATIVE,조봉원(趙鳳元)은 군교이며 사단의 이차망 지목에 개입했다는 주장이 있음(확정 범행 아님),,NONE
+CH-S27,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 박장혁,SECONDARY_NARRATIVE,박장혁(朴長赫)은 박씨의 부친으로 최아지를 고발,,NONE
+CH-S28,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 박용해,SECONDARY_NARRATIVE,박용해(朴龍海)는 박씨의 오빠로 격쟁을 제기,,NONE
+CH-S29,CHOI,CH-001|CH-002|CH-003,LOC-CHAMANG,§3 인물 식별표 엄사만·홍병찬,SECONDARY_NARRATIVE,엄사만(嚴思晩)은 황해도 전 관찰사; 홍병찬(洪秉纘)은 전전 관찰사,,NONE
+CH-S30,CHOI,CH-001|CH-002,LOC-CHAMANG,§3 인물 식별표 정경증·이단회,SECONDARY_NARRATIVE,정경증(鄭景曾)·이단회(李端會)는 초검관·복검관으로 기존 검험 오류 관련 처분 명령 대상(누가 초검·복검인지 배정 미확정),,NONE
+CH-S31,CHOI,CH-001,LOC-CHAMANG,§4 1785년 11월 행,SECONDARY_NARRATIVE,심리록에 1785년 11월(을사)을 옥사 성립 시점으로 기록; 사망일과 동일하다고 단정 불가,,NONE
+CH-S32,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 초기 조사 행,SECONDARY_NARRATIVE,초검과 복검에서 스스로 찔렀다(自刺)는 사인 판단,自刺,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED
+CH-S33,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 초기·상향 호소 행,SECONDARY_NARRATIVE,박장혁이 최아지에 의한 타살을 주장했고 박용해의 격쟁을 계기로 재검토,,NONE
+CH-S34,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 초기 도신 조사 행,SECONDARY_NARRATIVE,도신 조사가 사단의 진술과 조광진의 혈의 관련 설명을 근거로 최아지와 이차망에게 칼을 씌워 구금(간통·살해 공모 의심),,NONE
+CH-S35,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 1786년 1월 행,SECONDARY_NARRATIVE,1786년 1월 민씨 격쟁; 정조는 호소를 허용하지 않고 지방으로 압송하도록 명함(호송 이행 미확인),,NONE
+CH-S36,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 1786년 11월 행,SECONDARY_NARRATIVE,1786년 11월 민씨 재격쟁; 정조가 도신에게 엄형으로 징계하도록 명함(형 집행 미확인),,NONE
+CH-S37,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 1787년 2월 행,SECONDARY_NARRATIVE,1787년 2월 형조와 대신들의 상반된 의견 뒤 이곤수를 평산 안핵어사로 임명,,NONE
+CH-S38,CHOI,CH-002,LOC-CHAMANG,§4 1787년 안핵 조사 행·§5.2,SECONDARY_NARRATIVE,1787 안핵에서 사단은 밤중 인물의 얼굴을 확실히 보지 못했다고 하고 조광진의 종용으로 이차망을 지목했다고 진술,,NONE
+CH-S39,CHOI,CH-002,LOC-CHAMANG,§4 1787년 안핵 조사 행·§5.3,SECONDARY_NARRATIVE,조광진은 형이 7도에 이른 뒤 자백(자백 내용의 진실성은 별개),,NONE
+CH-S40,CHOI,CH-001|CH-002|CH-003,LOC-CHAMANG,§4 1787년 4월 행,SECONDARY_NARRATIVE,1787년 4월 정조가 이차망 석방을 명하고 사단·조봉원·전직 관찰사·검험관의 책임을 따짐,,NONE
+CH-S41,CHOI,CH-002,LOC-CHAMANG,§4 1788년 행,SECONDARY_NARRATIVE,조광진은 1788년 사망; 1789 정조 판부는 옥중 병사(瘐死)로 기술하고 형조 회계는 작년에 이미 죽었다고 함,瘐死,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED
+CH-S42,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 1789년 6월 행·§6,SECONDARY_NARRATIVE,1789년 6월 정조가 간통 15·살인 15 총 30개 의문을 제기하며 유죄 결론에 반론(왕이 제기한 가설이지 관측 사실 아님),,NONE
+CH-S43,CHOI,CH-001|CH-002,LOC-CHAMANG,§4 1789년 6월 행·§1,SECONDARY_NARRATIVE,1789년 6월 사형 전제 최아지 옥안이 성립하지 않는다고 판단; 형조가 장 100·유 2천 리 준용을 제안하고 정조가 승인(실제 집행 미확인),,NONE
+CH-S44,CHOI,CH-002,LOC-CHAMANG,§5.2,SECONDARY_NARRATIVE,1787년 정조는 조광진이 자신의 혐의를 이차망에게 떠넘겼다고 평가,,NONE
+CH-S45,CHOI,CH-002,LOC-CHAMANG,§5.2,SECONDARY_NARRATIVE,1789년 정조는 사단이 조사자에 따라 대답을 바꾸었을 위험을 지적,,NONE
+CH-S46,CHOI,CH-002,LOC-CHAMANG,§5.1,SECONDARY_NARRATIVE,1789 재의문: 결박흔·방어흔 유무·네 상처 순서·목 조르기와 칼 찌르기 선후 미확정; 혈의는 구호 과정에서도 생길 수 있음,,NONE
+CH-S47,CHOI,CH-002,LOC-CHAMANG,§6 살인 15,SECONDARY_NARRATIVE,1789 살옥 의문 15번은 원한 있는 제3자가 뒷문으로 드나들어 범행했을 가능성을 묻는 반사실 질문(제3 가해자 확정 아님),,NONE
+CH-S48,CHOI,CH-002,LOC-CHAMANG,§5.3,SECONDARY_NARRATIVE,최아지도 뒤늦게 자백한 것으로 나타나며 1789년 정조는 조광진의 빠른 자백과 최아지의 모호한 자백을 모두 의심,,NONE
+CH-S49,CHOI,CH-002,LOC-CHAMANG,§5.2,SECONDARY_NARRATIVE,1787 안핵에서 상립(상중 갓) 착용 단서와 조광진의 드나듦이 나옴,,NONE
+CH-S50,CHOI,CH-002,LOC-CHAMANG,§6 간통 14,SECONDARY_NARRATIVE,1789 의문은 이차망이 풀려난 뒤 조광진과 주고받은 편지의 내용을 문제 삼음(편지 존재는 의문 속 전제),,NONE
+CH-S51,CHOI,CH-002,LOC-CHAMANG,§6 살인 14,SECONDARY_NARRATIVE,1789 의문은 사단·조봉원에 대한 위협·매수와 이차망 지목 사이의 증거가 충분한지 물음(질문이며 판정 아님),,NONE
+CH-S52,CHOI,CH-002,LOC-CHAMANG,§5.2,SECONDARY_NARRATIVE,사단 모녀는 야간에 어떤 사람이 드나드는 것을 보았다고 증언했고 이차망과의 왕래·통정 소문이 누적됨,,NONE
+CH-S53,CHOI,CH-007,LOC-REGISTER,CH-007,REGISTER_TITLE,순평군파 선원속보는 이차망 계보 후보일 뿐 등재 여부 미확인; 왕족 지위 확정 금지,,NONE
+JH-S01,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet1,PARAPHRASE,기사는 배천군·피고인 남편 조재항·사망한 아내 윤씨·먼 친척이자 고발자 이가원(李可遠)을 식별,李可遠,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED
+JH-S02,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet1,PARAPHRASE,기사 서술은 고발의 기원을 1781년(辛丑)에 두고 3년에 걸친 반복 조사를 기록,辛丑,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED
+JH-S03,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet2,PARAPHRASE,왕의 최종 평가는 이가원이 죽은 여인과의 관계를 이용해 이득을 꾀하려 했다고 공격,,NONE
+JH-S04,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet2,PARAPHRASE,왕은 이가원이 마을 노래를 지어 여론을 조성했다고 판단,,NONE
+JH-S05,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet2,PARAPHRASE,왕은 이가원이 뒤에 증인을 추가로 끌어들이고 서로 모순되는 방식으로 진술을 지시했다고 판단,,NONE
+JH-S06,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet2,PARAPHRASE,왕은 진술들이 서로 양립하지 않으며 주장된 피 묻은 옷이 흔적이 없다고 지적,,NONE
+JH-S07,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet3,PARAPHRASE,왕은 도백 조상진이 반복 재조사를 위임하고 새 확인 없이 기존 문서에 기초한 듯한 피상적 보고를 보냈다고 비판,,NONE
+JH-S08,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet3,PARAPHRASE,명령: 조재항 석방; 이가원은 형장 후 유배; 조상진 파직; 하위 가담자는 과실 정도에 따라 처벌,,NONE
+JH-S09,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet5,PARAPHRASE,기사 인명: 조재항 趙載恒·아내 윤씨 尹氏·이가원 李可遠·조재풍 趙載豊·증인으로 언급된 배조이 裵召史·나막동 羅莫同·점렬 點烈·막덕 莫德·도백 조상진 趙尙鎭(인물 구별 필요),趙載恒|尹氏|李可遠|趙載豊|裵召史|羅莫同|點烈|莫德|趙尙鎭,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED
+JH-S10,CHO,JH-003,LOC-ANNALS-DIGEST,## 1783-06-03 bullet4,RESEARCHER_CAUTION,왕의 윤씨 사망 서술을 해결된 검안으로 보지 말 것; 잘못된 고발자를 증명된 살인자로 보지 말 것; 관원의 태만을 증명된 공모로 보지 말 것,,NONE
+JH-S11,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C01,CLAIM_SEED,조재항이 아내 윤씨의 사망과 살인 혐의로 조사됨; 1783 기사에서 사건 발생을 신축년(1781)이라고 명시,,NONE
+JH-S12,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C02,CLAIM_SEED,정조는 3년 사이 네 차례 조사했다고 판단,三載之間 四行按査,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED
+JH-S13,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C03,CLAIM_SEED,이가원이 농요를 만들어 마을에 유포하여 여론에 영향을 주었다고 판부에 적힘(농요 원문 확보 여부와 별개),,NONE
+JH-S14,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C04,CLAIM_SEED,가공된 증인과 사주된 진술 사이 모순이 지적됨(진술의 객관적 진실과 정조 판단은 분리),,NONE
+JH-S15,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C05,CLAIM_SEED,피 묻은 옷이 실재하지 않았다고 판부에 적힘(실제 물증 회수 목록은 별도 점검),,NONE
+JH-S16,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C06,CLAIM_SEED,조상진은 국왕의 재조사 명령 뒤 직접 확인 없이 앞선 문서와 비슷하게 보고했다고 비판받음(의도적 은폐 사전 합의는 확인 안 됨),,NONE
+JH-S17,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C07,CLAIM_SEED,조재항 석방 명령(실제 집행은 별도 사료로 검증),,NONE
+JH-S18,CHO,JH-003,LOC-CLAIM-SEEDS,JH-C08,CLAIM_SEED,이가원 유배와 조상진 파직 명령(명령과 실제 집행 구분),,NONE
+JH-S19,CHO,JH-001|JH-002|JH-003,LOC-EVIDENCE-PACK,## CHO digest3,RESEARCHER_CAUTION,윤씨의 별도 진범은 확정되지 않음; 악의적 고발자를 사망자의 증명된 살해자로 재구성하거나 근거 없이 관찰사와 고발자의 공조를 주장하지 말 것,,NONE
+JH-S20,CHO,JH-001,LOC-REGISTER,JH-001,REGISTER_TITLE,레지스터는 심리록 사건을 1780-1783 범위와 庚子 성옥 1780으로 기술; 초기 유죄 주장과 최종 석방 판단 구별,庚子,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED
+JH-S21,CHO,JH-002|JH-003,LOC-REGISTER,JH-002|JH-003,REGISTER_TITLE,레지스터는 실록 기사 제목의 이간원을 이가원의 표기 변이로 기록(원문 대조 필요),,NONE
+JH-S22,CHO,JH-001|JH-002|JH-003,LOC-EVIDENCE-PACK,## CHO digest1,RESEARCH_SUMMARY,조재항은 아내 윤씨의 사망을 초래했다는 혐의를 받았고 고발자 이가원은 노래 유포를 포함해 보고·증언·마을 여론을 조작한 책임을 왕의 판단에서 지게 됨(독립 사실 판정 아님),,NONE
+YE-S01,YE,YE-005,LOC-ANNALS-DIGEST,## 1795-06-11 bullet1,PARAPHRASE,1795-06-11 기사는 이여절 혐의에 대한 감영 조사 처리에 대한 왕의 비판과 조사관·관찰사 조진택의 처리에 대한 불만을 기록,,NONE
+YE-S02,YE,YE-005,LOC-ANNALS-DIGEST,## 1795-06-11 bullet2,RESEARCHER_CAUTION,코딩 가능 범위: 행정 감독 실패와 기존 조사가 대상자를 비호했다는 관의 주장은 지지됨; 두 관원 사이 사적 합의는 자동 입증되지 않음; 관원 비판과 실제 조사 명령은 분리 기록,,NONE
+YE-S03,YE,YE-004|YE-006|YE-007,LOC-ANNALS-DIGEST,## 1795-06-11 bullet3,RESEARCHER_CAUTION,세부 피해자 수·신문 구절·최종 처분은 YE-004·YE-006·YE-007 전문을 따로 제공받아야 함,,NONE
+YE-S04,YE,YE-003|YE-004|YE-005,LOC-EVIDENCE-PACK,## YE digest1,RESEARCH_SUMMARY,창원부사 이여절은 사망을 초래한 남형(abusive punishment)으로 조사받음,,NONE
+YE-S05,YE,YE-003|YE-004|YE-005,LOC-EVIDENCE-PACK,## YE digest1,RESEARCH_SUMMARY,전 관찰사 조진택의 감독 조사·보고가 강하게 문제시되었고 정조는 그것이 이여절의 변호에 봉사했다고 성격 지음(행정 실패와 사전 공모 구별),,NONE
+YE-S06,YE,YE-004,LOC-EVIDENCE-PACK,## YE digest2,RESEARCH_SUMMARY,1795년 6월 조사는 31명 사망을 보고(범위가 다른 귀속 수치 주장),,NONE
+YE-S07,YE,YE-006,LOC-EVIDENCE-PACK,## YE digest2,RESEARCH_SUMMARY,1795년 8월 심리는 장살 25명을 논의(31명과 합치거나 평균하지 말 것),,NONE
+YE-S08,YE,YE-005|YE-007,LOC-EVIDENCE-PACK,## YE digest3,RESEARCH_SUMMARY,유경이 특별 조사에 배정되었고 최종 처분에는 이여절 유배와 조진택 파직이 포함(각 집행은 사료로 검증 필요),,NONE
+YE-S09,YE,YE-004|YE-005|YE-006|YE-007,LOC-EVIDENCE-PACK,## YE digest4,RESEARCHER_CAUTION,이 사건에서 무고하게 처벌된 대체 범인은 확인되지 않음; 1801 황기운 오인 사건은 1795 사건에 융합 금지,黃基運,PROVIDED_IN_LOCAL_NOTE_NOT_VERIFIED
+YE-S10,YE,YE-004,LOC-CLAIM-SEEDS,YE-C01,CLAIM_SEED,유경 안핵: 1795년 6월 심리 중 31명 사망 보고(1795년 8월 25명과 범위 불일치),,NONE
+YE-S11,YE,YE-006,LOC-CLAIM-SEEDS,YE-C02,CLAIM_SEED,정조 심리: 1795년 8월 심리에서 25명 장살 주장(31명과 합치거나 평균 내지 말 것),,NONE
+YE-S12,YE,YE-005,LOC-CLAIM-SEEDS,YE-C03,CLAIM_SEED,정조가 조진택의 조사·보고가 이여절을 두둔했다고 질책(의도적 사전 공모 입증은 별개),,NONE
+YE-S13,YE,YE-001,LOC-REGISTER,YE-001,REGISTER_TITLE,레지스터 제목: 1789-07-14 단천 부사 이여절 관직 관련 기사(최아지 사건과 동일 현장 관여 증거 아님),,NONE
+YE-S14,YE,YE-002,LOC-REGISTER,YE-002,REGISTER_TITLE,레지스터 제목·초점: 1793-06-13 정대용의 창원 부사 이여절 평가(우수 치적 평가·승진); 같은 날 구순 심리와 별개 사건,,NONE
+YE-S15,YE,YE-003,LOC-REGISTER,YE-003,REGISTER_TITLE,레지스터 제목·초점: 1794-09-08 이여절 불법 형벌 혐의에 대한 조진택 조사보고(전염병 사망 등 면책 주장; 지방 조사 측 주장),,NONE
+YE-S16,YE,YE-004,LOC-REGISTER,YE-004,REGISTER_TITLE,레지스터 제목·초점: 1795-06-04 유경이 이여절 남살 31명 보고(이름 일부 확인),,NONE
+YE-S17,YE,YE-005,LOC-REGISTER,YE-005,REGISTER_TITLE,레지스터 제목: 1795-06-11 조진택의 이여절 두둔성 조사 질책·별도 안핵,,NONE
+YE-S18,YE,YE-006,LOC-REGISTER,YE-006,REGISTER_TITLE,레지스터 제목·초점: 1795-08-24 이여절 사건 중앙 심리·장살 25명 언급(안핵 재평가),,NONE
+YE-S19,YE,YE-007,LOC-REGISTER,YE-007,REGISTER_TITLE,레지스터 제목: 1795-09-21 조진택 삭직·이여절 위원 유배(비호 책임과 범행의 법적 처분 분리),,NONE
+GS-S01,GUSUN,GS-006,LOC-ANNALS-DIGEST,## 1793-06-13 bullet1,PARAPHRASE,1793-06-13 기사는 홍대협의 별도 안핵 뒤 구순의 고발과 김명신의 구금·사망에 이른 사건에 대한 최종 단계 왕의 논의를 기록; 단일 진술에서 물리적 사실을 추론하지 말 것,,NONE
+GS-S02,GUSUN,GS-006,LOC-ANNALS-DIGEST,## 1793-06-13 bullet2,RESEARCHER_CAUTION,구금 중 사망을 근거 없이 특정 관원의 직접 살해로 바꾸지 말 것,,NONE
+GS-S03,GUSUN,GS-001|GS-002|GS-003|GS-004|GS-005|GS-006,LOC-EVIDENCE-PACK,## GUSUN digest1,RESEARCH_SUMMARY,구순의 도난 고발이 군·도 조사에서 김명신 구금으로 이어졌고 김명신 사망; 이형원·이조원·윤노동·홍대협 보고는 실질 세부에서 충돌,,NONE
+GS-S04,GUSUN,GS-006,LOC-EVIDENCE-PACK,## GUSUN digest2,RESEARCHER_CAUTION,김명신 사망의 직접 인과 기제는 이 요약으로 확정되지 않음,,NONE
+GS-S05,GUSUN,GS-006,LOC-CLAIM-SEEDS,GS-C02,CLAIM_SEED,김명신은 구금 중 사망했으나 직접 사망 인과는 확정하지 않음(고문 치사 확정으로 바꾸지 말 것),,NONE
+NORM-S01,ALL,LOC-EVIDENCE-PACK,LOC-EVIDENCE-PACK,## GUSUN date-context rules,RESEARCHER_CAUTION,1792 개정 검험 지침을 1780년대 사건에 소급하지 말 것; 1786 대전통편 시행을 1785 사건에 소급하지 말 것,,NONE
+NORM-S02,ALL,LOC-CHAMANG,LOC-CHAMANG,§8 제도 단절,SECONDARY_NARRATIVE,대전통편은 1785년 편찬·간행되었지만 1786년 1월 1일 시행; 1792 증수무원록 개정본을 당시 검험지침으로 소급 금지,,NONE
+CH-S54,CHOI,CH-001|CH-002,LOC-CHAMANG,§5.2,SECONDARY_NARRATIVE,이차망의 이름은 초기 검험의 진술에서 언급되다가 엄사만의 관찰사 조사에서 주요 혐의로 굳어짐,,NONE
+CH-S55,CHOI,CH-001|CH-002,LOC-CHAMANG,§1 요약,SECONDARY_NARRATIVE,황해도 관찰사의 재조사에서 최아지와 이차망의 간통·살해 공모를 의심하여 두 사람을 구금; 민씨는 두 차례 격쟁했으나 오히려 처벌·압송의 대상이 됨,,NONE
+CH-S56,CHOI,CH-001|CH-002,LOC-CHAMANG,§5.1,SECONDARY_NARRATIVE,현장 신체상으로 목 주변 상흔과 여러 칼 상처라는 관찰이 보고됨(원본 검안서·법의학 판정 미확보),,NONE
+CH-S57,CHOI,CH-002,LOC-CHAMANG,§6 간통 9,SECONDARY_NARRATIVE,1789 의문은 집안 수기(手記)의 모호한 표현을 두 편에서 다르게 해석하지 않았는지 물음,,NONE

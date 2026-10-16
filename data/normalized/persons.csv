@@ -1,0 +1,61 @@
+person_id,case_id,name_ko,name_hanja,entity_kind,role_in_case,span_ids,identity_note
+CHOI-P01,CHOI,박씨,朴召史,PERSON,피해자(사망자),CH-S06|CH-S20|CH-S02,사인 미확정
+CHOI-P02,CHOI,최아지,崔阿只,PERSON,피의자(1787 공식결론상 공모자; 1789 재의문),CH-S03|CH-S21|CH-S43,실록 의역은 '시어머니 최씨'
+CHOI-P03,CHOI,이차망,李次望,PERSON,피의·구금 후 석방된 자,CH-S07|CH-S22,조광진과 동일시 금지
+CHOI-P04,CHOI,민씨,閔女,PERSON,이차망의 처·청원자,CH-S07|CH-S23,
+CHOI-P05,CHOI,조광선,趙匡善,PERSON,박씨의 남편,CH-S20|CH-S24,조광진과 다른 사람
+CHOI-P06,CHOI,조광진,趙匡辰,PERSON,1787 안핵의 주요 피의자·자백자,CH-S03|CH-S24|CH-S39,국역 변이 조광신; 1788 사망
+CHOI-P07,CHOI,사단,四丹,PERSON,핵심 진술자(비),CH-S25|CH-S38,
+CHOI-P08,CHOI,사단의 어미,NA,UNNAMED_PERSON,진술자(사단 모녀),CH-S52,이름 미상
+CHOI-P09,CHOI,조봉원,趙鳳元,PERSON,군교·진술 개입 주장 대상,CH-S26,
+CHOI-P10,CHOI,박장혁,朴長赫,PERSON,피해자 부친·고발자,CH-S27|CH-S33,
+CHOI-P11,CHOI,박용해,朴龍海,PERSON,피해자 오빠·격쟁자,CH-S28|CH-S33,
+CHOI-P12,CHOI,이곤수,李崑秀,PERSON,1787 평산 안핵 담당 암행어사,CH-S01|CH-S03|CH-S37,
+CHOI-P13,CHOI,엄사만,嚴思晩,PERSON,황해도 전 관찰사(1787 파직 명령 대상),CH-S04|CH-S29,
+CHOI-P14,CHOI,홍병찬,洪秉纘,PERSON,황해도 전전 관찰사(1787 삭직 명령 대상),CH-S04|CH-S29,
+CHOI-P15,CHOI,정경증,鄭景曾,PERSON,검험관(초검/복검 배정 미확정),CH-S30,
+CHOI-P16,CHOI,이단회,李端會,PERSON,검험관(초검/복검 배정 미확정),CH-S30,
+CHOI-K,CHOI,정조,正祖,PERSON,국왕·최종 판단자,CH-S04|CH-S13|CH-S14,사건별 ID 유지(교차 사건 병합 금지)
+CHO-P01,CHO,조재항,趙載恒,PERSON,피고인 남편(석방),JH-S01|JH-S09|JH-S11,
+CHO-P02,CHO,윤씨,尹氏,PERSON,사망한 아내,JH-S01|JH-S09,사인 미확정
+CHO-P03,CHO,이가원,李可遠,PERSON,고발자·먼 친척,JH-S01|JH-S03|JH-S09,레지스터 표기 변이 이간원
+CHO-P04,CHO,조상진,趙尙鎭,PERSON,도백(관찰사),JH-S07|JH-S09,
+CHO-P05,CHO,조재풍,趙載豊,PERSON,기사 인명(역할 미상),JH-S09,조재항과의 관계 미상; 이름 글자 공유로 친족 추정 금지
+CHO-P06,CHO,배조이,裵召史,PERSON,증인으로 언급,JH-S09,
+CHO-P07,CHO,나막동,羅莫同,PERSON,증인으로 언급,JH-S09,
+CHO-P08,CHO,점렬,點烈,PERSON,증인으로 언급,JH-S09,
+CHO-P09,CHO,막덕,莫德,PERSON,증인으로 언급,JH-S09,
+CHO-P10,CHO,하위 가담자들,NA,GROUP,경중에 따라 처벌 명령 대상,JH-S08,구성원 미상
+CHO-K,CHO,정조,正祖,PERSON,국왕·최종 판단자,JH-S03|JH-S08,사건별 ID 유지
+YE-P01,YE,이여절,李汝節,PERSON,창원부사·남형 혐의자,YE-S04|YE-S13|YE-S14,1801 사건과 동일인이나 사건 융합 금지
+YE-P02,YE,조진택,趙鎭宅,PERSON,관찰사(감독 조사·보고),YE-S01|YE-S05|YE-S15,
+YE-P03,YE,유경,NA,PERSON,특별 조사(안핵) 담당,YE-S08|YE-S16,한자 미보관
+YE-P04,YE,정대용,NA,PERSON,1793 이여절 평가자,YE-S14,한자·관직 미보관
+YE-P05,YE,사망자들,NA,GROUP,남형 사망자(31/25 귀속 수치),YE-S06|YE-S07|YE-S16,이름 일부 확인이라는 레지스터 메모만 있음
+YE-P06,YE,조사관들,NA,GROUP,감영 측 조사관,YE-S01,구성원 미상
+YE-K,YE,정조,正祖,PERSON,국왕·질책·처분,YE-S01|YE-S12,사건별 ID 유지
+GUSUN-P01,GUSUN,구순,具純,PERSON,전 부사·도난 고발자,GS-F-CF006|GS-P-V3P0001,
+GUSUN-P02,GUSUN,김명신,金明信,PERSON,도적 괴수로 지목·구금 중 사망,GS-F-CF027|GS-F-CF022,풍각 김생원·풍각 김상제(선행 저장소 확정)
+GUSUN-P03,GUSUN,김명신의 아내,NA,UNNAMED_PERSON,김명신 사후 사망 보고,GS-P-V3P0025|GS-P-V3P0105,
+GUSUN-P04,GUSUN,명업,NA,PERSON,구순 집 계집종의 남편·증인,GS-P-V3P0046,
+GUSUN-P05,GUSUN,나복,NA,PERSON,도난 소식 전달자,GS-P-V3P0047,
+GUSUN-P06,GUSUN,이진욱,NA,PERSON,병영 장교·증인,GS-P-V3P0055,
+GUSUN-P07,GUSUN,한재욱,NA,PERSON,병영 비장(한 비장·한가),GS-P-V3P0056|GS-F-CF048,선행 저장소 확정(ID02·ID03)
+GUSUN-P08,GUSUN,조계완,NA,PERSON,병영 장교·증인,GS-P-V3P0069,
+GUSUN-P09,GUSUN,변지돌,NA,PERSON,체포 지시 대상,GS-P-V3P0057|GS-P-V3P0060,
+GUSUN-P10,GUSUN,정원돌,NA,PERSON,체포 지시 대상,GS-P-V3P0057,원돌(선행 저장소 확정 ID11)
+GUSUN-P11,GUSUN,재돌,NA,PERSON,변지돌의 아우,GS-P-V3P0061|GS-P-V3P0074,
+GUSUN-P12,GUSUN,자미덕,NA,PERSON,재돌의 처·구류·사주 주장 진술자,GS-P-V3P0061|GS-P-V3P0075,윤노동 보고의 '변가의 처'와의 동일성 미검증
+GUSUN-P13,GUSUN,이집거,NA,PERSON,대질 상대,GS-P-V3P0082,
+GUSUN-P14,GUSUN,김갑득,NA,PERSON,흥덕 김생원·체포됨,GS-F-CF022|GS-P-V3P0068,
+GUSUN-P15,GUSUN,유제희,NA,PERSON,병영 아전·탐문 기록자,GS-P-V3P0085|GS-P-V3P0094,
+GUSUN-P16,GUSUN,이광섭,NA,PERSON,충청도 병마절도사(병사),GS-F-CF025|GS-P-V3P0013,공초의 '병사'(선행 저장소 확정 ID01)
+GUSUN-P17,GUSUN,이문협,NA,PERSON,청주 영장,GS-P-V3P0012,
+GUSUN-P18,GUSUN,이형원,NA,PERSON,충청도 관찰사,GS-F-CF027|GS-F-CF049,
+GUSUN-P19,GUSUN,이조원,NA,PERSON,호서 암행어사,GS-F-CF032|GS-F-CF033,
+GUSUN-P20,GUSUN,윤노동,NA,PERSON,호서 암행어사,GS-F-CF029|GS-P-V3P0155,
+GUSUN-P21,GUSUN,홍대협,NA,PERSON,공주 안핵어사,GS-F-CF035|GS-F-CF037,
+GUSUN-P22,GUSUN,김성손,NA,PERSON,큰 도적 지목 요구 명단,GS-P-V3P0080,
+GUSUN-P23,GUSUN,김흥득,NA,PERSON,큰 도적 지목 요구 명단,GS-P-V3P0080,
+GUSUN-P24,GUSUN,병영의 하급 보조자,NA,ROLE_SURFACE,이조원 보고의 구순 가객,GS-P-V3P0027|GS-P-V3P0124,한재욱 동일성 UNRESOLVED(선행 ID04)
+GUSUN-K,GUSUN,정조,正祖,PERSON,국왕·판단·처분,GS-F-CF039|GS-F-CF046,사건별 ID 유지

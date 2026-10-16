@@ -1,0 +1,5 @@
+case_id,harm,culprit_contemporary_judgment,judgment_date,judge_id,later_judgment,historical_culprit_status,span_ids,note
+CHOI,박씨 사망,최아지·조광진 공모 살해(1787 안핵·국왕 판단),1787-04,CHOI-K,1789-06 국왕이 30개 의문으로 재의문; 사형 전제 옥안 불성립·장 100·유 2천 리 준용,UNRESOLVED_CONTESTED,CH-S03|CH-S08|CH-S43,1787 판단을 역사적 실체로 확정 금지
+CHO,윤씨 사망,조재항 혐의는 고발 조작으로 판단·석방(사인 판정 없음),1783-06-03,CHO-K,NA,UNKNOWN_NO_SEPARATE_KILLER_ESTABLISHED,JH-S08|JH-S10|JH-S19,고발자 이가원을 살해자로 재구성 금지
+YE,창원 다수 사망(31/25),이여절의 남형(유경 보고·국왕 판단),1795-06,YE-K,1795-09-21 이여절 유배·조진택 삭직(명령),OFFICIAL_JUDGMENT_CONTESTED_BY_GOVERNOR_REPORT,YE-S04|YE-S06|YE-S07|YE-S15,사망 원인 전염병 주장 존재; 수치 범위 미해결
+GUSUN,김명신 구금 중 사망 및 무고,구순(성명 제공·갈등)·이광섭(편들기·과도한 조치) 책임; 사망은 전염병,1793-06-13,GUSUN-K,1793-06-16 이형원 유임(인사),UNRESOLVED_DIRECT_CAUSATION,GS-F-CF040|GS-F-CF042|GS-F-CF043|GS-F-CF044,직접 인과는 정조도 확정하지 않음; 절도 실행자 미식별

@@ -1,0 +1,16 @@
+sep_id,surface_a,person_a,surface_b,person_b,decision,basis,span_ids
+ID-01,조광선 趙匡善,CHOI-P05,조광진 趙匡辰,CHOI-P06,DISTINCT,한자가 다른 별개 인물로 기술됨,CH-S24
+ID-02,이차망,CHOI-P03,조광진,CHOI-P06,DISTINCT,레지스터 경고: 이차망과 조광진 이름 동일시 금지,CH-S24|CH-S38
+ID-03,조광진,CHOI-P06,조광신,CHOI-P06,SAME_PERSON_ALIAS,일부 국역 표기 변이,CH-S24
+ID-04,이가원 李可遠,CHO-P03,이간원,CHO-P03,SAME_PERSON_ALIAS_UNVERIFIED,레지스터 메모(기사 제목 표기 변이); 원문 대조 필요,JH-S21
+ID-05,조재항 趙載恒,CHO-P01,조재풍 趙載豊,CHO-P05,DISTINCT_RELATION_UNKNOWN,이름 글자 공유만으로 친족 관계 추정 금지,JH-S09
+ID-06,정조(CHOI),CHOI-K,정조(CHO/YE/GUSUN),CHO-K|YE-K|GUSUN-K,SAME_HISTORICAL_PERSON_CASE_SCOPED_IDS,동일 국왕이나 비교 그래프에서 사건 간 노드 병합 금지,CH-S04|JH-S08|YE-S01|GS-F-CF039
+ID-07,이여절(YE 1793-1795),YE-P01,이여절(1801 황기운 사건),NA,SAME_NAME_SEPARATE_CASE,1801 사건은 범위 밖 별도 사건; 사건 융합 금지,YE-S09
+ID-08,이여절 단천부사(1789),YE-P01,이여절 창원부사(1793),YE-P01,PRESUMED_SAME_BY_REGISTER_UNVERIFIED,레지스터가 경력 배경으로 같은 사례 묶음에 등록; 동일인 원문 검증 미완,YE-S13|YE-S14
+ID-09,병영의 하급 보조자,GUSUN-P24,한재욱,GUSUN-P07,UNRESOLVED_DO_NOT_MERGE,선행 저장소 identity_register ID04 미해결 유지,GS-P-V3P0027|GS-P-V3P0124
+ID-10,병영의 염탐 담당자,NA,유제희,GUSUN-P15,UNRESOLVED_DO_NOT_MERGE,선행 저장소 ID06 미해결 유지,GS-P-V3P0143|GS-P-V3P0085
+ID-11,자미덕,GUSUN-P12,변가의 처(윤노동 보고),NA,UNRESOLVED_DO_NOT_MERGE,윤노동 보고 표현과 공초 인물의 동일성은 로컬 자료로 검증되지 않음,GS-P-V3P0042|GS-P-V3P0061
+ID-12,1793-06-13 구순 기사 인물,GUSUN-*,1793-06-13 이여절 기사 인물,YE-*,SAME_DATE_NOT_SAME_CASE,같은 날 실록 기사라는 이유로 사건 병합 금지,YE-S14|GS-S01
+ID-13,풍각 김생원·풍각 김상제,GUSUN-P02,김명신,GUSUN-P02,SAME_PERSON_RESOLVED_BY_PRIOR_REPO,선행 저장소 ID05·ID10,GS-F-CF020|GS-F-CF022
+ID-14,한 비장·한가,GUSUN-P07,한재욱,GUSUN-P07,SAME_PERSON_RESOLVED_BY_PRIOR_REPO,선행 저장소 ID02·ID03,GS-F-CF016|GS-F-CF048
+ID-15,병사,GUSUN-P16,이광섭,GUSUN-P16,SAME_PERSON_RESOLVED_BY_PRIOR_REPO,선행 저장소 ID01,GS-F-CF021|GS-F-CF025

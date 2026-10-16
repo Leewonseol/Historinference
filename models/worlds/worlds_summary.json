@@ -1,0 +1,125 @@
+{
+  "note": "가능세계 후보는 분석층이며 최종 창작 스토리가 아니다. 확률은 식별 불가하므로 UNSCORED.",
+  "cases": {
+    "CHOI": {
+      "axes": {
+        "A1_DEATH_MODE": [
+          "HOMICIDE",
+          "SELF_INFLICTED"
+        ],
+        "A2_PERPETRATOR": [
+          "CHOI_AND_JO",
+          "JO_ONLY",
+          "CHOI_ONLY",
+          "CHOI_AND_LEE",
+          "THIRD_PARTY_UNNAMED",
+          "NONE"
+        ],
+        "A3_JO_CONFESSION": [
+          "TRUE",
+          "UNRELIABLE"
+        ],
+        "A4_SADAN": [
+          "EARLY_ACCURATE",
+          "LATE_ACCURATE",
+          "NEITHER_RELIABLE"
+        ],
+        "A5_MOTIVE": [
+          "ADULTERY_CONCEALMENT",
+          "OTHER_UNKNOWN",
+          "NOT_APPLICABLE"
+        ]
+      },
+      "n_combinations": 216,
+      "n_consistent_worlds": 38,
+      "n_eliminated_by_constraints": 178,
+      "n_worlds_without_unsupported_hypotheses": 38,
+      "n_fixed_observed": 18,
+      "posterior": "UNSCORED"
+    },
+    "CHO": {
+      "axes": {
+        "B1_YUN_DEATH": [
+          "HOMICIDE_BY_JO",
+          "HOMICIDE_BY_OTHER_UNNAMED",
+          "NOT_HOMICIDE"
+        ],
+        "B2_ACCUSATION": [
+          "FABRICATED_FOR_GAIN",
+          "SINCERE_MISTAKEN"
+        ],
+        "B3_TESTIMONY": [
+          "COACHED",
+          "INDEPENDENT_INCONSISTENT"
+        ],
+        "B4_GOVERNOR": [
+          "NEGLIGENT",
+          "COLLUSIVE_WITH_ACCUSER"
+        ]
+      },
+      "n_combinations": 24,
+      "n_consistent_worlds": 18,
+      "n_eliminated_by_constraints": 6,
+      "n_worlds_without_unsupported_hypotheses": 12,
+      "n_fixed_observed": 9,
+      "posterior": "UNSCORED"
+    },
+    "YE": {
+      "axes": {
+        "C1_DEATH_CAUSE": [
+          "ABUSIVE_PUNISHMENT",
+          "EPIDEMIC_ILLNESS",
+          "MIXED"
+        ],
+        "C2_GOVERNOR": [
+          "COLLUSIVE_SHIELDING",
+          "NEGLIGENT_SUPERVISION",
+          "GOOD_FAITH_ERROR",
+          "ACCURATE_REPORT"
+        ],
+        "C3_COUNT_RELATION": [
+          "DIFFERENT_SCOPE",
+          "ONE_COUNT_ERRONEOUS"
+        ]
+      },
+      "n_combinations": 24,
+      "n_consistent_worlds": 16,
+      "n_eliminated_by_constraints": 8,
+      "n_worlds_without_unsupported_hypotheses": 12,
+      "n_fixed_observed": 9,
+      "posterior": "UNSCORED"
+    },
+    "GUSUN": {
+      "axes": {
+        "D1_THEFT": [
+          "MINOR_REAL_THEFT",
+          "NO_THEFT",
+          "LARGE_ROBBERY"
+        ],
+        "D2_KIM_DEATH": [
+          "EPIDEMIC",
+          "CUSTODIAL_HARM",
+          "MIXED"
+        ],
+        "D3_COACHING": [
+          "OCCURRED",
+          "DID_NOT_OCCUR"
+        ],
+        "D4_GUSUN_LEE": [
+          "PRIOR_AGREEMENT",
+          "SIDING_WITHOUT_AGREEMENT"
+        ],
+        "D5_KIM_ROLE": [
+          "NOT_INVOLVED",
+          "INVOLVED"
+        ]
+      },
+      "n_combinations": 72,
+      "n_consistent_worlds": 60,
+      "n_eliminated_by_constraints": 12,
+      "n_worlds_without_unsupported_hypotheses": 30,
+      "n_fixed_observed": 21,
+      "posterior": "UNSCORED"
+    }
+  }
+}
