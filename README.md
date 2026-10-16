@@ -1,5 +1,12 @@
 # Historinference
 
+
+## 1차 사료 원문 확보 단계 (아직 미완료)
+
+외부 사이트 접속이 불가능한 Claude Code와 별개로, `scripts/collect_official_originals.py`를 만들었습니다. 공식 사료 제공처(`sillok.history.go.kr`, `db.history.go.kr`, `sjw.history.go.kr`) 22개 출처 위치만 사용합니다. 수집 도구는 **고전 한문 후보 텍스트만 추출**하고 현대 한국어 국역은 원문 파일로 재배포하지 않습니다. 웹페이지 구조에 따라 추출 실패 또는 기사 외 텍스트가 섞일 수 있어, 자동으로 내려받은 자료는 `EXTRACTED_NEEDS_COMPLETE_TEXT_QA`로 표기합니다.
+
+GitHub **Actions → Collect official classical originals (manual) → Run workflow** 로 수동 실행하면 결과를 `official-originals-provisional` 아티팩트로 받습니다. 이 아티팩트는 자동으로 `main`에 합치지 않습니다. 실행 후 `manifest.json`을 확인하고 사이트별 원문 구간·최초/최종 글자 및 기사 완전성·재배포 조건을 대조해야 합니다. **현재 22개 사료를 전부 확보했다는 뜻이 아닙니다.** 본문을 내려받지 못하는 사료의 전체 원문은 확보되지 않은 상태로 유지합니다.
+
 ## 네 사건 시간·절차 DAG (공식 사료 재대조 보강)
 
 - [**대화형 DAG: 4개 사건별 보기·노드 선택·공식 사료 바로가기**](docs/dag.html)
