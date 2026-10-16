@@ -1,3 +1,24 @@
+# KOREAN SOURCE-FIDELITY REQUIREMENT — OVERRIDES LANGUAGE/EXTRACTION GUIDANCE (2026-10-16)
+
+**The user's requested source deliverable is KOREAN, not a collection of classical Chinese characters.** Do not prioritize Chinese-only extraction. The objective is a **complete Korean, source-faithful reconstruction of what happened**, preserving every material detail of persons, relationships, time, places, evidence, testimony, contradictions, administrative decisions, penalties and subsequent reversals. "토씨 하나 틀리지 않게" means no detail may be dropped, softened, conflated, falsely inferred or silently reworded to change meaning.
+
+Two separate representations:
+1. `OFFICIAL_KOREAN_TRANSLATION_EXACT` — original modern-Korean official translation, copied word-for-word with exact link/edition and checksum **only when repository distribution/reproduction rights permit it**. Do not publicly commit copyrighted full translations without the necessary rights. Store authorized local review copies off the public code repository.
+2. `KOREAN_FAITHFUL_RECONSTRUCTION` — a newly written, exhaustive Korean source-by-source account, not a mere overview or scene pitch. Preserve *all* substantive claims and their specific speaker, subject, tense, modality, negation and scope, with article ID and passage key. It is okay to use this in public reports with citation, without impersonating a verbatim translation. If the source is only classical Chinese and no licensed official translation is present, the researcher must provide a carefully checked Korean rendition; Claude must NOT invent from inaccessible URLs.
+
+Non-negotiable completeness audit per original article:
+- Every original paragraph/statement must map to >=1 Korean passage (`source_coverage.csv`), or have an explicit `OUT_OF_SCOPE_WITH_REASON` mark identifying unrelated content; do not simply suppress paragraphs.
+- Every named person, sex/age/status claim, family tie, locality, office, number, date, direct/indirect speech, physical evidence, alleged crime, command, testimony, rebuttal, investigation, royal question, official order and execution must be present where recorded.
+- Separate "X said P", "official ruled P", and "P historically true"; don't flatten or promote allegation into truth.
+- Keep each contradictory statement **side by side** with attributable source/author/time. E.g. CHOI 1787 vs 1789, YE 31 vs 25, GUSUN initial vs final, CHO murder charge vs royal revision.
+- Check Korean negation, quantity, temporal order, voice, pronoun reference, legal term, penalty order vs actual execution, lunar calendar date, identity spelling and alternate Hanja. Explicitly preserve uncertainty.
+- Mark `FULL_TEXT_COVERAGE_UNVERIFIED` whenever the entire source/article is absent or paragraph count is unconfirmed. Do NOT call a report "verbatim" or "complete" merely because its narrative is long.
+- After all full Korean dossiers pass audit, construct the detailed source-linked DAG; **do not replace historical narratives with E/F/R codes**, those are secondary analytical features.
+
+**Source scope:** exclusively the official archival source providers already used in GuSoon-Inference. No Wikisource, unverified transcriptions or mirror sites. Never claim access to URLs Claude cannot visit. Source ownership and reproduction rights apply separately from historical accuracy.
+
+---
+
 # MANDATORY OFFLINE-ONLY RULE (user requirement, 2026-10-16)
 
 **Claude Code has no access to public historical websites or their URLs. Do NOT attempt internet fetch, curl, requests, browser searches, remote cloning, or delegated online research.** Work entirely from files present in this repository. External URLs in the source register are **provenance pointers**, NOT available documents and NOT proof of facts. Historical original text not actually stored locally is `UNAVAILABLE_SOURCE_TEXT`. Do not silently promote a summary or a link into a verified original.
