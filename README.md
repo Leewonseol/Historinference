@@ -1,5 +1,15 @@
 # Historinference
 
+## 네 사건 시간·절차 DAG (공식 사료 재대조 보강)
+
+- [**대화형 DAG: 4개 사건별 보기·노드 선택·공식 사료 바로가기**](docs/dag.html)
+- [Mermaid DAG 원본과 35개 노드 출처표](docs/four_case_dags.md)
+- [공식 사료 재대조 노트](research/official_verified_addendum.md)
+- [노드·연결 데이터 35개 노드/34개 절차 연결](docs/data/four_case_dags.json)
+
+이 시각화는 기존 코드북·합성 모델을 고치지 않고 추가한 **별도 역사적 절차 그래프**다. 실선은 자료상 선후·행정 절차 연결이며 범죄의 인과·공모를 입증하지 않는다. 원문 전체를 전사한 완성 코퍼스가 아닌 연구 요약이다. 현재 GitHub Pages 배포 여부는 별도 설정이 필요할 수 있어 [GitHub에 등록된 HTML](docs/dag.html) 및 [Mermaid 문서](docs/four_case_dags.md)를 기본 결과로 제공한다.
+
+
 **네 조선 형사사건의 사료 대조와 합성사건 설계 연구** — 최아지·이차망, 조재항, 이여절·조진택, 구순–김명신
 
 > **연구 상태:** 오프라인 구현 완료 / **원문 미확보.** 공식 출처 22건의 원문은 저장소에 없고(`UNAVAILABLE_SOURCE_TEXT`), 모든 코딩은 로컬 의역·연구 요약·선행 코딩·2차 종합에 근거한다. 확보가 필요한 원문은 [REQUEST_FOR_RESEARCHER.md](REQUEST_FOR_RESEARCHER.md)에 정리했다.
